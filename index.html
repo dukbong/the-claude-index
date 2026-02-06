@@ -267,6 +267,15 @@
       const ma60 = computeMA(values, 60);
       const ma200 = computeMA(values, 200);
 
+      // Filter display data to start from START_DATE
+      const START_DATE = '2024-03-01';
+      const startIdx = dates.findIndex(d => d >= START_DATE);
+      const displayDates = dates.slice(startIdx);
+      const displayValues = values.slice(startIdx);
+      const displayMa20 = ma20.slice(startIdx);
+      const displayMa60 = ma60.slice(startIdx);
+      const displayMa200 = ma200.slice(startIdx);
+
       // Metrics
       const today = new Date().toISOString().slice(0, 10);
       const yesterdayDate = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
@@ -313,7 +322,7 @@
 
         <footer>
           Last updated: ${data.last_updated ? new Date(data.last_updated).toLocaleString() : 'N/A'}
-          &nbsp;·&nbsp; ${dates.length} days tracked<br>
+          &nbsp;·&nbsp; ${displayDates.length} days tracked<br>
           Dates are based on commit author timezone<br>
           May include false positives from non-@claude authors with similar git config
         </footer>
@@ -324,11 +333,11 @@
       const chart = new Chart(ctx, {
         type: 'line',
         data: {
-          labels: dates,
+          labels: displayDates,
           datasets: [
             {
               label: 'Daily Commits',
-              data: values,
+              data: displayValues,
               borderColor: '#E87B5A',
               borderWidth: 2.5,
               pointRadius: 0,
@@ -339,7 +348,7 @@
             },
             {
               label: '20-Day MA',
-              data: ma20,
+              data: displayMa20,
               borderColor: '#F0A888',
               borderWidth: 1.5,
               pointRadius: 0,
@@ -350,7 +359,7 @@
             },
             {
               label: '60-Day MA',
-              data: ma60,
+              data: displayMa60,
               borderColor: '#5B8DEF',
               borderWidth: 1.5,
               pointRadius: 0,
@@ -361,7 +370,7 @@
             },
             {
               label: '200-Day MA',
-              data: ma200,
+              data: displayMa200,
               borderColor: '#9CA3AF',
               borderWidth: 1.5,
               pointRadius: 0,
@@ -409,13 +418,19 @@
                 mode: 'x',
               },
               limits: {
-                x: { minRange: 7 * 86400000 },
+                x: {
+                  min: new Date(START_DATE).getTime(),
+                  max: new Date(today).getTime() + 86400000,
+                  minRange: 7 * 86400000,
+                },
               },
             },
           },
           scales: {
             x: {
               type: 'time',
+              min: START_DATE,
+              max: today,
               time: {
                 unit: 'month',
                 displayFormats: {
