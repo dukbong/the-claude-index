@@ -47,7 +47,7 @@
 
     .metrics {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 16px;
       margin-bottom: 24px;
     }
@@ -219,6 +219,17 @@
       return result;
     }
 
+    function computeGrowth(values, days) {
+      if (values.length < days) return null;
+      const slice = values.slice(-days);
+      const firstWeek = slice.slice(0, 7);
+      const lastWeek = slice.slice(-7);
+      const firstAvg = firstWeek.reduce((a, b) => a + b, 0) / firstWeek.length;
+      const lastAvg = lastWeek.reduce((a, b) => a + b, 0) / lastWeek.length;
+      if (firstAvg === 0) return null;
+      return ((lastAvg - firstAvg) / firstAvg) * 100;
+    }
+
     function computeYTDGrowth(dates, values) {
       const now = new Date();
       const yearStart = now.getFullYear() + '-01-01';
@@ -285,6 +296,8 @@
       const last7 = values.slice(-7);
       const avg7 = last7.length > 0 ? last7.reduce((a, b) => a + b, 0) / last7.length : null;
       const ytdGrowth = computeYTDGrowth(dates, values);
+      const momGrowth = computeGrowth(values, 30);
+      const qoqGrowth = computeGrowth(values, 90);
 
       // Build UI
       appEl.innerHTML = `
@@ -300,6 +313,14 @@
           <div class="metric-card">
             <div class="label">7-Day Average</div>
             <div class="value">${avg7 !== null ? formatNumber(Math.round(avg7)) : '—'}</div>
+          </div>
+          <div class="metric-card">
+            <div class="label">MoM Growth</div>
+            <div class="value ${momGrowth !== null ? (momGrowth >= 0 ? 'green' : 'red') : ''}">${momGrowth !== null ? (momGrowth >= 0 ? '+' : '') + momGrowth.toFixed(1) + '%' : '—'}</div>
+          </div>
+          <div class="metric-card">
+            <div class="label">QoQ Growth</div>
+            <div class="value ${qoqGrowth !== null ? (qoqGrowth >= 0 ? 'green' : 'red') : ''}">${qoqGrowth !== null ? (qoqGrowth >= 0 ? '+' : '') + qoqGrowth.toFixed(1) + '%' : '—'}</div>
           </div>
           <div class="metric-card">
             <div class="label">YTD Growth</div>
