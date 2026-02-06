@@ -6,6 +6,8 @@
   <title>The Claude Index</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2"></script>
   <style>
     * {
       margin: 0;
@@ -115,6 +117,21 @@
       width: 24px;
       height: 3px;
       border-radius: 2px;
+    }
+
+    #resetZoom {
+      background: #374151;
+      color: #D1D5DB;
+      border: none;
+      border-radius: 6px;
+      padding: 4px 12px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    #resetZoom:hover {
+      background: #4B5563;
     }
 
     footer {
@@ -287,6 +304,7 @@
             <div class="legend-item"><div class="legend-color" style="background: #F0A888;"></div>20-Day MA</div>
             <div class="legend-item"><div class="legend-color" style="background: #5B8DEF;"></div>60-Day MA</div>
             <div class="legend-item"><div class="legend-color" style="background: #9CA3AF;"></div>200-Day MA</div>
+            <button id="resetZoom">Reset Zoom</button>
           </div>
           <div class="chart-wrapper">
             <canvas id="chart"></canvas>
@@ -304,7 +322,7 @@
 
       // Chart
       const ctx = document.getElementById('chart').getContext('2d');
-      new Chart(ctx, {
+      const chart = new Chart(ctx, {
         type: 'line',
         data: {
           labels: dates,
@@ -381,6 +399,20 @@
                 },
               },
             },
+            zoom: {
+              zoom: {
+                wheel: { enabled: true },
+                pinch: { enabled: true },
+                mode: 'x',
+              },
+              pan: {
+                enabled: true,
+                mode: 'x',
+              },
+              limits: {
+                x: { minRange: 7 * 86400000 },
+              },
+            },
           },
           scales: {
             x: {
@@ -417,6 +449,8 @@
           },
         },
       });
+
+      document.getElementById('resetZoom').addEventListener('click', () => chart.resetZoom());
     }
 
     main();
