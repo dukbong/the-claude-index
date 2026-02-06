@@ -202,6 +202,10 @@ async function main() {
           borderWidth: 1,
           padding: 12,
           callbacks: {
+            title: function(context) {
+              const date = new Date(context[0].parsed.x);
+              return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            },
             label: function(ctx) {
               if (ctx.raw === null) return null;
               const val = typeof ctx.raw === 'number' ? ctx.raw.toLocaleString(undefined, { maximumFractionDigits: 0 }) : ctx.raw;
