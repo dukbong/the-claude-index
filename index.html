@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Claude Index</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0F1117;
+      color: #E5E7EB;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #F9FAFB;
+      margin-bottom: 4px;
+    }
+
+    header p {
+      font-size: 14px;
+      color: #9CA3AF;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .metric-card {
+      background: #1A1D27;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .metric-card .label {
+      font-size: 12px;
+      color: #9CA3AF;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .metric-card .value {
+      font-size: 32px;
+      font-weight: 700;
+      color: #F9FAFB;
+    }
+
+    .metric-card .value.orange {
+      color: #E87B5A;
+    }
+
+    .metric-card .value.green {
+      color: #34D399;
+    }
+
+    .metric-card .value.red {
+      color: #F87171;
+    }
+
+    .chart-container {
+      background: #1A1D27;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .chart-wrapper {
+      position: relative;
+      height: 450px;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #D1D5DB;
+    }
+
+    .legend-color {
+      width: 24px;
+      height: 3px;
+      border-radius: 2px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 16px 0;
+      font-size: 12px;
+      color: #6B7280;
+      line-height: 1.8;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 100px 20px;
+      color: #9CA3AF;
+      font-size: 16px;
+    }
+
+    .error {
+      text-align: center;
+      padding: 100px 20px;
+      color: #F87171;
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 16px;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .metric-card .value {
+        font-size: 24px;
+      }
+
+      .chart-wrapper {
+        height: 300px;
+      }
+
+      .legend {
+        gap: 12px;
+      }
+
+      header h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>The Claude Index</h1>
+      <p>Daily public contributions by <a href="https://github.com/claude" style="color: #E87B5A; text-decoration: none;">@claude</a></p>
+    </header>
+
+    <div id="app">
+      <div class="loading" id="loading">Loading data...</div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = './data/contributions.json';
+
+    function formatNumber(n) {
+      if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 1) + 'k';
+      return n.toLocaleString();
+    }
+
+    function computeMA(values, period) {
+      const result = [];
+      for (let i = 0; i < values.length; i++) {
+        if (i < period - 1) {
+          result.push(null);
+        } else {
+          let sum = 0;
+          for (let j = i - period + 1; j <= i; j++) {
+            sum += values[j];
+          }
+          result.push(sum / period);
+        }
+      }
+      return result;
+    }
+
+    function computeYTDGrowth(dates, values) {
+      const now = new Date();
+      const yearStart = now.getFullYear() + '-01-01';
+      const yearDates = [];
+      const yearValues = [];
+      for (let i = 0; i < dates.length; i++) {
+        if (dates[i] >= yearStart) {
+          yearDates.push(dates[i]);
+          yearValues.push(values[i]);
+        }
+      }
+      if (yearValues.length < 28) return null; // need at least 4 weeks
+      const firstWeek = yearValues.slice(0, 7);
+      const lastWeek = yearValues.slice(-7);
+      const firstAvg = firstWeek.reduce((a, b) => a + b, 0) / firstWeek.length;
+      const lastAvg = lastWeek.reduce((a, b) => a + b, 0) / lastWeek.length;
+      if (firstAvg === 0) return null;
+      return ((lastAvg - firstAvg) / firstAvg) * 100;
+    }
+
+    async function main() {
+      const appEl = document.getElementById('app');
+      const loadingEl = document.getElementById('loading');
+
+      let data;
+      try {
+        const resp = await fetch(DATA_URL);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        data = await resp.json();
+      } catch (e) {
+        loadingEl.className = 'error';
+        loadingEl.textContent = `Failed to load data: ${e.message}`;
+        return;
+      }
+
+      const contributions = data.contributions || {};
+      const dates = Object.keys(contributions).sort();
+      if (dates.length === 0) {
+        loadingEl.className = 'error';
+        loadingEl.textContent = 'No contribution data available yet. Run initial_scrape.py first.';
+        return;
+      }
+
+      const values = dates.map(d => contributions[d]);
+      const ma20 = computeMA(values, 20);
+      const ma60 = computeMA(values, 60);
+      const ma200 = computeMA(values, 200);
+
+      // Metrics
+      const today = new Date().toISOString().slice(0, 10);
+      const yesterdayDate = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+      const todayVal = contributions[today] ?? null;
+      const yesterdayVal = contributions[yesterdayDate] ?? null;
+
+      const last7 = values.slice(-7);
+      const avg7 = last7.length > 0 ? last7.reduce((a, b) => a + b, 0) / last7.length : null;
+      const ytdGrowth = computeYTDGrowth(dates, values);
+
+      // Build UI
+      appEl.innerHTML = `
+        <div class="metrics">
+          <div class="metric-card">
+            <div class="label">Today (Live)</div>
+            <div class="value orange">${todayVal !== null ? formatNumber(todayVal) : '—'}</div>
+          </div>
+          <div class="metric-card">
+            <div class="label">Yesterday</div>
+            <div class="value">${yesterdayVal !== null ? formatNumber(yesterdayVal) : '—'}</div>
+          </div>
+          <div class="metric-card">
+            <div class="label">7-Day Average</div>
+            <div class="value">${avg7 !== null ? formatNumber(Math.round(avg7)) : '—'}</div>
+          </div>
+          <div class="metric-card">
+            <div class="label">YTD Growth</div>
+            <div class="value ${ytdGrowth !== null ? (ytdGrowth >= 0 ? 'green' : 'red') : ''}">${ytdGrowth !== null ? (ytdGrowth >= 0 ? '+' : '') + ytdGrowth.toFixed(1) + '%' : '—'}</div>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <div class="legend">
+            <div class="legend-item"><div class="legend-color" style="background: #E87B5A; height: 3px;"></div>Daily Commits</div>
+            <div class="legend-item"><div class="legend-color" style="background: #F0A888;"></div>20-Day MA</div>
+            <div class="legend-item"><div class="legend-color" style="background: #5B8DEF;"></div>60-Day MA</div>
+            <div class="legend-item"><div class="legend-color" style="background: #9CA3AF;"></div>200-Day MA</div>
+          </div>
+          <div class="chart-wrapper">
+            <canvas id="chart"></canvas>
+          </div>
+        </div>
+
+        <footer>
+          Last updated: ${data.last_updated ? new Date(data.last_updated).toLocaleString() : 'N/A'}
+          &nbsp;·&nbsp; ${dates.length} days tracked<br>
+          Data is approximate (GitHub Search API total_count)<br>
+          Dates are based on commit author timezone<br>
+          May include false positives from non-@claude authors with similar git config
+        </footer>
+      `;
+
+      // Chart
+      const ctx = document.getElementById('chart').getContext('2d');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: dates,
+          datasets: [
+            {
+              label: 'Daily Commits',
+              data: values,
+              borderColor: '#E87B5A',
+              borderWidth: 2.5,
+              pointRadius: 0,
+              pointHitRadius: 6,
+              tension: 0,
+              fill: false,
+              order: 4,
+            },
+            {
+              label: '20-Day MA',
+              data: ma20,
+              borderColor: '#F0A888',
+              borderWidth: 1.5,
+              pointRadius: 0,
+              pointHitRadius: 6,
+              tension: 0.3,
+              fill: false,
+              order: 3,
+            },
+            {
+              label: '60-Day MA',
+              data: ma60,
+              borderColor: '#5B8DEF',
+              borderWidth: 1.5,
+              pointRadius: 0,
+              pointHitRadius: 6,
+              tension: 0.3,
+              fill: false,
+              order: 2,
+            },
+            {
+              label: '200-Day MA',
+              data: ma200,
+              borderColor: '#9CA3AF',
+              borderWidth: 1.5,
+              pointRadius: 0,
+              pointHitRadius: 6,
+              tension: 0.3,
+              fill: false,
+              order: 1,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: {
+            mode: 'index',
+            intersect: false,
+          },
+          plugins: {
+            legend: {
+              display: false,
+            },
+            tooltip: {
+              backgroundColor: '#1A1D27',
+              titleColor: '#F9FAFB',
+              bodyColor: '#D1D5DB',
+              borderColor: '#374151',
+              borderWidth: 1,
+              padding: 12,
+              callbacks: {
+                label: function(ctx) {
+                  if (ctx.raw === null) return null;
+                  const val = typeof ctx.raw === 'number' ? ctx.raw.toLocaleString(undefined, { maximumFractionDigits: 0 }) : ctx.raw;
+                  return `${ctx.dataset.label}: ${val}`;
+                },
+              },
+            },
+          },
+          scales: {
+            x: {
+              type: 'time',
+              time: {
+                unit: 'month',
+                displayFormats: {
+                  month: 'MMM yyyy',
+                },
+              },
+              grid: {
+                color: 'rgba(75, 85, 99, 0.3)',
+              },
+              ticks: {
+                color: '#9CA3AF',
+                font: { size: 11 },
+                maxRotation: 0,
+              },
+            },
+            y: {
+              beginAtZero: true,
+              grid: {
+                color: 'rgba(75, 85, 99, 0.3)',
+              },
+              ticks: {
+                color: '#9CA3AF',
+                font: { size: 11 },
+                callback: function(value) {
+                  if (value >= 1000) return (value / 1000) + 'k';
+                  return value;
+                },
+              },
+            },
+          },
+        },
+      });
+    }
+
+    main();
+  </script>
+</body>
+</html>
