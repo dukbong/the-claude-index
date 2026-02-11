@@ -166,7 +166,7 @@ def _minutes_to_time(minutes):
 
 def _fetch_commits_page(query, token, page, per_page=100):
     """커밋 검색 결과 1페이지를 반환한다."""
-    q = query.replace(" ", "+").replace("<", "%3C").replace(">", "%3E")
+    q = query.replace(" ", "+")
     url = (
         f"https://api.github.com/search/commits"
         f"?q={q}&per_page={per_page}&page={page}"
@@ -175,7 +175,7 @@ def _fetch_commits_page(query, token, page, per_page=100):
 
 
 def _build_time_query(date_str, start_time, end_time):
-    """시간 범위 쿼리 문자열을 생성한다."""
+    """시간 범위 쿼리 문자열을 생성한다. GitHub range(..) 문법 사용."""
     start_part = f"{date_str}T{start_time}:00"
     if end_time == "24:00":
         next_day = (
@@ -184,7 +184,7 @@ def _build_time_query(date_str, start_time, end_time):
         end_part = f"{next_day}T00:00:00"
     else:
         end_part = f"{date_str}T{end_time}:00"
-    return f"author:{USERNAME} author-date:>={start_part} author-date:<{end_part}"
+    return f"author:{USERNAME} author-date:{start_part}..{end_part}"
 
 
 def _fetch_repos_for_window(date_str, time_range, token, request_interval):
