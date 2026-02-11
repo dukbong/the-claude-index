@@ -2,7 +2,8 @@ name: Update Claude Index
 
 on:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "*/15 * * * *"  # Every 15 minutes (today-only)
+    - cron: "0 * * * *"     # Hourly (today + yesterday + retries)
   workflow_dispatch:
     inputs:
       full_scrape:
@@ -38,8 +39,11 @@ jobs:
           if [ "${{ github.event.inputs.full_scrape }}" = "true" ]; then
             echo "Running full historical scrape..."
             python scripts/initial_scrape.py
+          elif [ "${{ github.event.schedule }}" = "*/15 * * * *" ]; then
+            echo "Running today-only update..."
+            python scripts/update_today.py --today-only
           else
-            echo "Running daily update..."
+            echo "Running full daily update..."
             python scripts/update_today.py
           fi
 

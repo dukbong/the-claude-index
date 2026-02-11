@@ -111,7 +111,7 @@ async function main() {
 
     <div class="chart-container">
       <div class="legend">
-        <div class="legend-item"><div class="legend-color" style="background: #E87B5A; height: 3px;"></div>Daily Commits</div>
+        <div class="legend-item"><div class="legend-color" style="background: #E87B5A; height: 3px;"></div>Daily Unique Repos</div>
         <div class="legend-item"><div class="legend-color" style="background: #F0A888;"></div>20-Day MA</div>
         <div class="legend-item"><div class="legend-color" style="background: #5B8DEF;"></div>60-Day MA</div>
         <div class="legend-item"><div class="legend-color" style="background: #9CA3AF;"></div>200-Day MA</div>
@@ -138,7 +138,7 @@ async function main() {
       labels: displayDates,
       datasets: [
         {
-          label: 'Daily Commits',
+          label: 'Daily Unique Repos',
           data: displayValues,
           borderColor: '#E87B5A',
           borderWidth: 2.5,
