@@ -2,14 +2,8 @@ name: Update Claude Index
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # Every 15 minutes (today-only)
-    - cron: "0 * * * *"     # Hourly (today + yesterday + retries)
+    - cron: "*/10 * * * *"  # Every 10 minutes
   workflow_dispatch:
-    inputs:
-      full_scrape:
-        description: "Run full historical scrape instead of daily update"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -36,22 +30,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ "${{ github.event.inputs.full_scrape }}" = "true" ]; then
-            echo "Running full historical scrape..."
-            python scripts/initial_scrape.py
-          elif [ "${{ github.event.schedule }}" = "*/15 * * * *" ]; then
-            echo "Running today-only update..."
-            python scripts/update_today.py --today-only
-          else
-            echo "Running full daily update..."
-            python scripts/update_today.py
-          fi
+          echo "Running doc marker update..."
+          python scripts/update_doc_markers.py --candidate-mode code --code-pages 1
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributions.json
+          git add data/*.json
           if ! git diff --cached --quiet; then
             git commit -m "Update contribution data [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
             git push
