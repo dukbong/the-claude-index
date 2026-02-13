@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T13:44:26Z",
+  "last_updated": "2026-02-13T14:31:53Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -287,6 +287,7 @@
       "2026-01-22": 1,
       "2026-01-23": 1,
       "2026-01-25": 3,
+      "2026-01-26": 1,
       "2026-01-27": 1,
       "2026-01-28": 1,
       "2026-01-30": 1,
@@ -447,7 +448,7 @@
   },
   "totals": {
     "claude": 291,
-    "gemini": 130,
+    "gemini": 131,
     "agents": 271
   },
   "repo_first_seen": {
@@ -874,7 +875,8 @@
       "hscale/ai-instructions-template": "2025-09-09",
       "martymcenroe/unleashed": "2026-01-20",
       "sam-ent/google-automation-mcp": "2026-01-15",
-      "zeesshhh0/ask_youtube": "2026-01-31"
+      "zeesshhh0/ask_youtube": "2026-01-31",
+      "seethinajayadileep/qa-blast": "2026-01-26"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1157,7 +1159,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-13T13:44:16Z",
+      "last_run": "2026-02-13T14:31:47Z",
       "candidate_count": 100,
       "search_total_count": 15960,
       "processed_new": 0,
@@ -1166,22 +1168,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-13T13:44:18Z",
+      "last_run": "2026-02-13T14:31:50Z",
       "candidate_count": 100,
       "search_total_count": 6800,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.7
+    },
+    "agents": {
+      "last_run": "2026-02-13T14:31:53Z",
+      "candidate_count": 100,
+      "search_total_count": 35424,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
-    },
-    "agents": {
-      "last_run": "2026-02-13T13:44:26Z",
-      "candidate_count": 100,
-      "search_total_count": 35424,
-      "processed_new": 5,
-      "new_found": 5,
-      "scanned_this_run": 5,
-      "elapsed_sec": 5.8
     }
   }
 }
