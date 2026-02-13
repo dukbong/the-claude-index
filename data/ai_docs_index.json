@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T09:01:54Z",
+  "last_updated": "2026-02-13T10:00:25Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -181,12 +181,14 @@
       "2025-06-28": 2,
       "2025-06-30": 2,
       "2025-07-01": 1,
+      "2025-07-02": 1,
       "2025-07-06": 1,
       "2025-07-07": 2,
       "2025-07-09": 1,
-      "2025-07-10": 1,
+      "2025-07-10": 2,
+      "2025-07-11": 1,
       "2025-07-13": 1,
-      "2025-07-14": 1,
+      "2025-07-14": 2,
       "2025-07-15": 1,
       "2025-07-17": 1,
       "2025-07-20": 1,
@@ -214,6 +216,7 @@
       "2025-09-05": 1,
       "2025-09-06": 1,
       "2025-09-08": 1,
+      "2025-09-09": 1,
       "2025-09-10": 1,
       "2025-09-12": 1,
       "2025-09-16": 1,
@@ -225,8 +228,10 @@
       "2025-10-06": 1,
       "2025-10-07": 1,
       "2025-10-14": 1,
+      "2025-10-16": 1,
       "2025-10-17": 1,
       "2025-10-19": 1,
+      "2025-10-20": 1,
       "2025-10-21": 1,
       "2025-10-22": 1,
       "2025-10-23": 1,
@@ -258,12 +263,17 @@
       "2026-01-08": 2,
       "2026-01-12": 1,
       "2026-01-13": 2,
+      "2026-01-15": 1,
+      "2026-01-16": 1,
+      "2026-01-19": 1,
+      "2026-01-20": 1,
       "2026-01-22": 1,
       "2026-01-23": 1,
-      "2026-01-25": 2,
+      "2026-01-25": 3,
       "2026-01-27": 1,
       "2026-01-28": 1,
       "2026-01-30": 1,
+      "2026-01-31": 1,
       "2026-02-01": 1,
       "2026-02-04": 2,
       "2026-02-05": 2
@@ -414,7 +424,7 @@
   },
   "totals": {
     "claude": 243,
-    "gemini": 117,
+    "gemini": 130,
     "agents": 249
   },
   "repo_first_seen": {
@@ -780,7 +790,20 @@
       "MrFlou/ScryFall-UI": "2025-06-30",
       "ferri-tools/ferri": "2025-09-16",
       "sanpicule/gemini-rules-repo": "2025-10-06",
-      "tltrogl/diaremot2-on": "2025-10-17"
+      "tltrogl/diaremot2-on": "2025-10-17",
+      "AldebaraanMKII/Gallery-Downloader-Scripts": "2025-07-11",
+      "Nabole05/mytrip-guru": "2026-01-25",
+      "atelier-saulx/based": "2025-10-16",
+      "blackpiratelive/blackpiratelive.github.io": "2026-01-16",
+      "brownrl/sandbox": "2025-10-20",
+      "compozy/gograph": "2025-07-02",
+      "forkliftdev/flexword-react": "2026-01-19",
+      "hamzaamjad/cursor-rules": "2025-07-14",
+      "hkopenai/vtube-studio-plugin-mcp-server": "2025-07-10",
+      "hscale/ai-instructions-template": "2025-09-09",
+      "martymcenroe/unleashed": "2026-01-20",
+      "sam-ent/google-automation-mcp": "2026-01-15",
+      "zeesshhh0/ask_youtube": "2026-01-31"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1041,7 +1064,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-13T09:01:50Z",
+      "last_run": "2026-02-13T10:00:13Z",
       "candidate_count": 100,
       "search_total_count": 16728,
       "processed_new": 0,
@@ -1050,16 +1073,16 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-13T09:01:52Z",
+      "last_run": "2026-02-13T10:00:23Z",
       "candidate_count": 100,
-      "search_total_count": 6280,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 6800,
+      "processed_new": 13,
+      "new_found": 13,
+      "scanned_this_run": 13,
+      "elapsed_sec": 7.8
     },
     "agents": {
-      "last_run": "2026-02-13T09:01:54Z",
+      "last_run": "2026-02-13T10:00:25Z",
       "candidate_count": 100,
       "search_total_count": 35424,
       "processed_new": 0,
