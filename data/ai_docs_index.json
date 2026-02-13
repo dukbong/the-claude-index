@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T19:02:46Z",
+  "last_updated": "2026-02-13T19:52:08Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -363,8 +363,9 @@
       "2025-09-23": 2,
       "2025-09-24": 1,
       "2025-09-25": 1,
-      "2025-09-26": 3,
+      "2025-09-26": 4,
       "2025-09-27": 1,
+      "2025-10-02": 1,
       "2025-10-06": 2,
       "2025-10-07": 5,
       "2025-10-10": 2,
@@ -405,7 +406,7 @@
       "2025-11-27": 1,
       "2025-11-28": 1,
       "2025-11-29": 2,
-      "2025-11-30": 3,
+      "2025-11-30": 4,
       "2025-12-01": 1,
       "2025-12-02": 1,
       "2025-12-05": 1,
@@ -413,7 +414,7 @@
       "2025-12-10": 1,
       "2025-12-11": 1,
       "2025-12-12": 2,
-      "2025-12-13": 1,
+      "2025-12-13": 2,
       "2025-12-15": 3,
       "2025-12-16": 2,
       "2025-12-18": 2,
@@ -467,7 +468,7 @@
   "totals": {
     "claude": 352,
     "gemini": 134,
-    "agents": 276
+    "agents": 280
   },
   "repo_first_seen": {
     "claude": {
@@ -1236,7 +1237,11 @@
       "constROD/template-hono-prisma-kysely": "2025-12-12",
       "lancenunes/codex-skills": "2025-12-15",
       "sibblegp/ODAI": "2025-10-29",
-      "uscreen/fastify-mongo-crud": "2026-02-06"
+      "uscreen/fastify-mongo-crud": "2026-02-06",
+      "DanWahlin/ai-repo-adventures": "2025-09-26",
+      "fancypantalons/nvim-beads": "2025-11-30",
+      "remorses/opentui-diff": "2025-10-02",
+      "z3z1ma/lookervault": "2025-12-13"
     }
   },
   "failed_repos": {
@@ -1246,7 +1251,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-13T19:02:43Z",
+      "last_run": "2026-02-13T19:51:59Z",
       "candidate_count": 100,
       "search_total_count": 13512,
       "processed_new": 0,
@@ -1255,7 +1260,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-13T19:02:45Z",
+      "last_run": "2026-02-13T19:52:01Z",
       "candidate_count": 100,
       "search_total_count": 6704,
       "processed_new": 0,
@@ -1264,13 +1269,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-13T19:02:46Z",
+      "last_run": "2026-02-13T19:52:08Z",
       "candidate_count": 100,
-      "search_total_count": 35040,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 35552,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 5.7
     }
   }
 }
