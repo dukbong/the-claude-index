@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T23:37:23Z",
+  "last_updated": "2026-02-14T00:03:59Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -266,6 +266,7 @@
       "2025-08-21": 1,
       "2025-08-23": 1,
       "2025-08-25": 1,
+      "2025-08-26": 1,
       "2025-08-28": 1,
       "2025-08-29": 1,
       "2025-09-03": 1,
@@ -274,6 +275,7 @@
       "2025-09-08": 1,
       "2025-09-09": 1,
       "2025-09-10": 1,
+      "2025-09-11": 1,
       "2025-09-12": 1,
       "2025-09-16": 1,
       "2025-09-20": 1,
@@ -489,7 +491,7 @@
   },
   "totals": {
     "claude": 430,
-    "gemini": 134,
+    "gemini": 136,
     "agents": 280
   },
   "repo_first_seen": {
@@ -1059,7 +1061,9 @@
       "seethinajayadileep/qa-blast": "2026-01-26",
       "CangyuanLi/rapidstats": "2025-08-03",
       "nshen/nn-stack": "2025-11-24",
-      "thoreinstein/aix": "2026-01-23"
+      "thoreinstein/aix": "2026-01-23",
+      "drewsephski/Lynx": "2025-08-26",
+      "leepeffer/pluggy-ofx-export": "2025-09-11"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1351,25 +1355,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-13T23:37:21Z",
+      "last_run": "2026-02-13T23:59:53Z",
       "candidate_count": 100,
       "search_total_count": 16168,
-      "processed_new": 42,
-      "new_found": 42,
-      "scanned_this_run": 42,
-      "elapsed_sec": 34.6
-    },
-    "gemini": {
-      "last_run": "2026-02-13T23:37:22Z",
-      "candidate_count": 100,
-      "search_total_count": 6272,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
+    "gemini": {
+      "last_run": "2026-02-14T00:01:57Z",
+      "candidate_count": 100,
+      "search_total_count": 6280,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 2.0
+    },
     "agents": {
-      "last_run": "2026-02-13T23:37:23Z",
+      "last_run": "2026-02-14T00:03:59Z",
       "candidate_count": 100,
       "search_total_count": 36576,
       "processed_new": 0,
