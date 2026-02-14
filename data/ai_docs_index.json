@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T13:15:08Z",
+  "last_updated": "2026-02-14T13:58:57Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -272,7 +272,7 @@
       "2025-07-15": 1,
       "2025-07-17": 1,
       "2025-07-20": 1,
-      "2025-07-22": 2,
+      "2025-07-22": 3,
       "2025-07-24": 1,
       "2025-07-25": 2,
       "2025-07-26": 1,
@@ -527,7 +527,7 @@
   },
   "totals": {
     "claude": 551,
-    "gemini": 146,
+    "gemini": 147,
     "agents": 298
   },
   "repo_first_seen": {
@@ -1230,7 +1230,8 @@
       "Stoufiler/JellyWolProxy": "2025-10-29",
       "book000/github-webhook-bridge": "2026-01-27",
       "felipebarcelospro/igniter-js": "2025-08-29",
-      "lbe/go-graphviz-test": "2025-10-10"
+      "lbe/go-graphviz-test": "2025-10-10",
+      "TGabeCar/ClaudeMCPCodeAutomation": "2025-07-22"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1540,7 +1541,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-14T13:10:03Z",
+      "last_run": "2026-02-14T13:56:55Z",
       "candidate_count": 100,
       "search_total_count": 13288,
       "processed_new": 0,
@@ -1549,18 +1550,18 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-14T13:11:05Z",
+      "last_run": "2026-02-14T13:57:56Z",
       "candidate_count": 100,
-      "search_total_count": 6752,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 6992,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.5
     },
     "agents": {
-      "last_run": "2026-02-14T13:15:08Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-02-14T13:58:57Z",
+      "candidate_count": 100,
+      "search_total_count": 38048,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
