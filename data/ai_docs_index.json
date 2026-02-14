@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T02:49:22Z",
+  "last_updated": "2026-02-14T04:26:21Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -27,6 +27,7 @@
       "2025-05-05": 2,
       "2025-05-17": 1,
       "2025-05-20": 1,
+      "2025-05-23": 1,
       "2025-05-25": 1,
       "2025-05-29": 1,
       "2025-05-30": 1,
@@ -53,7 +54,8 @@
       "2025-06-27": 1,
       "2025-06-28": 2,
       "2025-06-29": 2,
-      "2025-06-30": 1,
+      "2025-06-30": 2,
+      "2025-07-01": 1,
       "2025-07-02": 4,
       "2025-07-04": 1,
       "2025-07-05": 3,
@@ -178,7 +180,7 @@
       "2025-12-06": 1,
       "2025-12-07": 3,
       "2025-12-08": 3,
-      "2025-12-09": 2,
+      "2025-12-09": 3,
       "2025-12-10": 3,
       "2025-12-11": 2,
       "2025-12-12": 2,
@@ -195,7 +197,7 @@
       "2025-12-25": 2,
       "2025-12-26": 1,
       "2025-12-28": 1,
-      "2025-12-30": 2,
+      "2025-12-30": 3,
       "2025-12-31": 1,
       "2026-01-01": 3,
       "2026-01-02": 2,
@@ -203,7 +205,7 @@
       "2026-01-04": 4,
       "2026-01-06": 1,
       "2026-01-07": 1,
-      "2026-01-08": 1,
+      "2026-01-08": 2,
       "2026-01-09": 5,
       "2026-01-10": 3,
       "2026-01-11": 1,
@@ -228,7 +230,7 @@
       "2026-01-30": 4,
       "2026-01-31": 4,
       "2026-02-01": 3,
-      "2026-02-03": 5,
+      "2026-02-03": 7,
       "2026-02-04": 3,
       "2026-02-05": 5,
       "2026-02-07": 1
@@ -504,7 +506,7 @@
     }
   },
   "totals": {
-    "claude": 457,
+    "claude": 465,
     "gemini": 141,
     "agents": 286
   },
@@ -966,7 +968,15 @@
       "unesaki/AI_photo_cleaner": "2025-06-26",
       "yashness/marp-presentation-creator": "2026-01-13",
       "yuni-shinogami/EngineerMeetupAnnouncementGas": "2025-06-08",
-      "zainkhan1726/physical-ai-humanoid-robotics-textbook": "2025-12-20"
+      "zainkhan1726/physical-ai-humanoid-robotics-textbook": "2025-12-20",
+      "Johnathon-Wheaton/SupplyChainOptimizer": "2025-06-30",
+      "endaaman/bt2": "2025-07-01",
+      "estebankt/SpendBearBackEnd": "2026-02-03",
+      "ildunari/RetroToolbox": "2025-05-23",
+      "jayteealao/BoxyBop": "2026-02-03",
+      "salimomrani/trucktrack": "2025-12-09",
+      "shawnyeager/shawnyeager-com": "2025-12-30",
+      "wolffiex/clardio": "2026-01-08"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -1407,31 +1417,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-14T02:49:12Z",
+      "last_run": "2026-02-14T04:26:20Z",
       "candidate_count": 100,
       "search_total_count": 13656,
-      "processed_new": 27,
-      "new_found": 27,
-      "scanned_this_run": 27,
-      "elapsed_sec": 20.7
+      "processed_new": 8,
+      "new_found": 8,
+      "scanned_this_run": 8,
+      "elapsed_sec": 6.7
     },
     "gemini": {
-      "last_run": "2026-02-14T02:49:16Z",
+      "last_run": "2026-02-14T04:26:21Z",
       "candidate_count": 100,
       "search_total_count": 6752,
-      "processed_new": 5,
-      "new_found": 5,
-      "scanned_this_run": 5,
-      "elapsed_sec": 3.1
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-14T02:49:22Z",
+      "last_run": "2026-02-14T04:26:21Z",
       "candidate_count": 100,
       "search_total_count": 36576,
-      "processed_new": 6,
-      "new_found": 6,
-      "scanned_this_run": 6,
-      "elapsed_sec": 4.6
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     }
   }
 }
