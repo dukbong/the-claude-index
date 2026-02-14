@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T20:48:38Z",
+  "last_updated": "2026-02-14T21:11:15Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -420,7 +420,7 @@
       "2025-09-12": 1,
       "2025-09-13": 2,
       "2025-09-15": 1,
-      "2025-09-16": 3,
+      "2025-09-16": 4,
       "2025-09-17": 1,
       "2025-09-19": 3,
       "2025-09-20": 1,
@@ -484,7 +484,7 @@
       "2025-12-15": 3,
       "2025-12-16": 2,
       "2025-12-18": 2,
-      "2025-12-19": 2,
+      "2025-12-19": 3,
       "2025-12-21": 2,
       "2025-12-22": 1,
       "2025-12-23": 2,
@@ -535,7 +535,7 @@
   "totals": {
     "claude": 582,
     "gemini": 161,
-    "agents": 300
+    "agents": 302
   },
   "repo_first_seen": {
     "claude": {
@@ -1585,7 +1585,9 @@
       "karthikappy/vue3-flask-moviedb-ui": "2025-12-21",
       "khalilayoub23/rails_fast_epost": "2025-09-02",
       "giulio-leone/onecoach-ui": "2025-12-27",
-      "meshy-dev/ultar": "2025-09-07"
+      "meshy-dev/ultar": "2025-09-07",
+      "bnomei/kirby-mcp": "2025-12-19",
+      "dagster-io/erk": "2025-09-16"
     }
   },
   "failed_repos": {
@@ -1595,7 +1597,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-14T20:45:35Z",
+      "last_run": "2026-02-14T21:11:09Z",
       "candidate_count": 100,
       "search_total_count": 11080,
       "processed_new": 0,
@@ -1604,22 +1606,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-14T20:46:48Z",
+      "last_run": "2026-02-14T21:11:11Z",
       "candidate_count": 100,
-      "search_total_count": 6088,
-      "processed_new": 12,
-      "new_found": 12,
-      "scanned_this_run": 12,
-      "elapsed_sec": 12.1
-    },
-    "agents": {
-      "last_run": "2026-02-14T20:48:38Z",
-      "candidate_count": 100,
-      "search_total_count": 37888,
+      "search_total_count": 6800,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
+    },
+    "agents": {
+      "last_run": "2026-02-14T21:11:15Z",
+      "candidate_count": 100,
+      "search_total_count": 36864,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 2.4
     }
   }
 }
