@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T18:59:09Z",
+  "last_updated": "2026-02-14T19:32:31Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -411,7 +411,7 @@
       "2025-09-02": 3,
       "2025-09-05": 3,
       "2025-09-06": 1,
-      "2025-09-07": 1,
+      "2025-09-07": 2,
       "2025-09-09": 1,
       "2025-09-12": 1,
       "2025-09-13": 2,
@@ -531,7 +531,7 @@
   "totals": {
     "claude": 582,
     "gemini": 149,
-    "agents": 299
+    "agents": 300
   },
   "repo_first_seen": {
     "claude": {
@@ -1568,7 +1568,8 @@
       "12cymatics/quanqonscious": "2025-08-01",
       "karthikappy/vue3-flask-moviedb-ui": "2025-12-21",
       "khalilayoub23/rails_fast_epost": "2025-09-02",
-      "giulio-leone/onecoach-ui": "2025-12-27"
+      "giulio-leone/onecoach-ui": "2025-12-27",
+      "meshy-dev/ultar": "2025-09-07"
     }
   },
   "failed_repos": {
@@ -1578,16 +1579,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-14T18:53:12Z",
+      "last_run": "2026-02-14T19:29:28Z",
       "candidate_count": 100,
       "search_total_count": 11080,
-      "processed_new": 13,
-      "new_found": 13,
-      "scanned_this_run": 13,
-      "elapsed_sec": 8.9
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-14T18:56:06Z",
+      "last_run": "2026-02-14T19:31:29Z",
       "candidate_count": 100,
       "search_total_count": 6992,
       "processed_new": 0,
@@ -1596,13 +1597,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-14T18:59:09Z",
+      "last_run": "2026-02-14T19:32:31Z",
       "candidate_count": 100,
       "search_total_count": 37888,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     }
   }
 }
