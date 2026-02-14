@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T16:00:28Z",
+  "last_updated": "2026-02-14T16:46:09Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -349,7 +349,7 @@
       "2026-01-06": 1,
       "2026-01-08": 2,
       "2026-01-12": 1,
-      "2026-01-13": 2,
+      "2026-01-13": 4,
       "2026-01-15": 1,
       "2026-01-16": 1,
       "2026-01-19": 1,
@@ -484,7 +484,7 @@
       "2025-12-24": 2,
       "2025-12-25": 3,
       "2025-12-26": 2,
-      "2025-12-27": 2,
+      "2025-12-27": 3,
       "2025-12-28": 3,
       "2025-12-29": 5,
       "2025-12-30": 5,
@@ -527,8 +527,8 @@
   },
   "totals": {
     "claude": 551,
-    "gemini": 147,
-    "agents": 298
+    "gemini": 149,
+    "agents": 299
   },
   "repo_first_seen": {
     "claude": {
@@ -1231,7 +1231,9 @@
       "book000/github-webhook-bridge": "2026-01-27",
       "felipebarcelospro/igniter-js": "2025-08-29",
       "lbe/go-graphviz-test": "2025-10-10",
-      "TGabeCar/ClaudeMCPCodeAutomation": "2025-07-22"
+      "TGabeCar/ClaudeMCPCodeAutomation": "2025-07-22",
+      "giulio-leone/one-agenda": "2026-01-13",
+      "giulio-leone/onecoach-ui": "2026-01-13"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1531,7 +1533,8 @@
       "accountex-org/ash_reports": "2025-09-05",
       "12cymatics/quanqonscious": "2025-08-01",
       "karthikappy/vue3-flask-moviedb-ui": "2025-12-21",
-      "khalilayoub23/rails_fast_epost": "2025-09-02"
+      "khalilayoub23/rails_fast_epost": "2025-09-02",
+      "giulio-leone/onecoach-ui": "2025-12-27"
     }
   },
   "failed_repos": {
@@ -1541,7 +1544,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-14T15:58:25Z",
+      "last_run": "2026-02-14T16:41:02Z",
       "candidate_count": 100,
       "search_total_count": 13288,
       "processed_new": 0,
@@ -1550,22 +1553,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-14T16:00:27Z",
+      "last_run": "2026-02-14T16:44:07Z",
       "candidate_count": 100,
       "search_total_count": 6992,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.3
     },
     "agents": {
-      "last_run": "2026-02-14T16:00:28Z",
+      "last_run": "2026-02-14T16:46:09Z",
       "candidate_count": 100,
       "search_total_count": 38912,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.6
     }
   }
 }
