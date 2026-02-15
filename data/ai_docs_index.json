@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T13:04:36Z",
+  "last_updated": "2026-02-15T13:52:48Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -345,6 +345,7 @@
       "2025-10-29": 2,
       "2025-11-03": 1,
       "2025-11-04": 2,
+      "2025-11-06": 1,
       "2025-11-07": 1,
       "2025-11-08": 1,
       "2025-11-10": 1,
@@ -352,6 +353,7 @@
       "2025-11-14": 1,
       "2025-11-15": 1,
       "2025-11-17": 1,
+      "2025-11-18": 1,
       "2025-11-19": 1,
       "2025-11-21": 1,
       "2025-11-22": 2,
@@ -382,10 +384,10 @@
       "2026-01-15": 2,
       "2026-01-16": 1,
       "2026-01-19": 1,
-      "2026-01-20": 1,
+      "2026-01-20": 2,
       "2026-01-22": 1,
       "2026-01-23": 2,
-      "2026-01-24": 1,
+      "2026-01-24": 2,
       "2026-01-25": 4,
       "2026-01-26": 2,
       "2026-01-27": 4,
@@ -558,7 +560,7 @@
   },
   "totals": {
     "claude": 662,
-    "gemini": 183,
+    "gemini": 187,
     "agents": 304
   },
   "repo_first_seen": {
@@ -1409,7 +1411,11 @@
       "spacebabies/lametric-power-bridge": "2026-01-03",
       "thekosmix/wanderindia.blog": "2026-01-29",
       "trezero/etradeTools": "2025-09-17",
-      "wangshiwen-ai-hku/flutter_app": "2025-10-15"
+      "wangshiwen-ai-hku/flutter_app": "2025-10-15",
+      "amanshresthaa/SajiloReserveX": "2025-11-18",
+      "daverage/tinyMem": "2026-01-24",
+      "dropbear-software/base32_codec": "2025-11-06",
+      "krbysn/pickit": "2026-01-20"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1725,7 +1731,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-15T13:04:34Z",
+      "last_run": "2026-02-15T13:52:41Z",
       "candidate_count": 100,
       "search_total_count": 12888,
       "processed_new": 0,
@@ -1734,16 +1740,16 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-15T13:04:35Z",
+      "last_run": "2026-02-15T13:52:47Z",
       "candidate_count": 100,
-      "search_total_count": 5872,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 5304,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 5.1
     },
     "agents": {
-      "last_run": "2026-02-15T13:04:36Z",
+      "last_run": "2026-02-15T13:52:48Z",
       "candidate_count": 100,
       "search_total_count": 36864,
       "processed_new": 0,
