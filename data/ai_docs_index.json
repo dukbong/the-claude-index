@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T20:59:08Z",
+  "last_updated": "2026-02-15T21:34:43Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -542,7 +542,7 @@
       "2026-01-13": 1,
       "2026-01-14": 4,
       "2026-01-15": 5,
-      "2026-01-16": 1,
+      "2026-01-16": 2,
       "2026-01-17": 5,
       "2026-01-18": 1,
       "2026-01-19": 2,
@@ -557,7 +557,7 @@
       "2026-01-29": 2,
       "2026-01-30": 3,
       "2026-01-31": 3,
-      "2026-02-01": 2,
+      "2026-02-01": 3,
       "2026-02-02": 3,
       "2026-02-03": 3,
       "2026-02-04": 3,
@@ -568,7 +568,7 @@
   "totals": {
     "claude": 698,
     "gemini": 187,
-    "agents": 305
+    "agents": 307
   },
   "repo_first_seen": {
     "claude": {
@@ -1765,7 +1765,9 @@
       "dagster-io/erk": "2025-09-16",
       "joeflack4/genonaut": "2025-09-17",
       "wkwkgood5/instructlab-watsonx2024": "2024-07-17",
-      "ArjenSchwarz/go-output": "2025-06-09"
+      "ArjenSchwarz/go-output": "2025-06-09",
+      "TimoFreiberg/dotfiles": "2026-02-01",
+      "YavlPro/YavlGold": "2026-01-16"
     }
   },
   "failed_repos": {
@@ -1775,16 +1777,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-15T20:58:17Z",
+      "last_run": "2026-02-15T21:34:39Z",
       "candidate_count": 100,
       "search_total_count": 14744,
-      "processed_new": 9,
-      "new_found": 9,
-      "scanned_this_run": 9,
-      "elapsed_sec": 9.1
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-15T20:58:18Z",
+      "last_run": "2026-02-15T21:34:40Z",
       "candidate_count": 100,
       "search_total_count": 5304,
       "processed_new": 0,
@@ -1793,13 +1795,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-15T20:59:08Z",
+      "last_run": "2026-02-15T21:34:43Z",
       "candidate_count": 100,
       "search_total_count": 36864,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.7
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.7
     }
   }
 }
