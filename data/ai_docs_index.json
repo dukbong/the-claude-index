@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T09:59:30Z",
+  "last_updated": "2026-02-15T10:34:10Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -318,6 +318,7 @@
       "2025-09-11": 1,
       "2025-09-12": 1,
       "2025-09-16": 1,
+      "2025-09-17": 1,
       "2025-09-18": 1,
       "2025-09-20": 1,
       "2025-09-21": 1,
@@ -329,7 +330,7 @@
       "2025-10-07": 1,
       "2025-10-10": 3,
       "2025-10-14": 1,
-      "2025-10-15": 1,
+      "2025-10-15": 2,
       "2025-10-16": 1,
       "2025-10-17": 1,
       "2025-10-19": 1,
@@ -370,9 +371,9 @@
       "2025-12-31": 2,
       "2026-01-01": 1,
       "2026-01-02": 1,
-      "2026-01-03": 1,
+      "2026-01-03": 2,
       "2026-01-06": 1,
-      "2026-01-08": 2,
+      "2026-01-08": 3,
       "2026-01-12": 1,
       "2026-01-13": 4,
       "2026-01-15": 2,
@@ -384,8 +385,9 @@
       "2026-01-24": 1,
       "2026-01-25": 4,
       "2026-01-26": 2,
-      "2026-01-27": 3,
+      "2026-01-27": 4,
       "2026-01-28": 1,
+      "2026-01-29": 1,
       "2026-01-30": 1,
       "2026-01-31": 1,
       "2026-02-01": 2,
@@ -553,7 +555,7 @@
   },
   "totals": {
     "claude": 648,
-    "gemini": 177,
+    "gemini": 183,
     "agents": 304
   },
   "repo_first_seen": {
@@ -1384,7 +1386,13 @@
       "orrbarkat/whatsapp-mcp-vanilla": "2025-10-10",
       "bdarcus/csln": "2026-01-26",
       "citricguy/filament-flatpickr": "2025-12-21",
-      "jamestexas/signet": "2025-10-10"
+      "jamestexas/signet": "2025-10-10",
+      "Enigmora/devtrail": "2026-01-27",
+      "exposir/ai-talk": "2026-01-08",
+      "spacebabies/lametric-power-bridge": "2026-01-03",
+      "thekosmix/wanderindia.blog": "2026-01-29",
+      "trezero/etradeTools": "2025-09-17",
+      "wangshiwen-ai-hku/flutter_app": "2025-10-15"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1700,7 +1708,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-15T09:54:25Z",
+      "last_run": "2026-02-15T10:34:01Z",
       "candidate_count": 100,
       "search_total_count": 11272,
       "processed_new": 0,
@@ -1709,16 +1717,16 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-15T09:58:28Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "last_run": "2026-02-15T10:34:08Z",
+      "candidate_count": 100,
+      "search_total_count": 5872,
+      "processed_new": 6,
+      "new_found": 6,
+      "scanned_this_run": 6,
+      "elapsed_sec": 6.1
     },
     "agents": {
-      "last_run": "2026-02-15T09:59:30Z",
+      "last_run": "2026-02-15T10:34:10Z",
       "candidate_count": 100,
       "search_total_count": 36864,
       "processed_new": 0,
