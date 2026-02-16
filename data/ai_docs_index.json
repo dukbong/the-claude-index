@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T06:36:53Z",
+  "last_updated": "2026-02-16T07:40:12Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -514,7 +514,7 @@
       "2025-12-05": 1,
       "2025-12-06": 4,
       "2025-12-08": 1,
-      "2025-12-10": 1,
+      "2025-12-10": 2,
       "2025-12-11": 1,
       "2025-12-12": 2,
       "2025-12-13": 2,
@@ -572,7 +572,7 @@
   "totals": {
     "claude": 731,
     "gemini": 187,
-    "agents": 309
+    "agents": 310
   },
   "repo_first_seen": {
     "claude": {
@@ -1806,7 +1806,8 @@
       "TimoFreiberg/dotfiles": "2026-02-01",
       "YavlPro/YavlGold": "2026-01-16",
       "NSObjects/go-template": "2025-09-26",
-      "pikdum/mona": "2025-12-27"
+      "pikdum/mona": "2025-12-27",
+      "Timorleiderman/OpticMCP": "2025-12-10"
     }
   },
   "failed_repos": {
@@ -1816,7 +1817,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-16T06:36:47Z",
+      "last_run": "2026-02-16T07:40:08Z",
       "candidate_count": 100,
       "search_total_count": 15128,
       "processed_new": 0,
@@ -1825,22 +1826,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-16T06:36:49Z",
+      "last_run": "2026-02-16T07:40:10Z",
       "candidate_count": 100,
-      "search_total_count": 5336,
+      "search_total_count": 5416,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-16T06:36:53Z",
+      "last_run": "2026-02-16T07:40:12Z",
       "candidate_count": 100,
       "search_total_count": 37504,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 2.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.2
     }
   }
 }
