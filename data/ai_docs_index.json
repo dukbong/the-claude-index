@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T13:38:15Z",
+  "last_updated": "2026-02-16T14:29:14Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -489,6 +489,7 @@
       "2025-10-22": 2,
       "2025-10-25": 1,
       "2025-10-26": 1,
+      "2025-10-27": 1,
       "2025-10-28": 1,
       "2025-10-29": 3,
       "2025-10-30": 1,
@@ -579,7 +580,7 @@
   "totals": {
     "claude": 745,
     "gemini": 197,
-    "agents": 310
+    "agents": 311
   },
   "repo_first_seen": {
     "claude": {
@@ -1838,7 +1839,8 @@
       "YavlPro/YavlGold": "2026-01-16",
       "NSObjects/go-template": "2025-09-26",
       "pikdum/mona": "2025-12-27",
-      "Timorleiderman/OpticMCP": "2025-12-10"
+      "Timorleiderman/OpticMCP": "2025-12-10",
+      "dv-flow/dv-flow-mgr": "2025-10-27"
     }
   },
   "failed_repos": {
@@ -1848,31 +1850,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-16T13:38:02Z",
+      "last_run": "2026-02-16T14:29:10Z",
       "candidate_count": 100,
       "search_total_count": 19704,
-      "processed_new": 14,
-      "new_found": 14,
-      "scanned_this_run": 14,
-      "elapsed_sec": 12.6
-    },
-    "gemini": {
-      "last_run": "2026-02-16T13:38:13Z",
-      "candidate_count": 100,
-      "search_total_count": 5384,
-      "processed_new": 10,
-      "new_found": 10,
-      "scanned_this_run": 10,
-      "elapsed_sec": 9.5
-    },
-    "agents": {
-      "last_run": "2026-02-16T13:38:15Z",
-      "candidate_count": 100,
-      "search_total_count": 37760,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
+    },
+    "gemini": {
+      "last_run": "2026-02-16T14:29:12Z",
+      "candidate_count": 100,
+      "search_total_count": 5384,
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
+    },
+    "agents": {
+      "last_run": "2026-02-16T14:29:14Z",
+      "candidate_count": 100,
+      "search_total_count": 37760,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.8
     }
   }
 }
