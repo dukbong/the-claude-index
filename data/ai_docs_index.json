@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T16:12:57Z",
+  "last_updated": "2026-02-17T17:31:26Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -308,6 +308,7 @@
       "2025-07-18": 1,
       "2025-07-19": 1,
       "2025-07-20": 2,
+      "2025-07-21": 1,
       "2025-07-22": 3,
       "2025-07-24": 1,
       "2025-07-25": 2,
@@ -321,6 +322,7 @@
       "2025-08-09": 3,
       "2025-08-10": 2,
       "2025-08-12": 1,
+      "2025-08-13": 1,
       "2025-08-14": 1,
       "2025-08-15": 1,
       "2025-08-16": 1,
@@ -371,7 +373,7 @@
       "2025-10-31": 1,
       "2025-11-03": 1,
       "2025-11-04": 2,
-      "2025-11-06": 1,
+      "2025-11-06": 2,
       "2025-11-07": 1,
       "2025-11-08": 1,
       "2025-11-10": 1,
@@ -421,7 +423,7 @@
       "2026-01-22": 1,
       "2026-01-23": 2,
       "2026-01-24": 2,
-      "2026-01-25": 5,
+      "2026-01-25": 6,
       "2026-01-26": 2,
       "2026-01-27": 4,
       "2026-01-28": 1,
@@ -597,7 +599,7 @@
   },
   "totals": {
     "claude": 799,
-    "gemini": 224,
+    "gemini": 228,
     "agents": 316
   },
   "repo_first_seen": {
@@ -1626,7 +1628,11 @@
       "palladius/ror7-tailwind-puffintours": "2025-08-26",
       "ridermw/Marietta-Gemini": "2025-06-26",
       "you-sk/web-pong": "2025-06-26",
-      "zerodice0/recipelabo_flutter": "2025-06-26"
+      "zerodice0/recipelabo_flutter": "2025-06-26",
+      "EcoSoviet/ligaro": "2025-11-06",
+      "agladysh/cogtools": "2025-07-21",
+      "book000/node-utils": "2026-01-25",
+      "forestsoft-kr/vibe_coding": "2025-08-13"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1954,27 +1960,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-17T16:11:04Z",
+      "last_run": "2026-02-17T17:29:23Z",
       "candidate_count": 100,
-      "search_total_count": 15824,
-      "processed_new": 9,
-      "new_found": 9,
-      "scanned_this_run": 9,
-      "elapsed_sec": 7.0
+      "search_total_count": 15536,
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-17T16:12:15Z",
+      "last_run": "2026-02-17T17:30:28Z",
       "candidate_count": 100,
-      "search_total_count": 5288,
-      "processed_new": 18,
-      "new_found": 18,
-      "scanned_this_run": 18,
-      "elapsed_sec": 18.8
+      "search_total_count": 5432,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 3.8
     },
     "agents": {
-      "last_run": "2026-02-17T16:12:57Z",
+      "last_run": "2026-02-17T17:31:26Z",
       "candidate_count": 100,
-      "search_total_count": 37440,
+      "search_total_count": 37248,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
