@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T06:07:36Z",
+  "last_updated": "2026-02-17T07:15:40Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -424,6 +424,7 @@
       "2025-05-24": 1,
       "2025-05-29": 1,
       "2025-06-03": 2,
+      "2025-06-04": 1,
       "2025-06-05": 1,
       "2025-06-06": 1,
       "2025-06-07": 1,
@@ -582,7 +583,7 @@
   "totals": {
     "claude": 780,
     "gemini": 198,
-    "agents": 315
+    "agents": 316
   },
   "repo_first_seen": {
     "claude": {
@@ -1882,7 +1883,8 @@
       "scode/gpxwrench": "2025-08-10",
       "cross-org/test": "2025-11-23",
       "niemeyer/muslnet": "2025-09-23",
-      "openxapi/openxapi": "2025-11-07"
+      "openxapi/openxapi": "2025-11-07",
+      "yprez/synth": "2025-06-04"
     }
   },
   "failed_repos": {
@@ -1892,7 +1894,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-17T06:03:33Z",
+      "last_run": "2026-02-17T07:14:37Z",
       "candidate_count": 100,
       "search_total_count": 11584,
       "processed_new": 0,
@@ -1901,7 +1903,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-17T06:05:34Z",
+      "last_run": "2026-02-17T07:15:38Z",
       "candidate_count": 100,
       "search_total_count": 5432,
       "processed_new": 0,
@@ -1910,13 +1912,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-17T06:07:36Z",
+      "last_run": "2026-02-17T07:15:40Z",
       "candidate_count": 100,
-      "search_total_count": 36544,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 35520,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.4
     }
   }
 }
