@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T20:09:30Z",
+  "last_updated": "2026-02-17T21:03:34Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -43,7 +43,7 @@
       "2025-06-02": 1,
       "2025-06-03": 1,
       "2025-06-04": 1,
-      "2025-06-06": 2,
+      "2025-06-06": 3,
       "2025-06-07": 3,
       "2025-06-08": 6,
       "2025-06-10": 2,
@@ -74,12 +74,12 @@
       "2025-07-06": 3,
       "2025-07-07": 5,
       "2025-07-08": 4,
-      "2025-07-09": 4,
+      "2025-07-09": 5,
       "2025-07-10": 1,
       "2025-07-11": 5,
       "2025-07-12": 1,
       "2025-07-13": 3,
-      "2025-07-14": 1,
+      "2025-07-14": 2,
       "2025-07-15": 4,
       "2025-07-16": 2,
       "2025-07-17": 5,
@@ -118,7 +118,7 @@
       "2025-08-19": 5,
       "2025-08-20": 7,
       "2025-08-21": 6,
-      "2025-08-22": 3,
+      "2025-08-22": 4,
       "2025-08-23": 4,
       "2025-08-24": 4,
       "2025-08-25": 3,
@@ -156,7 +156,7 @@
       "2025-09-28": 3,
       "2025-09-29": 2,
       "2025-09-30": 5,
-      "2025-10-01": 5,
+      "2025-10-01": 6,
       "2025-10-02": 6,
       "2025-10-03": 1,
       "2025-10-04": 3,
@@ -193,14 +193,14 @@
       "2025-11-07": 3,
       "2025-11-08": 2,
       "2025-11-09": 1,
-      "2025-11-10": 3,
+      "2025-11-10": 4,
       "2025-11-12": 3,
       "2025-11-13": 5,
       "2025-11-14": 3,
       "2025-11-15": 2,
       "2025-11-16": 2,
       "2025-11-17": 4,
-      "2025-11-18": 4,
+      "2025-11-18": 5,
       "2025-11-19": 4,
       "2025-11-20": 2,
       "2025-11-21": 3,
@@ -231,7 +231,7 @@
       "2025-12-16": 5,
       "2025-12-17": 4,
       "2025-12-18": 1,
-      "2025-12-20": 4,
+      "2025-12-20": 5,
       "2025-12-21": 1,
       "2025-12-22": 3,
       "2025-12-23": 5,
@@ -279,7 +279,7 @@
       "2026-02-03": 9,
       "2026-02-04": 4,
       "2026-02-05": 10,
-      "2026-02-06": 3,
+      "2026-02-06": 4,
       "2026-02-07": 4
     },
     "gemini": {
@@ -599,7 +599,7 @@
     }
   },
   "totals": {
-    "claude": 799,
+    "claude": 808,
     "gemini": 230,
     "agents": 318
   },
@@ -1403,7 +1403,16 @@
       "lespaceman/agent-web-interface": "2026-01-07",
       "steveoleary/coffee_run": "2025-11-23",
       "takeknock/dotfiles": "2025-06-18",
-      "wasimqur11/pharmacy-management-system": "2025-08-09"
+      "wasimqur11/pharmacy-management-system": "2025-08-09",
+      "Amorites/autonomous-coding-platform": "2025-11-10",
+      "FerryZhaoHui/linear-test-mcp": "2025-07-09",
+      "ahmad-luqman/build-your-own-os": "2025-10-01",
+      "eieraso/my-app": "2025-06-06",
+      "freitasbtw/skillmap": "2025-11-18",
+      "horie-tt/ProductionManagementSystem": "2025-12-20",
+      "romanmatena/browsermonitor": "2026-02-06",
+      "santosrai/santosrai.github.io": "2025-08-22",
+      "sunbigfly/hetong": "2025-07-14"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -1965,31 +1974,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-17T20:05:23Z",
+      "last_run": "2026-02-17T20:55:35Z",
       "candidate_count": 100,
-      "search_total_count": 14896,
+      "search_total_count": 11104,
+      "processed_new": 9,
+      "new_found": 9,
+      "scanned_this_run": 9,
+      "elapsed_sec": 7.7
+    },
+    "gemini": {
+      "last_run": "2026-02-17T20:59:30Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
-    "gemini": {
-      "last_run": "2026-02-17T20:08:27Z",
-      "candidate_count": 100,
-      "search_total_count": 5432,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 2.1
-    },
     "agents": {
-      "last_run": "2026-02-17T20:09:30Z",
-      "candidate_count": 100,
-      "search_total_count": 37248,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 2.1
+      "last_run": "2026-02-17T21:03:34Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     }
   }
 }
