@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T19:35:26Z",
+  "last_updated": "2026-02-17T20:09:30Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -287,9 +287,9 @@
       "2025-04-18": 1,
       "2025-05-15": 1,
       "2025-06-18": 1,
-      "2025-06-25": 3,
+      "2025-06-25": 4,
       "2025-06-26": 6,
-      "2025-06-27": 1,
+      "2025-06-27": 2,
       "2025-06-28": 4,
       "2025-06-30": 2,
       "2025-07-01": 1,
@@ -489,7 +489,7 @@
       "2025-09-19": 3,
       "2025-09-20": 1,
       "2025-09-22": 1,
-      "2025-09-23": 3,
+      "2025-09-23": 4,
       "2025-09-24": 1,
       "2025-09-25": 1,
       "2025-09-26": 5,
@@ -504,6 +504,7 @@
       "2025-10-15": 3,
       "2025-10-16": 2,
       "2025-10-17": 2,
+      "2025-10-18": 1,
       "2025-10-19": 1,
       "2025-10-20": 1,
       "2025-10-22": 2,
@@ -599,8 +600,8 @@
   },
   "totals": {
     "claude": 799,
-    "gemini": 228,
-    "agents": 316
+    "gemini": 230,
+    "agents": 318
   },
   "repo_first_seen": {
     "claude": {
@@ -1632,7 +1633,9 @@
       "EcoSoviet/ligaro": "2025-11-06",
       "agladysh/cogtools": "2025-07-21",
       "book000/node-utils": "2026-01-25",
-      "forestsoft-kr/vibe_coding": "2025-08-13"
+      "forestsoft-kr/vibe_coding": "2025-08-13",
+      "Datamine-Crypto/dashboard": "2025-06-27",
+      "EfeDurmaz16/omnix": "2025-06-25"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1950,7 +1953,9 @@
       "cross-org/test": "2025-11-23",
       "niemeyer/muslnet": "2025-09-23",
       "openxapi/openxapi": "2025-11-07",
-      "yprez/synth": "2025-06-04"
+      "yprez/synth": "2025-06-04",
+      "AojdevStudio/Finance-Guru": "2025-10-18",
+      "pyspa/doge-shell": "2025-09-23"
     }
   },
   "failed_repos": {
@@ -1960,7 +1965,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-17T19:34:24Z",
+      "last_run": "2026-02-17T20:05:23Z",
       "candidate_count": 100,
       "search_total_count": 14896,
       "processed_new": 0,
@@ -1969,22 +1974,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-17T19:35:25Z",
+      "last_run": "2026-02-17T20:08:27Z",
       "candidate_count": 100,
       "search_total_count": 5432,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 2.1
     },
     "agents": {
-      "last_run": "2026-02-17T19:35:26Z",
+      "last_run": "2026-02-17T20:09:30Z",
       "candidate_count": 100,
       "search_total_count": 37248,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 2.1
     }
   }
 }
