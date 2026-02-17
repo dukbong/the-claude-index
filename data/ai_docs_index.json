@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T14:24:01Z",
+  "last_updated": "2026-02-17T15:09:58Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -345,13 +345,14 @@
       "2025-09-21": 1,
       "2025-09-22": 1,
       "2025-09-24": 2,
+      "2025-09-27": 1,
       "2025-10-03": 1,
       "2025-10-05": 1,
       "2025-10-06": 1,
       "2025-10-07": 1,
       "2025-10-10": 3,
       "2025-10-14": 1,
-      "2025-10-15": 2,
+      "2025-10-15": 3,
       "2025-10-16": 1,
       "2025-10-17": 1,
       "2025-10-19": 1,
@@ -361,12 +362,14 @@
       "2025-10-23": 1,
       "2025-10-26": 1,
       "2025-10-29": 2,
+      "2025-10-31": 1,
       "2025-11-03": 1,
       "2025-11-04": 2,
       "2025-11-06": 1,
       "2025-11-07": 1,
       "2025-11-08": 1,
       "2025-11-10": 1,
+      "2025-11-12": 1,
       "2025-11-13": 1,
       "2025-11-14": 1,
       "2025-11-15": 1,
@@ -417,7 +420,7 @@
       "2026-01-30": 1,
       "2026-01-31": 1,
       "2026-02-01": 2,
-      "2026-02-04": 2,
+      "2026-02-04": 3,
       "2026-02-05": 2,
       "2026-02-06": 1
     },
@@ -585,7 +588,7 @@
   },
   "totals": {
     "claude": 790,
-    "gemini": 201,
+    "gemini": 206,
     "agents": 316
   },
   "repo_first_seen": {
@@ -1582,7 +1585,12 @@
       "smarttoken101/1": "2025-08-21",
       "carlo-colombo/CashSplitter": "2025-07-29",
       "defin85/bsl_type_safety_analyzer": "2025-08-08",
-      "s-show/xy-latlng-to-map": "2025-12-02"
+      "s-show/xy-latlng-to-map": "2025-12-02",
+      "PaulJPhilp/model-lens": "2025-10-15",
+      "ShinChven/video-screenshot-cli": "2025-09-27",
+      "saithis/Ratatoskr": "2026-02-04",
+      "tinghuatseng/ng-ssr": "2025-10-31",
+      "zhaoyul/webdev-tutorials": "2025-11-12"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -1910,25 +1918,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-17T14:17:02Z",
+      "last_run": "2026-02-17T15:09:49Z",
       "candidate_count": 100,
       "search_total_count": 11776,
-      "processed_new": 10,
-      "new_found": 10,
-      "scanned_this_run": 10,
-      "elapsed_sec": 7.9
-    },
-    "gemini": {
-      "last_run": "2026-02-17T14:20:57Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
+    "gemini": {
+      "last_run": "2026-02-17T15:09:56Z",
+      "candidate_count": 100,
+      "search_total_count": 5480,
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 4.8
+    },
     "agents": {
-      "last_run": "2026-02-17T14:24:01Z",
+      "last_run": "2026-02-17T15:09:58Z",
       "candidate_count": 100,
       "search_total_count": 35392,
       "processed_new": 0,
