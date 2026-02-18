@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T03:13:49Z",
+  "last_updated": "2026-02-18T05:06:50Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -507,6 +507,7 @@
       "2025-10-02": 1,
       "2025-10-06": 2,
       "2025-10-07": 5,
+      "2025-10-09": 1,
       "2025-10-10": 3,
       "2025-10-11": 2,
       "2025-10-12": 1,
@@ -611,7 +612,7 @@
   "totals": {
     "claude": 808,
     "gemini": 258,
-    "agents": 318
+    "agents": 319
   },
   "repo_first_seen": {
     "claude": {
@@ -2002,7 +2003,8 @@
       "openxapi/openxapi": "2025-11-07",
       "yprez/synth": "2025-06-04",
       "AojdevStudio/Finance-Guru": "2025-10-18",
-      "pyspa/doge-shell": "2025-09-23"
+      "pyspa/doge-shell": "2025-09-23",
+      "shyndman/ghost-tube": "2025-10-09"
     }
   },
   "failed_repos": {
@@ -2012,7 +2014,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-18T03:13:15Z",
+      "last_run": "2026-02-18T05:06:47Z",
       "candidate_count": 100,
       "search_total_count": 11104,
       "processed_new": 0,
@@ -2021,22 +2023,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-18T03:13:47Z",
+      "last_run": "2026-02-18T05:06:48Z",
       "candidate_count": 100,
       "search_total_count": 5352,
-      "processed_new": 28,
-      "new_found": 28,
-      "scanned_this_run": 28,
-      "elapsed_sec": 30.2
-    },
-    "agents": {
-      "last_run": "2026-02-18T03:13:49Z",
-      "candidate_count": 100,
-      "search_total_count": 37248,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
+    },
+    "agents": {
+      "last_run": "2026-02-18T05:06:50Z",
+      "candidate_count": 100,
+      "search_total_count": 37632,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.0
     }
   }
 }
