@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T11:55:17Z",
+  "last_updated": "2026-02-18T13:22:19Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -577,7 +577,7 @@
       "2025-12-30": 5,
       "2025-12-31": 4,
       "2026-01-01": 1,
-      "2026-01-02": 2,
+      "2026-01-02": 3,
       "2026-01-03": 1,
       "2026-01-04": 3,
       "2026-01-05": 2,
@@ -615,7 +615,7 @@
   "totals": {
     "claude": 824,
     "gemini": 267,
-    "agents": 323
+    "agents": 324
   },
   "repo_first_seen": {
     "claude": {
@@ -2036,7 +2036,8 @@
       "DmitriyNE/vibe-grocery-bot": "2025-06-06",
       "kfstorm/sonarr-metadata-rewrite": "2026-01-30",
       "1amageek/OpenFoundationModels-MLX": "2025-09-05",
-      "leynos/wildside": "2025-08-13"
+      "leynos/wildside": "2025-08-13",
+      "oxidecomputer/dropshot-api-manager": "2026-01-02"
     }
   },
   "failed_repos": {
@@ -2046,31 +2047,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-18T11:53:19Z",
+      "last_run": "2026-02-18T13:21:19Z",
       "candidate_count": 100,
       "search_total_count": 13344,
-      "processed_new": 7,
-      "new_found": 7,
-      "scanned_this_run": 7,
-      "elapsed_sec": 5.7
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-18T11:54:21Z",
+      "last_run": "2026-02-18T13:21:21Z",
       "candidate_count": 100,
-      "search_total_count": 5288,
-      "processed_new": 9,
-      "new_found": 9,
-      "scanned_this_run": 9,
-      "elapsed_sec": 6.0
+      "search_total_count": 5272,
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-18T11:55:17Z",
+      "last_run": "2026-02-18T13:22:19Z",
       "candidate_count": 100,
       "search_total_count": 38400,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.8
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.6
     }
   }
 }
