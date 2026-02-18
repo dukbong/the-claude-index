@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T20:24:28Z",
+  "last_updated": "2026-02-18T21:13:07Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -309,7 +309,7 @@
       "2025-07-17": 2,
       "2025-07-18": 1,
       "2025-07-19": 1,
-      "2025-07-20": 2,
+      "2025-07-20": 3,
       "2025-07-21": 4,
       "2025-07-22": 3,
       "2025-07-24": 1,
@@ -326,7 +326,7 @@
       "2025-08-10": 2,
       "2025-08-12": 1,
       "2025-08-13": 1,
-      "2025-08-14": 1,
+      "2025-08-14": 2,
       "2025-08-15": 3,
       "2025-08-16": 1,
       "2025-08-19": 2,
@@ -419,11 +419,12 @@
       "2025-12-20": 1,
       "2025-12-21": 4,
       "2025-12-22": 2,
+      "2025-12-23": 1,
       "2025-12-25": 1,
       "2025-12-26": 4,
-      "2025-12-27": 3,
+      "2025-12-27": 4,
       "2025-12-28": 3,
-      "2025-12-29": 1,
+      "2025-12-29": 2,
       "2025-12-30": 4,
       "2025-12-31": 2,
       "2026-01-01": 1,
@@ -446,9 +447,10 @@
       "2026-01-27": 7,
       "2026-01-28": 1,
       "2026-01-29": 3,
-      "2026-01-30": 1,
+      "2026-01-30": 2,
       "2026-01-31": 1,
       "2026-02-01": 4,
+      "2026-02-02": 1,
       "2026-02-04": 3,
       "2026-02-05": 2,
       "2026-02-06": 1
@@ -620,7 +622,7 @@
   },
   "totals": {
     "claude": 827,
-    "gemini": 303,
+    "gemini": 310,
     "agents": 324
   },
   "repo_first_seen": {
@@ -1756,7 +1758,14 @@
       "thraxil/garrulus": "2026-02-01",
       "tkleisas/Meze": "2026-01-24",
       "vizionik25/CodeRevAI": "2025-11-18",
-      "whilmarbitoco/frams": "2025-11-26"
+      "whilmarbitoco/frams": "2025-11-26",
+      "Vidsneezes/PlayDateGames": "2026-01-30",
+      "Zantek/GChallenge": "2025-12-23",
+      "dankerizer/donasai": "2025-12-29",
+      "haraldschilly/analyze-your-dna": "2026-02-02",
+      "romaingyh/zen_iptv_web": "2025-08-14",
+      "shu-kitamura/packet-builder": "2025-07-20",
+      "swon3210/my-timer": "2025-12-27"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2092,25 +2101,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-18T20:22:26Z",
-      "candidate_count": 100,
-      "search_total_count": 18464,
+      "last_run": "2026-02-18T21:10:03Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-18T20:23:26Z",
+      "last_run": "2026-02-18T21:12:14Z",
       "candidate_count": 100,
       "search_total_count": 5320,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 7,
+      "new_found": 7,
+      "scanned_this_run": 7,
+      "elapsed_sec": 7.5
     },
     "agents": {
-      "last_run": "2026-02-18T20:24:28Z",
+      "last_run": "2026-02-18T21:13:07Z",
       "candidate_count": 100,
       "search_total_count": 38528,
       "processed_new": 0,
