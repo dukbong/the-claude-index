@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T11:09:14Z",
+  "last_updated": "2026-02-19T12:00:16Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -314,7 +314,7 @@
       "2025-07-21": 5,
       "2025-07-22": 3,
       "2025-07-24": 2,
-      "2025-07-25": 2,
+      "2025-07-25": 3,
       "2025-07-26": 1,
       "2025-07-27": 1,
       "2025-07-29": 2,
@@ -406,7 +406,7 @@
       "2025-11-21": 1,
       "2025-11-22": 2,
       "2025-11-23": 2,
-      "2025-11-24": 3,
+      "2025-11-24": 4,
       "2025-11-25": 4,
       "2025-11-26": 4,
       "2025-11-27": 1,
@@ -429,7 +429,7 @@
       "2025-12-20": 2,
       "2025-12-21": 6,
       "2025-12-22": 3,
-      "2025-12-23": 1,
+      "2025-12-23": 2,
       "2025-12-25": 1,
       "2025-12-26": 4,
       "2025-12-27": 4,
@@ -635,7 +635,7 @@
   },
   "totals": {
     "claude": 842,
-    "gemini": 343,
+    "gemini": 346,
     "agents": 326
   },
   "repo_first_seen": {
@@ -1826,7 +1826,10 @@
       "Ethan23p/contra-ethos_quartz_site": "2025-09-02",
       "filmil/futility": "2025-12-13",
       "hik20/localAssistant": "2025-07-24",
-      "svachmic/svachmic-cz": "2025-10-19"
+      "svachmic/svachmic-cz": "2025-10-19",
+      "8888/dotfiles": "2025-12-23",
+      "JinyongShin/problem_forge": "2025-07-25",
+      "NekoyaJolly/my-cats-pro": "2025-11-24"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2164,27 +2167,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-19T11:07:16Z",
+      "last_run": "2026-02-19T11:54:13Z",
       "candidate_count": 100,
-      "search_total_count": 11104,
-      "processed_new": 3,
-      "new_found": 3,
-      "scanned_this_run": 3,
-      "elapsed_sec": 3.1
-    },
-    "gemini": {
-      "last_run": "2026-02-19T11:08:14Z",
-      "candidate_count": 100,
-      "search_total_count": 4072,
+      "search_total_count": 11152,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
-    "agents": {
-      "last_run": "2026-02-19T11:09:14Z",
+    "gemini": {
+      "last_run": "2026-02-19T11:56:17Z",
       "candidate_count": 100,
-      "search_total_count": 38528,
+      "search_total_count": 5168,
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 2.8
+    },
+    "agents": {
+      "last_run": "2026-02-19T12:00:16Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
