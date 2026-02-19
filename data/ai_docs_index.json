@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T12:00:16Z",
+  "last_updated": "2026-02-19T13:24:56Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -292,7 +292,7 @@
       "2025-06-25": 5,
       "2025-06-26": 8,
       "2025-06-27": 2,
-      "2025-06-28": 4,
+      "2025-06-28": 5,
       "2025-06-29": 1,
       "2025-06-30": 2,
       "2025-07-01": 2,
@@ -364,6 +364,7 @@
       "2025-09-23": 1,
       "2025-09-24": 2,
       "2025-09-27": 2,
+      "2025-09-30": 1,
       "2025-10-03": 1,
       "2025-10-04": 1,
       "2025-10-05": 1,
@@ -417,6 +418,7 @@
       "2025-12-03": 1,
       "2025-12-04": 1,
       "2025-12-05": 1,
+      "2025-12-06": 1,
       "2025-12-08": 1,
       "2025-12-10": 1,
       "2025-12-11": 1,
@@ -635,7 +637,7 @@
   },
   "totals": {
     "claude": 842,
-    "gemini": 346,
+    "gemini": 349,
     "agents": 326
   },
   "repo_first_seen": {
@@ -1829,7 +1831,10 @@
       "svachmic/svachmic-cz": "2025-10-19",
       "8888/dotfiles": "2025-12-23",
       "JinyongShin/problem_forge": "2025-07-25",
-      "NekoyaJolly/my-cats-pro": "2025-11-24"
+      "NekoyaJolly/my-cats-pro": "2025-11-24",
+      "jl1nie/clean-oracle": "2025-06-28",
+      "maxnilz/feed": "2025-12-06",
+      "oshliaer/tp-link-td-w8961n-telnet-client": "2025-09-30"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2167,7 +2172,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-19T11:54:13Z",
+      "last_run": "2026-02-19T13:23:55Z",
       "candidate_count": 100,
       "search_total_count": 11152,
       "processed_new": 0,
@@ -2176,7 +2181,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-19T11:56:17Z",
+      "last_run": "2026-02-19T13:23:59Z",
       "candidate_count": 100,
       "search_total_count": 5168,
       "processed_new": 3,
@@ -2185,9 +2190,9 @@
       "elapsed_sec": 2.8
     },
     "agents": {
-      "last_run": "2026-02-19T12:00:16Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-02-19T13:24:56Z",
+      "candidate_count": 100,
+      "search_total_count": 38528,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
