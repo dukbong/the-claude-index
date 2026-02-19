@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T13:24:56Z",
+  "last_updated": "2026-02-19T14:32:18Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -574,7 +574,7 @@
       "2025-11-27": 1,
       "2025-11-28": 1,
       "2025-11-29": 2,
-      "2025-11-30": 4,
+      "2025-11-30": 5,
       "2025-12-01": 1,
       "2025-12-02": 1,
       "2025-12-05": 1,
@@ -638,7 +638,7 @@
   "totals": {
     "claude": 842,
     "gemini": 349,
-    "agents": 326
+    "agents": 327
   },
   "repo_first_seen": {
     "claude": {
@@ -2162,7 +2162,8 @@
       "leynos/wildside": "2025-08-13",
       "oxidecomputer/dropshot-api-manager": "2026-01-02",
       "felixzieger/think-in-sync": "2025-09-13",
-      "frontboat/veotools": "2025-10-04"
+      "frontboat/veotools": "2025-10-04",
+      "schmave/demschooltools": "2025-11-30"
     }
   },
   "failed_repos": {
@@ -2172,7 +2173,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-19T13:23:55Z",
+      "last_run": "2026-02-19T14:31:16Z",
       "candidate_count": 100,
       "search_total_count": 11152,
       "processed_new": 0,
@@ -2181,22 +2182,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-19T13:23:59Z",
+      "last_run": "2026-02-19T14:31:18Z",
       "candidate_count": 100,
       "search_total_count": 5168,
-      "processed_new": 3,
-      "new_found": 3,
-      "scanned_this_run": 3,
-      "elapsed_sec": 2.8
-    },
-    "agents": {
-      "last_run": "2026-02-19T13:24:56Z",
-      "candidate_count": 100,
-      "search_total_count": 38528,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
+    },
+    "agents": {
+      "last_run": "2026-02-19T14:32:18Z",
+      "candidate_count": 100,
+      "search_total_count": 38528,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.2
     }
   }
 }
