@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T18:32:59Z",
+  "last_updated": "2026-02-19T19:28:19Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -218,7 +218,7 @@
       "2025-12-01": 4,
       "2025-12-02": 3,
       "2025-12-03": 4,
-      "2025-12-04": 2,
+      "2025-12-04": 3,
       "2025-12-05": 6,
       "2025-12-06": 4,
       "2025-12-07": 6,
@@ -637,7 +637,7 @@
     }
   },
   "totals": {
-    "claude": 848,
+    "claude": 849,
     "gemini": 354,
     "agents": 330
   },
@@ -1490,7 +1490,8 @@
       "flowshapr/flowshapr": "2025-09-01",
       "gaarutyunov/slicervm-playground": "2025-12-16",
       "gpt-cmdr/ras-commander-qgis": "2025-06-23",
-      "tomanagle/EdgeKit": "2025-12-29"
+      "tomanagle/EdgeKit": "2025-12-29",
+      "Oggie110/MathCommander": "2025-12-04"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2182,37 +2183,39 @@
     }
   },
   "failed_repos": {
-    "claude": [],
+    "claude": [
+      "AppSprout-dev/felix"
+    ],
     "gemini": [],
     "agents": []
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-19T18:32:53Z",
+      "last_run": "2026-02-19T19:28:17Z",
       "candidate_count": 100,
-      "search_total_count": 11104,
-      "processed_new": 6,
-      "new_found": 6,
-      "scanned_this_run": 6,
-      "elapsed_sec": 6.7
-    },
-    "gemini": {
-      "last_run": "2026-02-19T18:32:56Z",
-      "candidate_count": 100,
-      "search_total_count": 5296,
-      "processed_new": 2,
-      "new_found": 2,
+      "search_total_count": 11008,
+      "processed_new": 1,
+      "new_found": 1,
       "scanned_this_run": 2,
       "elapsed_sec": 1.6
     },
+    "gemini": {
+      "last_run": "2026-02-19T19:28:18Z",
+      "candidate_count": 100,
+      "search_total_count": 5296,
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
+    },
     "agents": {
-      "last_run": "2026-02-19T18:32:59Z",
+      "last_run": "2026-02-19T19:28:19Z",
       "candidate_count": 100,
       "search_total_count": 38528,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 2.2
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     }
   }
 }
