@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T10:12:05Z",
+  "last_updated": "2026-02-19T11:09:14Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -44,13 +44,13 @@
       "2025-06-02": 1,
       "2025-06-03": 1,
       "2025-06-04": 1,
-      "2025-06-06": 4,
+      "2025-06-06": 5,
       "2025-06-07": 3,
       "2025-06-08": 6,
       "2025-06-10": 2,
       "2025-06-11": 3,
       "2025-06-12": 4,
-      "2025-06-13": 1,
+      "2025-06-13": 2,
       "2025-06-14": 3,
       "2025-06-15": 4,
       "2025-06-17": 5,
@@ -271,7 +271,7 @@
       "2026-01-24": 4,
       "2026-01-25": 6,
       "2026-01-26": 5,
-      "2026-01-27": 4,
+      "2026-01-27": 5,
       "2026-01-28": 5,
       "2026-01-29": 3,
       "2026-01-30": 6,
@@ -634,7 +634,7 @@
     }
   },
   "totals": {
-    "claude": 839,
+    "claude": 842,
     "gemini": 343,
     "agents": 326
   },
@@ -1478,7 +1478,10 @@
       "rolandtritsch/whisper-wayland": "2025-08-15",
       "wardogordo/amplify-vite-react-template": "2026-02-02",
       "wstewarttennes/hass-beeminder": "2025-07-13",
-      "zerobias-org/collectorbot": "2025-11-12"
+      "zerobias-org/collectorbot": "2025-11-12",
+      "businesswalrus/pupper": "2025-06-13",
+      "ineffably/kenney-asset-viewer": "2025-06-06",
+      "noahsw/mlp-ppa-ics": "2026-01-27"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2161,16 +2164,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-19T10:08:00Z",
+      "last_run": "2026-02-19T11:07:16Z",
       "candidate_count": 100,
       "search_total_count": 11104,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 3.1
     },
     "gemini": {
-      "last_run": "2026-02-19T10:11:05Z",
+      "last_run": "2026-02-19T11:08:14Z",
       "candidate_count": 100,
       "search_total_count": 4072,
       "processed_new": 0,
@@ -2179,7 +2182,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-19T10:12:05Z",
+      "last_run": "2026-02-19T11:09:14Z",
       "candidate_count": 100,
       "search_total_count": 38528,
       "processed_new": 0,
