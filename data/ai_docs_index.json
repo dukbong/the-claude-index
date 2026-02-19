@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T19:28:19Z",
+  "last_updated": "2026-02-19T20:06:52Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -57,7 +57,7 @@
       "2025-06-18": 4,
       "2025-06-19": 3,
       "2025-06-20": 1,
-      "2025-06-21": 2,
+      "2025-06-21": 3,
       "2025-06-22": 2,
       "2025-06-23": 3,
       "2025-06-24": 1,
@@ -126,7 +126,7 @@
       "2025-08-26": 3,
       "2025-08-27": 6,
       "2025-08-28": 4,
-      "2025-08-29": 3,
+      "2025-08-29": 4,
       "2025-08-30": 2,
       "2025-08-31": 4,
       "2025-09-01": 5,
@@ -173,15 +173,15 @@
       "2025-10-15": 1,
       "2025-10-16": 1,
       "2025-10-17": 6,
-      "2025-10-18": 3,
+      "2025-10-18": 4,
       "2025-10-19": 3,
-      "2025-10-20": 3,
+      "2025-10-20": 4,
       "2025-10-21": 1,
       "2025-10-22": 6,
       "2025-10-24": 2,
       "2025-10-25": 2,
       "2025-10-26": 2,
-      "2025-10-27": 3,
+      "2025-10-27": 4,
       "2025-10-28": 1,
       "2025-10-29": 4,
       "2025-10-30": 4,
@@ -637,7 +637,7 @@
     }
   },
   "totals": {
-    "claude": 849,
+    "claude": 854,
     "gemini": 354,
     "agents": 330
   },
@@ -1491,7 +1491,12 @@
       "gaarutyunov/slicervm-playground": "2025-12-16",
       "gpt-cmdr/ras-commander-qgis": "2025-06-23",
       "tomanagle/EdgeKit": "2025-12-29",
-      "Oggie110/MathCommander": "2025-12-04"
+      "Oggie110/MathCommander": "2025-12-04",
+      "1amageek/swift-netcdf": "2025-10-20",
+      "JinTanba/polyaave-contract-dev": "2025-06-21",
+      "YuuRiLee/snack-storyteller": "2025-10-18",
+      "jimmyeao/Mideej": "2025-10-27",
+      "johnschoeman/about": "2025-08-29"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2191,16 +2196,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-19T19:28:17Z",
+      "last_run": "2026-02-19T20:00:52Z",
       "candidate_count": 100,
-      "search_total_count": 11008,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.6
+      "search_total_count": 11104,
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 5.1
     },
     "gemini": {
-      "last_run": "2026-02-19T19:28:18Z",
+      "last_run": "2026-02-19T20:02:48Z",
       "candidate_count": 100,
       "search_total_count": 5296,
       "processed_new": 0,
@@ -2209,9 +2214,9 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-19T19:28:19Z",
-      "candidate_count": 100,
-      "search_total_count": 38528,
+      "last_run": "2026-02-19T20:06:52Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
