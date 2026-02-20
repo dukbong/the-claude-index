@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T05:09:03Z",
+  "last_updated": "2026-02-20T06:10:57Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -413,6 +413,7 @@
       "2025-11-26": 4,
       "2025-11-27": 1,
       "2025-11-28": 1,
+      "2025-11-29": 1,
       "2025-11-30": 3,
       "2025-12-01": 1,
       "2025-12-02": 2,
@@ -638,7 +639,7 @@
   },
   "totals": {
     "claude": 866,
-    "gemini": 355,
+    "gemini": 356,
     "agents": 331
   },
   "repo_first_seen": {
@@ -1865,7 +1866,8 @@
       "plato8111/open-street-map": "2025-10-03",
       "LucassF5/Horta_Hub": "2025-10-31",
       "yattom/product-development-game": "2025-06-27",
-      "roninio/linkedin-liker-insights-extension-2": "2025-06-26"
+      "roninio/linkedin-liker-insights-extension-2": "2025-06-26",
+      "ohnotnow/ticky": "2025-11-29"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2210,25 +2212,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-20T05:09:01Z",
+      "last_run": "2026-02-20T06:08:56Z",
       "candidate_count": 100,
       "search_total_count": 11008,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.1
-    },
-    "gemini": {
-      "last_run": "2026-02-20T05:09:02Z",
-      "candidate_count": 100,
-      "search_total_count": 4960,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
+    "gemini": {
+      "last_run": "2026-02-20T06:09:58Z",
+      "candidate_count": 100,
+      "search_total_count": 4960,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
+    },
     "agents": {
-      "last_run": "2026-02-20T05:09:03Z",
+      "last_run": "2026-02-20T06:10:57Z",
       "candidate_count": 100,
       "search_total_count": 37504,
       "processed_new": 0,
