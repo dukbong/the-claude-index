@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T19:53:22Z",
+  "last_updated": "2026-02-20T20:15:38Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -183,7 +183,7 @@
       "2025-10-26": 2,
       "2025-10-27": 4,
       "2025-10-28": 1,
-      "2025-10-29": 4,
+      "2025-10-29": 5,
       "2025-10-30": 4,
       "2025-10-31": 1,
       "2025-11-01": 4,
@@ -642,7 +642,7 @@
     }
   },
   "totals": {
-    "claude": 868,
+    "claude": 869,
     "gemini": 387,
     "agents": 331
   },
@@ -1515,7 +1515,8 @@
       "Cipher-Text/open-care-backend": "2026-01-30",
       "marcin-mroczynski/h3chat": "2025-08-08",
       "mk-knight23/16-web-editorial-layouts": "2026-02-01",
-      "sandwichfarm/encoded-entities": "2025-07-07"
+      "sandwichfarm/encoded-entities": "2025-07-07",
+      "hiors-project/hiors": "2025-10-29"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2249,25 +2250,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-20T19:50:19Z",
+      "last_run": "2026-02-20T20:15:35Z",
       "candidate_count": 100,
-      "search_total_count": 11008,
+      "search_total_count": 15832,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.6
+    },
+    "gemini": {
+      "last_run": "2026-02-20T20:15:37Z",
+      "candidate_count": 100,
+      "search_total_count": 7696,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
-    "gemini": {
-      "last_run": "2026-02-20T19:51:33Z",
-      "candidate_count": 100,
-      "search_total_count": 7696,
-      "processed_new": 18,
-      "new_found": 18,
-      "scanned_this_run": 18,
-      "elapsed_sec": 12.5
-    },
     "agents": {
-      "last_run": "2026-02-20T19:53:22Z",
+      "last_run": "2026-02-20T20:15:38Z",
       "candidate_count": 100,
       "search_total_count": 37504,
       "processed_new": 0,
