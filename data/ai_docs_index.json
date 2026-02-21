@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T07:01:20Z",
+  "last_updated": "2026-02-21T07:46:20Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -526,6 +526,7 @@
       "2025-09-06": 1,
       "2025-09-07": 2,
       "2025-09-09": 1,
+      "2025-09-10": 1,
       "2025-09-12": 1,
       "2025-09-13": 3,
       "2025-09-15": 1,
@@ -649,7 +650,7 @@
   "totals": {
     "claude": 875,
     "gemini": 399,
-    "agents": 336
+    "agents": 337
   },
   "repo_first_seen": {
     "claude": {
@@ -2266,7 +2267,8 @@
       "cagojeiger/code-hub": "2025-12-17",
       "felixAnhalt/spotify-playlist-extractor": "2025-12-23",
       "nogataka/codex-sdk-ts-sample": "2025-10-18",
-      "wyattowalsh/riso": "2025-10-29"
+      "wyattowalsh/riso": "2025-10-29",
+      "maraxen/PrxteinMPNN": "2025-09-10"
     }
   },
   "failed_repos": {
@@ -2278,16 +2280,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-21T07:00:19Z",
+      "last_run": "2026-02-21T07:44:16Z",
       "candidate_count": 100,
       "search_total_count": 11584,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.6
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-21T07:01:19Z",
+      "last_run": "2026-02-21T07:45:17Z",
       "candidate_count": 100,
       "search_total_count": 6272,
       "processed_new": 0,
@@ -2296,13 +2298,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-21T07:01:20Z",
+      "last_run": "2026-02-21T07:46:20Z",
       "candidate_count": 100,
       "search_total_count": 37504,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.4
     }
   }
 }
