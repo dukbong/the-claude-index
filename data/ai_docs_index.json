@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T21:57:36Z",
+  "last_updated": "2026-02-21T22:35:48Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -551,7 +551,7 @@
       "2025-10-13": 2,
       "2025-10-15": 3,
       "2025-10-16": 2,
-      "2025-10-17": 2,
+      "2025-10-17": 3,
       "2025-10-18": 3,
       "2025-10-19": 1,
       "2025-10-20": 1,
@@ -651,7 +651,7 @@
   "totals": {
     "claude": 879,
     "gemini": 403,
-    "agents": 346
+    "agents": 347
   },
   "repo_first_seen": {
     "claude": {
@@ -2286,7 +2286,8 @@
       "turbomam/cmm-ai-automation": "2025-12-09",
       "devharshthakur/nodetsp": "2026-01-08",
       "julwrites/webwiki": "2025-12-28",
-      "ramhaidar/Code-Executor-MCP": "2025-12-26"
+      "ramhaidar/Code-Executor-MCP": "2025-12-26",
+      "felipap/yap": "2025-10-17"
     }
   },
   "failed_repos": {
@@ -2298,16 +2299,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-21T21:55:33Z",
-      "candidate_count": 100,
-      "search_total_count": 12448,
+      "last_run": "2026-02-21T22:34:44Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-21T21:57:34Z",
+      "last_run": "2026-02-21T22:35:46Z",
       "candidate_count": 100,
       "search_total_count": 6272,
       "processed_new": 0,
@@ -2316,13 +2317,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-21T21:57:36Z",
+      "last_run": "2026-02-21T22:35:48Z",
       "candidate_count": 100,
       "search_total_count": 39808,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     }
   }
 }
