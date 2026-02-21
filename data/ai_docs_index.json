@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T06:10:13Z",
+  "last_updated": "2026-02-21T07:01:20Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -24,6 +24,7 @@
       "2025-04-06": 1,
       "2025-04-12": 1,
       "2025-04-14": 1,
+      "2025-04-16": 1,
       "2025-04-17": 1,
       "2025-04-18": 1,
       "2025-04-25": 1,
@@ -646,7 +647,7 @@
     }
   },
   "totals": {
-    "claude": 874,
+    "claude": 875,
     "gemini": 399,
     "agents": 336
   },
@@ -1525,7 +1526,8 @@
       "okeefeco/pyeye-mcp": "2025-08-17",
       "shell909090/pyregex": "2026-02-04",
       "subhoghoshX/execute": "2025-08-02",
-      "ivgtr/profit-calendar": "2025-07-29"
+      "ivgtr/profit-calendar": "2025-07-29",
+      "ignatov/sem-search": "2025-04-16"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2276,16 +2278,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-21T06:09:11Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "last_run": "2026-02-21T07:00:19Z",
+      "candidate_count": 100,
+      "search_total_count": 11584,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.6
     },
     "gemini": {
-      "last_run": "2026-02-21T06:09:12Z",
+      "last_run": "2026-02-21T07:01:19Z",
       "candidate_count": 100,
       "search_total_count": 6272,
       "processed_new": 0,
@@ -2294,7 +2296,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-21T06:10:13Z",
+      "last_run": "2026-02-21T07:01:20Z",
       "candidate_count": 100,
       "search_total_count": 37504,
       "processed_new": 0,
