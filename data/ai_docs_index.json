@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T15:58:32Z",
+  "last_updated": "2026-02-21T16:42:46Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -98,7 +98,7 @@
       "2025-07-28": 1,
       "2025-07-29": 4,
       "2025-07-30": 3,
-      "2025-07-31": 2,
+      "2025-07-31": 3,
       "2025-08-01": 2,
       "2025-08-02": 3,
       "2025-08-03": 5,
@@ -452,7 +452,7 @@
       "2026-01-03": 3,
       "2026-01-04": 1,
       "2026-01-06": 1,
-      "2026-01-08": 6,
+      "2026-01-08": 7,
       "2026-01-10": 1,
       "2026-01-11": 2,
       "2026-01-12": 2,
@@ -649,8 +649,8 @@
     }
   },
   "totals": {
-    "claude": 875,
-    "gemini": 402,
+    "claude": 876,
+    "gemini": 403,
     "agents": 346
   },
   "repo_first_seen": {
@@ -1529,7 +1529,8 @@
       "shell909090/pyregex": "2026-02-04",
       "subhoghoshX/execute": "2025-08-02",
       "ivgtr/profit-calendar": "2025-07-29",
-      "ignatov/sem-search": "2025-04-16"
+      "ignatov/sem-search": "2025-04-16",
+      "TimurMunykin/OutlineVpnTelegramBot": "2025-07-31"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -1933,7 +1934,8 @@
       "ublue-os/docs.bazzite.gg": "2025-09-08",
       "H2OSLabs/elfiee": "2025-10-23",
       "JAICHANGPARK/open-codelabs": "2025-12-31",
-      "nickbarfuss/brutal-worlds": "2025-09-11"
+      "nickbarfuss/brutal-worlds": "2025-09-11",
+      "kalman33/Tuello": "2026-01-08"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2293,25 +2295,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-21T15:56:31Z",
+      "last_run": "2026-02-21T16:38:43Z",
       "candidate_count": 100,
-      "search_total_count": 15008,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 10616,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.0
     },
     "gemini": {
-      "last_run": "2026-02-21T15:57:31Z",
+      "last_run": "2026-02-21T16:39:46Z",
       "candidate_count": 100,
       "search_total_count": 6272,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.6
     },
     "agents": {
-      "last_run": "2026-02-21T15:58:32Z",
+      "last_run": "2026-02-21T16:42:46Z",
       "candidate_count": 100,
       "search_total_count": 39040,
       "processed_new": 0,
