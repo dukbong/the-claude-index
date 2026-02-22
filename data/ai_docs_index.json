@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T07:23:33Z",
+  "last_updated": "2026-02-22T07:58:39Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -49,7 +49,7 @@
       "2025-06-07": 3,
       "2025-06-08": 6,
       "2025-06-10": 2,
-      "2025-06-11": 3,
+      "2025-06-11": 4,
       "2025-06-12": 4,
       "2025-06-13": 2,
       "2025-06-14": 3,
@@ -217,7 +217,7 @@
       "2025-11-28": 1,
       "2025-11-29": 1,
       "2025-11-30": 2,
-      "2025-12-01": 4,
+      "2025-12-01": 5,
       "2025-12-02": 3,
       "2025-12-03": 4,
       "2025-12-04": 3,
@@ -650,7 +650,7 @@
     }
   },
   "totals": {
-    "claude": 885,
+    "claude": 887,
     "gemini": 403,
     "agents": 349
   },
@@ -1540,7 +1540,9 @@
       "theodorechapman/rel-agent": "2025-11-21",
       "lisarigroup/auditor": "2025-07-22",
       "mitsosops/CANDelta": "2025-12-25",
-      "toshi-yaminabe/ObsidianLikeNotion": "2025-06-16"
+      "toshi-yaminabe/ObsidianLikeNotion": "2025-06-16",
+      "ClayCampaigne/hypercubes": "2025-06-11",
+      "JTNEX/claude-test": "2025-12-01"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2308,16 +2310,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-22T07:23:30Z",
+      "last_run": "2026-02-22T07:55:37Z",
       "candidate_count": 100,
       "search_total_count": 12576,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.7
     },
     "gemini": {
-      "last_run": "2026-02-22T07:23:31Z",
+      "last_run": "2026-02-22T07:56:36Z",
       "candidate_count": 100,
       "search_total_count": 6240,
       "processed_new": 0,
@@ -2326,7 +2328,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-22T07:23:33Z",
+      "last_run": "2026-02-22T07:58:39Z",
       "candidate_count": 100,
       "search_total_count": 39808,
       "processed_new": 0,
