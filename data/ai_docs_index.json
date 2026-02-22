@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T07:58:39Z",
+  "last_updated": "2026-02-22T08:44:17Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -593,7 +593,7 @@
       "2025-12-06": 4,
       "2025-12-08": 1,
       "2025-12-09": 1,
-      "2025-12-10": 2,
+      "2025-12-10": 3,
       "2025-12-11": 1,
       "2025-12-12": 2,
       "2025-12-13": 2,
@@ -652,7 +652,7 @@
   "totals": {
     "claude": 887,
     "gemini": 403,
-    "agents": 349
+    "agents": 350
   },
   "repo_first_seen": {
     "claude": {
@@ -2298,7 +2298,8 @@
       "ramhaidar/Code-Executor-MCP": "2025-12-26",
       "felipap/yap": "2025-10-17",
       "freightCognition/mcp-slackbot": "2025-11-01",
-      "Nerivec/zigbee-on-host": "2025-10-02"
+      "Nerivec/zigbee-on-host": "2025-10-02",
+      "KubeHeal/openshift-aiops-platform": "2025-12-10"
     }
   },
   "failed_repos": {
@@ -2310,16 +2311,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-22T07:55:37Z",
+      "last_run": "2026-02-22T08:43:15Z",
       "candidate_count": 100,
       "search_total_count": 12576,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.7
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-22T07:56:36Z",
+      "last_run": "2026-02-22T08:43:17Z",
       "candidate_count": 100,
       "search_total_count": 6240,
       "processed_new": 0,
@@ -2328,13 +2329,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-22T07:58:39Z",
+      "last_run": "2026-02-22T08:44:17Z",
       "candidate_count": 100,
       "search_total_count": 39808,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     }
   }
 }
