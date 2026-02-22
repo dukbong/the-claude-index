@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T17:47:12Z",
+  "last_updated": "2026-02-22T18:03:32Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -370,6 +370,7 @@
       "2025-09-22": 2,
       "2025-09-23": 1,
       "2025-09-24": 2,
+      "2025-09-25": 1,
       "2025-09-27": 2,
       "2025-09-30": 1,
       "2025-10-03": 2,
@@ -409,7 +410,7 @@
       "2025-11-15": 1,
       "2025-11-16": 1,
       "2025-11-17": 1,
-      "2025-11-18": 2,
+      "2025-11-18": 3,
       "2025-11-19": 4,
       "2025-11-20": 1,
       "2025-11-21": 1,
@@ -473,7 +474,7 @@
       "2026-01-28": 1,
       "2026-01-29": 4,
       "2026-01-30": 2,
-      "2026-01-31": 1,
+      "2026-01-31": 2,
       "2026-02-01": 6,
       "2026-02-02": 1,
       "2026-02-04": 3,
@@ -652,7 +653,7 @@
   },
   "totals": {
     "claude": 888,
-    "gemini": 404,
+    "gemini": 407,
     "agents": 354
   },
   "repo_first_seen": {
@@ -1950,7 +1951,10 @@
       "JAICHANGPARK/open-codelabs": "2025-12-31",
       "nickbarfuss/brutal-worlds": "2025-09-11",
       "kalman33/Tuello": "2026-01-08",
-      "kogriv/bquant": "2025-08-31"
+      "kogriv/bquant": "2025-08-31",
+      "SonicYeager/PracticesAndSpikes": "2025-11-18",
+      "WildH0g/consolas": "2025-09-25",
+      "ferdinandosantacroce/ferdinandosantacroce.github.io": "2026-01-31"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2318,7 +2322,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-22T17:46:11Z",
+      "last_run": "2026-02-22T18:02:31Z",
       "candidate_count": 100,
       "search_total_count": 13504,
       "processed_new": 0,
@@ -2327,16 +2331,16 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-22T17:47:11Z",
+      "last_run": "2026-02-22T18:02:36Z",
       "candidate_count": 100,
       "search_total_count": 6240,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.5
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 3.4
     },
     "agents": {
-      "last_run": "2026-02-22T17:47:12Z",
+      "last_run": "2026-02-22T18:03:32Z",
       "candidate_count": 100,
       "search_total_count": 41856,
       "processed_new": 0,
