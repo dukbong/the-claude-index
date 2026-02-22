@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T17:13:29Z",
+  "last_updated": "2026-02-22T17:47:12Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -347,7 +347,7 @@
       "2025-08-28": 2,
       "2025-08-29": 3,
       "2025-08-30": 1,
-      "2025-08-31": 1,
+      "2025-08-31": 2,
       "2025-09-01": 1,
       "2025-09-02": 1,
       "2025-09-03": 2,
@@ -652,7 +652,7 @@
   },
   "totals": {
     "claude": 888,
-    "gemini": 403,
+    "gemini": 404,
     "agents": 354
   },
   "repo_first_seen": {
@@ -1949,7 +1949,8 @@
       "H2OSLabs/elfiee": "2025-10-23",
       "JAICHANGPARK/open-codelabs": "2025-12-31",
       "nickbarfuss/brutal-worlds": "2025-09-11",
-      "kalman33/Tuello": "2026-01-08"
+      "kalman33/Tuello": "2026-01-08",
+      "kogriv/bquant": "2025-08-31"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2317,7 +2318,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-22T17:13:25Z",
+      "last_run": "2026-02-22T17:46:11Z",
       "candidate_count": 100,
       "search_total_count": 13504,
       "processed_new": 0,
@@ -2326,22 +2327,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-22T17:13:26Z",
+      "last_run": "2026-02-22T17:47:11Z",
       "candidate_count": 100,
       "search_total_count": 6240,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.5
+    },
+    "agents": {
+      "last_run": "2026-02-22T17:47:12Z",
+      "candidate_count": 100,
+      "search_total_count": 41856,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
-    },
-    "agents": {
-      "last_run": "2026-02-22T17:13:29Z",
-      "candidate_count": 100,
-      "search_total_count": 41856,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 1.1
     }
   }
 }
