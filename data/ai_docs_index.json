@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T23:57:01Z",
+  "last_updated": "2026-02-22T02:44:32Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -80,7 +80,7 @@
       "2025-07-10": 1,
       "2025-07-11": 5,
       "2025-07-12": 1,
-      "2025-07-13": 4,
+      "2025-07-13": 5,
       "2025-07-14": 2,
       "2025-07-15": 4,
       "2025-07-16": 3,
@@ -103,7 +103,7 @@
       "2025-08-02": 3,
       "2025-08-03": 5,
       "2025-08-04": 4,
-      "2025-08-05": 4,
+      "2025-08-05": 5,
       "2025-08-06": 1,
       "2025-08-07": 2,
       "2025-08-08": 5,
@@ -206,7 +206,7 @@
       "2025-11-18": 5,
       "2025-11-19": 4,
       "2025-11-20": 2,
-      "2025-11-21": 3,
+      "2025-11-21": 4,
       "2025-11-22": 3,
       "2025-11-23": 4,
       "2025-11-24": 1,
@@ -562,7 +562,7 @@
       "2025-10-28": 1,
       "2025-10-29": 4,
       "2025-10-30": 1,
-      "2025-11-01": 2,
+      "2025-11-01": 3,
       "2025-11-06": 1,
       "2025-11-07": 4,
       "2025-11-08": 1,
@@ -649,9 +649,9 @@
     }
   },
   "totals": {
-    "claude": 879,
+    "claude": 882,
     "gemini": 403,
-    "agents": 347
+    "agents": 348
   },
   "repo_first_seen": {
     "claude": {
@@ -1533,7 +1533,10 @@
       "TimurMunykin/OutlineVpnTelegramBot": "2025-07-31",
       "CHO-GGERNAUT/homelab": "2026-01-16",
       "IstoraMandiri/etc-nexus": "2026-01-27",
-      "JenkinsZhang/WSJ_RAG": "2026-01-25"
+      "JenkinsZhang/WSJ_RAG": "2026-01-25",
+      "foestauf/TMDBrJS": "2025-07-13",
+      "talchaimdamri/COD_V01": "2025-08-05",
+      "theodorechapman/rel-agent": "2025-11-21"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2287,7 +2290,8 @@
       "devharshthakur/nodetsp": "2026-01-08",
       "julwrites/webwiki": "2025-12-28",
       "ramhaidar/Code-Executor-MCP": "2025-12-26",
-      "felipap/yap": "2025-10-17"
+      "felipap/yap": "2025-10-17",
+      "freightCognition/mcp-slackbot": "2025-11-01"
     }
   },
   "failed_repos": {
@@ -2299,31 +2303,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-21T23:54:57Z",
+      "last_run": "2026-02-22T02:44:29Z",
       "candidate_count": 100,
       "search_total_count": 12448,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 2.5
     },
     "gemini": {
-      "last_run": "2026-02-21T23:57:00Z",
+      "last_run": "2026-02-22T02:44:30Z",
       "candidate_count": 100,
-      "search_total_count": 6272,
+      "search_total_count": 6240,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-21T23:57:01Z",
+      "last_run": "2026-02-22T02:44:32Z",
       "candidate_count": 100,
-      "search_total_count": 40192,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 40000,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.0
     }
   }
 }
