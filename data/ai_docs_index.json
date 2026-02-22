@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T11:56:28Z",
+  "last_updated": "2026-02-22T13:08:26Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -597,7 +597,7 @@
       "2025-12-10": 3,
       "2025-12-11": 1,
       "2025-12-12": 3,
-      "2025-12-13": 2,
+      "2025-12-13": 3,
       "2025-12-15": 3,
       "2025-12-16": 2,
       "2025-12-17": 1,
@@ -653,7 +653,7 @@
   "totals": {
     "claude": 887,
     "gemini": 403,
-    "agents": 352
+    "agents": 353
   },
   "repo_first_seen": {
     "claude": {
@@ -2302,7 +2302,8 @@
       "Nerivec/zigbee-on-host": "2025-10-02",
       "KubeHeal/openshift-aiops-platform": "2025-12-10",
       "tagyoureit/nodejs-poolController": "2025-12-12",
-      "dfinity/stable-structures": "2025-08-15"
+      "dfinity/stable-structures": "2025-08-15",
+      "YPares/rigup.nix": "2025-12-13"
     }
   },
   "failed_repos": {
@@ -2314,7 +2315,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-22T11:55:26Z",
+      "last_run": "2026-02-22T13:06:22Z",
       "candidate_count": 100,
       "search_total_count": 12576,
       "processed_new": 0,
@@ -2323,7 +2324,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-22T11:56:27Z",
+      "last_run": "2026-02-22T13:06:24Z",
       "candidate_count": 100,
       "search_total_count": 6240,
       "processed_new": 0,
@@ -2332,13 +2333,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-22T11:56:28Z",
+      "last_run": "2026-02-22T13:08:26Z",
       "candidate_count": 100,
       "search_total_count": 40320,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.2
     }
   }
 }
