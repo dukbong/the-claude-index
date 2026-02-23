@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T16:35:11Z",
+  "last_updated": "2026-02-23T17:45:30Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -164,7 +164,7 @@
       "2025-10-02": 7,
       "2025-10-03": 1,
       "2025-10-04": 3,
-      "2025-10-05": 3,
+      "2025-10-05": 4,
       "2025-10-08": 5,
       "2025-10-09": 4,
       "2025-10-10": 5,
@@ -212,8 +212,8 @@
       "2025-11-23": 4,
       "2025-11-24": 1,
       "2025-11-25": 3,
-      "2025-11-26": 2,
-      "2025-11-27": 3,
+      "2025-11-26": 3,
+      "2025-11-27": 4,
       "2025-11-28": 1,
       "2025-11-29": 1,
       "2025-11-30": 2,
@@ -656,7 +656,7 @@
     }
   },
   "totals": {
-    "claude": 899,
+    "claude": 902,
     "gemini": 427,
     "agents": 357
   },
@@ -1560,7 +1560,10 @@
       "NativePHP/mobile-api-starter-kit-vue": "2025-12-10",
       "hyongok2/first-ai-agent": "2025-08-04",
       "oisee/cpu6502-abap": "2025-12-09",
-      "orcaclubpro/united-tactical-defense": "2025-06-20"
+      "orcaclubpro/united-tactical-defense": "2025-06-20",
+      "bikeNomad/RemoteKeyboard": "2025-11-26",
+      "rzen/lapbuddy": "2025-10-05",
+      "tylerschloesser/sim-v30": "2025-11-27"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2360,27 +2363,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T16:35:02Z",
+      "last_run": "2026-02-23T17:45:27Z",
       "candidate_count": 100,
-      "search_total_count": 18304,
+      "search_total_count": 25616,
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 3.4
+    },
+    "gemini": {
+      "last_run": "2026-02-23T17:45:29Z",
+      "candidate_count": 100,
+      "search_total_count": 6688,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
-    "gemini": {
-      "last_run": "2026-02-23T16:35:10Z",
-      "candidate_count": 100,
-      "search_total_count": 6688,
-      "processed_new": 6,
-      "new_found": 6,
-      "scanned_this_run": 6,
-      "elapsed_sec": 5.6
-    },
     "agents": {
-      "last_run": "2026-02-23T16:35:11Z",
+      "last_run": "2026-02-23T17:45:30Z",
       "candidate_count": 100,
-      "search_total_count": 40320,
+      "search_total_count": 41152,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
