@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T17:45:30Z",
+  "last_updated": "2026-02-23T18:42:57Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -57,7 +57,7 @@
       "2025-06-16": 1,
       "2025-06-17": 5,
       "2025-06-18": 4,
-      "2025-06-19": 4,
+      "2025-06-19": 5,
       "2025-06-20": 2,
       "2025-06-21": 3,
       "2025-06-22": 2,
@@ -78,7 +78,7 @@
       "2025-07-07": 6,
       "2025-07-08": 4,
       "2025-07-09": 5,
-      "2025-07-10": 1,
+      "2025-07-10": 2,
       "2025-07-11": 5,
       "2025-07-12": 1,
       "2025-07-13": 5,
@@ -154,7 +154,7 @@
       "2025-09-22": 3,
       "2025-09-23": 1,
       "2025-09-24": 2,
-      "2025-09-25": 3,
+      "2025-09-25": 4,
       "2025-09-26": 2,
       "2025-09-27": 2,
       "2025-09-28": 3,
@@ -277,7 +277,7 @@
       "2026-01-28": 5,
       "2026-01-29": 3,
       "2026-01-30": 8,
-      "2026-01-31": 5,
+      "2026-01-31": 6,
       "2026-02-01": 8,
       "2026-02-02": 4,
       "2026-02-03": 9,
@@ -656,7 +656,7 @@
     }
   },
   "totals": {
-    "claude": 902,
+    "claude": 906,
     "gemini": 427,
     "agents": 357
   },
@@ -1563,7 +1563,11 @@
       "orcaclubpro/united-tactical-defense": "2025-06-20",
       "bikeNomad/RemoteKeyboard": "2025-11-26",
       "rzen/lapbuddy": "2025-10-05",
-      "tylerschloesser/sim-v30": "2025-11-27"
+      "tylerschloesser/sim-v30": "2025-11-27",
+      "AbdallahMuhammad2/provador-ajorsul": "2025-09-25",
+      "aiandrox/match-party": "2025-07-10",
+      "constROD/template-expo": "2025-06-19",
+      "michaeljamie/survival-game": "2026-01-31"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2363,16 +2367,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T17:45:27Z",
+      "last_run": "2026-02-23T18:42:55Z",
       "candidate_count": 100,
-      "search_total_count": 25616,
-      "processed_new": 3,
-      "new_found": 3,
-      "scanned_this_run": 3,
-      "elapsed_sec": 3.4
+      "search_total_count": 17808,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 3.7
     },
     "gemini": {
-      "last_run": "2026-02-23T17:45:29Z",
+      "last_run": "2026-02-23T18:42:56Z",
       "candidate_count": 100,
       "search_total_count": 6688,
       "processed_new": 0,
@@ -2381,7 +2385,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-23T17:45:30Z",
+      "last_run": "2026-02-23T18:42:57Z",
       "candidate_count": 100,
       "search_total_count": 41152,
       "processed_new": 0,
