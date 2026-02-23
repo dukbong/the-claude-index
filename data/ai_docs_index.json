@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T08:30:19Z",
+  "last_updated": "2026-02-23T09:32:04Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -640,7 +640,7 @@
       "2026-01-22": 5,
       "2026-01-23": 1,
       "2026-01-24": 3,
-      "2026-01-26": 4,
+      "2026-01-26": 5,
       "2026-01-27": 2,
       "2026-01-28": 2,
       "2026-01-29": 2,
@@ -657,7 +657,7 @@
   "totals": {
     "claude": 892,
     "gemini": 415,
-    "agents": 354
+    "agents": 355
   },
   "repo_first_seen": {
     "claude": {
@@ -2325,7 +2325,8 @@
       "tagyoureit/nodejs-poolController": "2025-12-12",
       "dfinity/stable-structures": "2025-08-15",
       "YPares/rigup.nix": "2025-12-13",
-      "e0ipso/ai-task-manager": "2025-09-27"
+      "e0ipso/ai-task-manager": "2025-09-27",
+      "ParadiseWitch/overcook-web": "2026-01-26"
     }
   },
   "failed_repos": {
@@ -2337,7 +2338,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T08:28:18Z",
+      "last_run": "2026-02-23T09:31:59Z",
       "candidate_count": 100,
       "search_total_count": 12672,
       "processed_new": 0,
@@ -2346,7 +2347,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-23T08:29:19Z",
+      "last_run": "2026-02-23T09:32:01Z",
       "candidate_count": 100,
       "search_total_count": 6304,
       "processed_new": 0,
@@ -2355,13 +2356,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-23T08:30:19Z",
+      "last_run": "2026-02-23T09:32:04Z",
       "candidate_count": 100,
       "search_total_count": 40832,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.7
     }
   }
 }
