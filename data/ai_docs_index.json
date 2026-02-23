@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T06:22:52Z",
+  "last_updated": "2026-02-23T07:34:51Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -376,7 +376,7 @@
       "2025-10-03": 2,
       "2025-10-04": 2,
       "2025-10-05": 1,
-      "2025-10-06": 1,
+      "2025-10-06": 2,
       "2025-10-07": 2,
       "2025-10-09": 1,
       "2025-10-10": 5,
@@ -385,7 +385,7 @@
       "2025-10-15": 3,
       "2025-10-16": 1,
       "2025-10-17": 1,
-      "2025-10-19": 2,
+      "2025-10-19": 3,
       "2025-10-20": 1,
       "2025-10-21": 1,
       "2025-10-22": 2,
@@ -434,8 +434,10 @@
       "2025-12-11": 1,
       "2025-12-12": 3,
       "2025-12-13": 2,
+      "2025-12-14": 1,
       "2025-12-15": 1,
       "2025-12-16": 1,
+      "2025-12-17": 1,
       "2025-12-18": 2,
       "2025-12-19": 1,
       "2025-12-20": 2,
@@ -456,7 +458,7 @@
       "2026-01-06": 1,
       "2026-01-08": 7,
       "2026-01-10": 1,
-      "2026-01-11": 2,
+      "2026-01-11": 3,
       "2026-01-12": 2,
       "2026-01-13": 5,
       "2026-01-15": 3,
@@ -479,7 +481,8 @@
       "2026-02-02": 1,
       "2026-02-04": 3,
       "2026-02-05": 3,
-      "2026-02-06": 1
+      "2026-02-06": 1,
+      "2026-02-07": 1
     },
     "agents": {
       "2024-07-17": 1,
@@ -653,7 +656,7 @@
   },
   "totals": {
     "claude": 892,
-    "gemini": 409,
+    "gemini": 415,
     "agents": 354
   },
   "repo_first_seen": {
@@ -1960,7 +1963,13 @@
       "WildH0g/consolas": "2025-09-25",
       "ferdinandosantacroce/ferdinandosantacroce.github.io": "2026-01-31",
       "MistaMyke/NeuroStack": "2025-09-01",
-      "fpittelo/alpinebot": "2025-11-20"
+      "fpittelo/alpinebot": "2025-11-20",
+      "JuniorCorzo/UrbanStyle": "2025-10-06",
+      "cylin577/starter-i3": "2025-12-14",
+      "m1ckyb/RouteGhost": "2025-12-17",
+      "milos85vasic/Catalogizer": "2025-10-19",
+      "mullenkamp/rechunkit": "2026-02-07",
+      "omoinjm/clean-arc-template": "2026-01-11"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2328,25 +2337,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T06:15:45Z",
+      "last_run": "2026-02-23T07:34:45Z",
       "candidate_count": 100,
       "search_total_count": 12672,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.7
-    },
-    "gemini": {
-      "last_run": "2026-02-23T06:19:47Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
+    "gemini": {
+      "last_run": "2026-02-23T07:34:50Z",
+      "candidate_count": 100,
+      "search_total_count": 6304,
+      "processed_new": 6,
+      "new_found": 6,
+      "scanned_this_run": 6,
+      "elapsed_sec": 3.7
+    },
     "agents": {
-      "last_run": "2026-02-23T06:22:52Z",
+      "last_run": "2026-02-23T07:34:51Z",
       "candidate_count": 100,
       "search_total_count": 40832,
       "processed_new": 0,
