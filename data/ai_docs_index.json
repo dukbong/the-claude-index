@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T23:10:30Z",
+  "last_updated": "2026-02-23T23:50:05Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -335,7 +335,7 @@
       "2025-08-14": 2,
       "2025-08-15": 3,
       "2025-08-16": 1,
-      "2025-08-17": 1,
+      "2025-08-17": 2,
       "2025-08-19": 2,
       "2025-08-20": 1,
       "2025-08-21": 3,
@@ -378,6 +378,7 @@
       "2025-10-05": 1,
       "2025-10-06": 2,
       "2025-10-07": 2,
+      "2025-10-08": 1,
       "2025-10-09": 1,
       "2025-10-10": 5,
       "2025-10-11": 2,
@@ -441,7 +442,7 @@
       "2025-12-18": 2,
       "2025-12-19": 2,
       "2025-12-20": 2,
-      "2025-12-21": 7,
+      "2025-12-21": 8,
       "2025-12-22": 3,
       "2025-12-23": 2,
       "2025-12-25": 2,
@@ -657,7 +658,7 @@
   },
   "totals": {
     "claude": 908,
-    "gemini": 432,
+    "gemini": 435,
     "agents": 357
   },
   "repo_first_seen": {
@@ -2003,7 +2004,10 @@
       "NixeloApp/cascade": "2026-01-15",
       "KleinDigitalSolutions/ai-workflow-automation": "2025-11-20",
       "Robaina/chemSearch": "2025-08-08",
-      "digennarot/dndScheduler": "2026-02-01"
+      "digennarot/dndScheduler": "2026-02-01",
+      "EIHRTeam/image-toolbox": "2025-12-21",
+      "ikhwanzubir/pdftomd": "2025-10-08",
+      "rehanhaider/AutoSocial": "2025-08-17"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2374,27 +2378,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T23:04:27Z",
+      "last_run": "2026-02-23T23:48:03Z",
       "candidate_count": 100,
-      "search_total_count": 11592,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 1.1
+      "search_total_count": 11736,
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-23T23:06:32Z",
+      "last_run": "2026-02-23T23:49:06Z",
       "candidate_count": 100,
-      "search_total_count": 6352,
+      "search_total_count": 6240,
       "processed_new": 3,
       "new_found": 3,
       "scanned_this_run": 3,
-      "elapsed_sec": 2.3
+      "elapsed_sec": 1.9
     },
     "agents": {
-      "last_run": "2026-02-23T23:10:30Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-02-23T23:50:05Z",
+      "candidate_count": 100,
+      "search_total_count": 40256,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
