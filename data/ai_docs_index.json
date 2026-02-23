@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T09:32:04Z",
+  "last_updated": "2026-02-23T10:38:21Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -539,7 +539,7 @@
       "2025-09-16": 4,
       "2025-09-17": 2,
       "2025-09-19": 3,
-      "2025-09-20": 1,
+      "2025-09-20": 2,
       "2025-09-22": 1,
       "2025-09-23": 4,
       "2025-09-24": 1,
@@ -578,6 +578,7 @@
       "2025-11-12": 3,
       "2025-11-13": 3,
       "2025-11-14": 1,
+      "2025-11-15": 1,
       "2025-11-16": 2,
       "2025-11-18": 3,
       "2025-11-19": 5,
@@ -657,7 +658,7 @@
   "totals": {
     "claude": 892,
     "gemini": 415,
-    "agents": 355
+    "agents": 357
   },
   "repo_first_seen": {
     "claude": {
@@ -2326,7 +2327,9 @@
       "dfinity/stable-structures": "2025-08-15",
       "YPares/rigup.nix": "2025-12-13",
       "e0ipso/ai-task-manager": "2025-09-27",
-      "ParadiseWitch/overcook-web": "2026-01-26"
+      "ParadiseWitch/overcook-web": "2026-01-26",
+      "Factory-AI/droid-action": "2025-11-15",
+      "tockri/tategaki-ni-narou": "2025-09-20"
     }
   },
   "failed_repos": {
@@ -2338,7 +2341,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T09:31:59Z",
+      "last_run": "2026-02-23T10:34:16Z",
       "candidate_count": 100,
       "search_total_count": 12672,
       "processed_new": 0,
@@ -2347,7 +2350,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-23T09:32:01Z",
+      "last_run": "2026-02-23T10:36:16Z",
       "candidate_count": 100,
       "search_total_count": 6304,
       "processed_new": 0,
@@ -2356,13 +2359,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-23T09:32:04Z",
+      "last_run": "2026-02-23T10:38:21Z",
       "candidate_count": 100,
-      "search_total_count": 40832,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.7
+      "search_total_count": 40320,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.1
     }
   }
 }
