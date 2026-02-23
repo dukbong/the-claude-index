@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T02:56:07Z",
+  "last_updated": "2026-02-23T05:07:05Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -117,7 +117,7 @@
       "2025-08-15": 5,
       "2025-08-16": 7,
       "2025-08-17": 5,
-      "2025-08-18": 1,
+      "2025-08-18": 2,
       "2025-08-19": 5,
       "2025-08-20": 7,
       "2025-08-21": 7,
@@ -652,7 +652,7 @@
     }
   },
   "totals": {
-    "claude": 890,
+    "claude": 891,
     "gemini": 409,
     "agents": 354
   },
@@ -1547,7 +1547,8 @@
       "JTNEX/claude-test": "2025-12-01",
       "honki12345/haruharu-discord-bot": "2025-12-31",
       "Cloud-Linuxer/gpt-oss": "2025-09-11",
-      "vqt123/twclone": "2025-06-19"
+      "vqt123/twclone": "2025-06-19",
+      "ausmartway/vault-tpm-helper": "2025-08-18"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2326,16 +2327,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T02:56:04Z",
+      "last_run": "2026-02-23T05:06:04Z",
       "candidate_count": 100,
-      "search_total_count": 12672,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.9
+      "search_total_count": 13536,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     },
     "gemini": {
-      "last_run": "2026-02-23T02:56:06Z",
+      "last_run": "2026-02-23T05:06:05Z",
       "candidate_count": 100,
       "search_total_count": 6304,
       "processed_new": 0,
@@ -2344,7 +2345,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-23T02:56:07Z",
+      "last_run": "2026-02-23T05:07:05Z",
       "candidate_count": 100,
       "search_total_count": 40320,
       "processed_new": 0,
