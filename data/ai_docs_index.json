@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T21:29:59Z",
+  "last_updated": "2026-02-23T22:20:27Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -461,8 +461,8 @@
       "2026-01-11": 3,
       "2026-01-12": 2,
       "2026-01-13": 5,
-      "2026-01-15": 3,
-      "2026-01-16": 1,
+      "2026-01-15": 4,
+      "2026-01-16": 2,
       "2026-01-17": 1,
       "2026-01-19": 3,
       "2026-01-20": 2,
@@ -657,7 +657,7 @@
   },
   "totals": {
     "claude": 907,
-    "gemini": 427,
+    "gemini": 429,
     "agents": 357
   },
   "repo_first_seen": {
@@ -1997,7 +1997,9 @@
       "jlmalone/tictactoe-eth": "2025-06-28",
       "roy4222/elder_and_dog": "2025-11-29",
       "simonlemon333/ccfantasy": "2025-09-24",
-      "tarcisioads/trade_nb_members": "2025-08-21"
+      "tarcisioads/trade_nb_members": "2025-08-21",
+      "CodeGandee/llm-perf-opt": "2026-01-16",
+      "NixeloApp/cascade": "2026-01-15"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2368,27 +2370,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-23T21:29:40Z",
-      "candidate_count": 100,
-      "search_total_count": 12080,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 1.2
-    },
-    "gemini": {
-      "last_run": "2026-02-23T21:29:50Z",
+      "last_run": "2026-02-23T22:14:20Z",
       "candidate_count": 0,
-      "search_total_count": 101,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
+    "gemini": {
+      "last_run": "2026-02-23T22:16:30Z",
+      "candidate_count": 100,
+      "search_total_count": 5952,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 2.2
+    },
     "agents": {
-      "last_run": "2026-02-23T21:29:59Z",
+      "last_run": "2026-02-23T22:20:27Z",
       "candidate_count": 0,
-      "search_total_count": 102,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
