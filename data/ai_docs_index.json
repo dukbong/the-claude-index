@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T09:30:59Z",
+  "last_updated": "2026-02-24T10:31:14Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -126,7 +126,7 @@
       "2025-08-23": 4,
       "2025-08-24": 4,
       "2025-08-25": 3,
-      "2025-08-26": 3,
+      "2025-08-26": 4,
       "2025-08-27": 6,
       "2025-08-28": 4,
       "2025-08-29": 4,
@@ -319,7 +319,7 @@
       "2025-07-22": 3,
       "2025-07-24": 3,
       "2025-07-25": 3,
-      "2025-07-26": 1,
+      "2025-07-26": 2,
       "2025-07-27": 1,
       "2025-07-29": 2,
       "2025-07-30": 1,
@@ -437,7 +437,7 @@
       "2025-12-12": 3,
       "2025-12-13": 2,
       "2025-12-14": 1,
-      "2025-12-15": 1,
+      "2025-12-15": 2,
       "2025-12-16": 1,
       "2025-12-17": 1,
       "2025-12-18": 2,
@@ -658,8 +658,8 @@
     }
   },
   "totals": {
-    "claude": 919,
-    "gemini": 437,
+    "claude": 920,
+    "gemini": 439,
     "agents": 361
   },
   "repo_first_seen": {
@@ -1582,7 +1582,8 @@
       "FardinIqbal/fardin-iqbal-personal-website": "2026-01-15",
       "caoccao/swc4j": "2025-10-19",
       "mihnin/example1": "2025-09-10",
-      "t-chov/classic_bandit": "2025-06-22"
+      "t-chov/classic_bandit": "2025-06-22",
+      "KORWOT/-Tower-of-Infinity-PT": "2025-08-26"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2021,7 +2022,9 @@
       "ikhwanzubir/pdftomd": "2025-10-08",
       "rehanhaider/AutoSocial": "2025-08-17",
       "Sota-42k/bias-data-pipeline": "2026-01-25",
-      "boctulus/simplerest.private": "2025-11-03"
+      "boctulus/simplerest.private": "2025-11-03",
+      "OMED-school/Omedfrontendfigma": "2025-12-15",
+      "sapientcoffee/dotfiles": "2025-07-26"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2396,25 +2399,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-24T09:30:54Z",
+      "last_run": "2026-02-24T10:31:09Z",
       "candidate_count": 100,
-      "search_total_count": 18608,
+      "search_total_count": 10912,
       "processed_new": 1,
       "new_found": 1,
       "scanned_this_run": 1,
-      "elapsed_sec": 0.8
+      "elapsed_sec": 0.6
     },
     "gemini": {
-      "last_run": "2026-02-24T09:30:56Z",
+      "last_run": "2026-02-24T10:31:13Z",
       "candidate_count": 100,
-      "search_total_count": 5184,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 6768,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 2.4
     },
     "agents": {
-      "last_run": "2026-02-24T09:30:59Z",
+      "last_run": "2026-02-24T10:31:14Z",
       "candidate_count": 100,
       "search_total_count": 41280,
       "processed_new": 0,
