@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T16:50:51Z",
+  "last_updated": "2026-02-24T17:49:21Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -642,7 +642,7 @@
       "2026-01-21": 2,
       "2026-01-22": 5,
       "2026-01-23": 1,
-      "2026-01-24": 3,
+      "2026-01-24": 4,
       "2026-01-26": 5,
       "2026-01-27": 2,
       "2026-01-28": 2,
@@ -660,7 +660,7 @@
   "totals": {
     "claude": 920,
     "gemini": 441,
-    "agents": 362
+    "agents": 363
   },
   "repo_first_seen": {
     "claude": {
@@ -2390,7 +2390,8 @@
       "tom-doerr/agent": "2025-11-06",
       "dasnidm/PSWC": "2025-12-15",
       "dmytri/public-monster": "2025-12-21",
-      "internet-development/sh-agent-pull-request-master": "2026-01-16"
+      "internet-development/sh-agent-pull-request-master": "2026-01-16",
+      "dioneapp/dioneapp": "2026-01-24"
     }
   },
   "failed_repos": {
@@ -2402,7 +2403,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-24T16:48:48Z",
+      "last_run": "2026-02-24T17:49:17Z",
       "candidate_count": 100,
       "search_total_count": 10968,
       "processed_new": 0,
@@ -2411,7 +2412,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-24T16:49:50Z",
+      "last_run": "2026-02-24T17:49:18Z",
       "candidate_count": 100,
       "search_total_count": 5152,
       "processed_new": 0,
@@ -2420,13 +2421,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-24T16:50:51Z",
+      "last_run": "2026-02-24T17:49:21Z",
       "candidate_count": 100,
       "search_total_count": 41280,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.6
     }
   }
 }
