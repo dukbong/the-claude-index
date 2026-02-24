@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T18:46:16Z",
+  "last_updated": "2026-02-24T19:41:31Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -645,7 +645,7 @@
       "2026-01-24": 4,
       "2026-01-26": 5,
       "2026-01-27": 2,
-      "2026-01-28": 2,
+      "2026-01-28": 3,
       "2026-01-29": 2,
       "2026-01-30": 4,
       "2026-01-31": 3,
@@ -660,7 +660,7 @@
   "totals": {
     "claude": 920,
     "gemini": 441,
-    "agents": 363
+    "agents": 364
   },
   "repo_first_seen": {
     "claude": {
@@ -2391,7 +2391,8 @@
       "dasnidm/PSWC": "2025-12-15",
       "dmytri/public-monster": "2025-12-21",
       "internet-development/sh-agent-pull-request-master": "2026-01-16",
-      "dioneapp/dioneapp": "2026-01-24"
+      "dioneapp/dioneapp": "2026-01-24",
+      "fr3fou/home": "2026-01-28"
     }
   },
   "failed_repos": {
@@ -2403,7 +2404,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-24T18:46:13Z",
+      "last_run": "2026-02-24T19:41:28Z",
       "candidate_count": 100,
       "search_total_count": 10968,
       "processed_new": 0,
@@ -2412,7 +2413,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-24T18:46:15Z",
+      "last_run": "2026-02-24T19:41:30Z",
       "candidate_count": 100,
       "search_total_count": 5152,
       "processed_new": 0,
@@ -2421,13 +2422,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-24T18:46:16Z",
+      "last_run": "2026-02-24T19:41:31Z",
       "candidate_count": 100,
       "search_total_count": 41280,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.5
     }
   }
 }
