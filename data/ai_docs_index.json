@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T00:54:26Z",
+  "last_updated": "2026-02-24T03:39:59Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -14,6 +14,7 @@
     "claude": {
       "2025-02-24": 1,
       "2025-03-10": 1,
+      "2025-03-12": 1,
       "2025-03-22": 1,
       "2025-03-24": 1,
       "2025-03-25": 1,
@@ -97,7 +98,7 @@
       "2025-07-26": 3,
       "2025-07-27": 1,
       "2025-07-28": 1,
-      "2025-07-29": 4,
+      "2025-07-29": 5,
       "2025-07-30": 3,
       "2025-07-31": 3,
       "2025-08-01": 2,
@@ -165,7 +166,7 @@
       "2025-10-03": 1,
       "2025-10-04": 3,
       "2025-10-05": 4,
-      "2025-10-08": 5,
+      "2025-10-08": 6,
       "2025-10-09": 4,
       "2025-10-10": 5,
       "2025-10-11": 2,
@@ -657,7 +658,7 @@
     }
   },
   "totals": {
-    "claude": 909,
+    "claude": 912,
     "gemini": 435,
     "agents": 359
   },
@@ -1571,7 +1572,10 @@
       "michaeljamie/survival-game": "2026-01-31",
       "beshkenadze/openapi-mcp-generator": "2025-08-12",
       "lespacito/turriancolordesign": "2026-01-17",
-      "chimexy8alluvial/Farmfolio": "2025-11-06"
+      "chimexy8alluvial/Farmfolio": "2025-11-06",
+      "GiantCroissant-Infra/giantcroissant-lunar-dev-rule": "2025-10-08",
+      "brendanxu/greentokey": "2025-07-29",
+      "tianzhou/whatismcp": "2025-03-12"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2381,31 +2385,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-24T00:54:21Z",
+      "last_run": "2026-02-24T03:39:00Z",
       "candidate_count": 100,
-      "search_total_count": 12728,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.6
+      "search_total_count": 11664,
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 2.3
     },
     "gemini": {
-      "last_run": "2026-02-24T00:54:23Z",
+      "last_run": "2026-02-24T03:39:02Z",
       "candidate_count": 100,
-      "search_total_count": 5952,
+      "search_total_count": 5088,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-24T00:54:26Z",
+      "last_run": "2026-02-24T03:39:59Z",
       "candidate_count": 100,
       "search_total_count": 41280,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.7
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     }
   }
 }
