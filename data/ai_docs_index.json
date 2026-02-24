@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T03:39:59Z",
+  "last_updated": "2026-02-24T05:12:57Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -241,7 +241,7 @@
       "2025-12-22": 3,
       "2025-12-23": 5,
       "2025-12-24": 2,
-      "2025-12-25": 5,
+      "2025-12-25": 6,
       "2025-12-26": 3,
       "2025-12-27": 2,
       "2025-12-28": 2,
@@ -283,7 +283,7 @@
       "2026-02-02": 4,
       "2026-02-03": 9,
       "2026-02-04": 7,
-      "2026-02-05": 10,
+      "2026-02-05": 11,
       "2026-02-06": 4,
       "2026-02-07": 4
     },
@@ -397,7 +397,7 @@
       "2025-10-30": 1,
       "2025-10-31": 2,
       "2025-11-01": 1,
-      "2025-11-03": 1,
+      "2025-11-03": 2,
       "2025-11-04": 4,
       "2025-11-05": 1,
       "2025-11-06": 2,
@@ -472,7 +472,7 @@
       "2026-01-22": 2,
       "2026-01-23": 5,
       "2026-01-24": 5,
-      "2026-01-25": 7,
+      "2026-01-25": 8,
       "2026-01-26": 2,
       "2026-01-27": 8,
       "2026-01-28": 1,
@@ -658,8 +658,8 @@
     }
   },
   "totals": {
-    "claude": 912,
-    "gemini": 435,
+    "claude": 914,
+    "gemini": 437,
     "agents": 359
   },
   "repo_first_seen": {
@@ -1575,7 +1575,9 @@
       "chimexy8alluvial/Farmfolio": "2025-11-06",
       "GiantCroissant-Infra/giantcroissant-lunar-dev-rule": "2025-10-08",
       "brendanxu/greentokey": "2025-07-29",
-      "tianzhou/whatismcp": "2025-03-12"
+      "tianzhou/whatismcp": "2025-03-12",
+      "jonasneves/shipctl": "2025-12-25",
+      "wyre-technology/node-it-glue": "2026-02-05"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2012,7 +2014,9 @@
       "digennarot/dndScheduler": "2026-02-01",
       "EIHRTeam/image-toolbox": "2025-12-21",
       "ikhwanzubir/pdftomd": "2025-10-08",
-      "rehanhaider/AutoSocial": "2025-08-17"
+      "rehanhaider/AutoSocial": "2025-08-17",
+      "Sota-42k/bias-data-pipeline": "2026-01-25",
+      "boctulus/simplerest.private": "2025-11-03"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2385,25 +2389,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-24T03:39:00Z",
+      "last_run": "2026-02-24T05:12:51Z",
       "candidate_count": 100,
       "search_total_count": 11664,
-      "processed_new": 3,
-      "new_found": 3,
-      "scanned_this_run": 3,
-      "elapsed_sec": 2.3
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.6
     },
     "gemini": {
-      "last_run": "2026-02-24T03:39:02Z",
+      "last_run": "2026-02-24T05:12:54Z",
       "candidate_count": 100,
-      "search_total_count": 5088,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 5168,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.7
     },
     "agents": {
-      "last_run": "2026-02-24T03:39:59Z",
+      "last_run": "2026-02-24T05:12:57Z",
       "candidate_count": 100,
       "search_total_count": 41280,
       "processed_new": 0,
