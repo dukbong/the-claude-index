@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T05:12:57Z",
+  "last_updated": "2026-02-24T06:19:29Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -140,7 +140,7 @@
       "2025-09-07": 4,
       "2025-09-08": 1,
       "2025-09-09": 4,
-      "2025-09-10": 2,
+      "2025-09-10": 3,
       "2025-09-11": 3,
       "2025-09-12": 3,
       "2025-09-13": 3,
@@ -177,7 +177,7 @@
       "2025-10-16": 1,
       "2025-10-17": 6,
       "2025-10-18": 4,
-      "2025-10-19": 3,
+      "2025-10-19": 4,
       "2025-10-20": 4,
       "2025-10-21": 1,
       "2025-10-22": 6,
@@ -221,7 +221,7 @@
       "2025-12-01": 6,
       "2025-12-02": 3,
       "2025-12-03": 4,
-      "2025-12-04": 3,
+      "2025-12-04": 4,
       "2025-12-05": 6,
       "2025-12-06": 4,
       "2025-12-07": 6,
@@ -262,7 +262,7 @@
       "2026-01-12": 7,
       "2026-01-13": 12,
       "2026-01-14": 3,
-      "2026-01-15": 5,
+      "2026-01-15": 6,
       "2026-01-16": 3,
       "2026-01-17": 3,
       "2026-01-18": 8,
@@ -605,12 +605,12 @@
       "2025-12-11": 1,
       "2025-12-12": 3,
       "2025-12-13": 3,
-      "2025-12-15": 3,
+      "2025-12-15": 4,
       "2025-12-16": 2,
       "2025-12-17": 1,
       "2025-12-18": 2,
       "2025-12-19": 4,
-      "2025-12-21": 2,
+      "2025-12-21": 3,
       "2025-12-22": 1,
       "2025-12-23": 3,
       "2025-12-24": 2,
@@ -658,9 +658,9 @@
     }
   },
   "totals": {
-    "claude": 914,
+    "claude": 918,
     "gemini": 437,
-    "agents": 359
+    "agents": 361
   },
   "repo_first_seen": {
     "claude": {
@@ -1577,7 +1577,11 @@
       "brendanxu/greentokey": "2025-07-29",
       "tianzhou/whatismcp": "2025-03-12",
       "jonasneves/shipctl": "2025-12-25",
-      "wyre-technology/node-it-glue": "2026-02-05"
+      "wyre-technology/node-it-glue": "2026-02-05",
+      "Dissfall/web-portfolio": "2025-12-04",
+      "FardinIqbal/fardin-iqbal-personal-website": "2026-01-15",
+      "caoccao/swc4j": "2025-10-19",
+      "mihnin/example1": "2025-09-10"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2377,7 +2381,9 @@
       "Factory-AI/droid-action": "2025-11-15",
       "tockri/tategaki-ni-narou": "2025-09-20",
       "Vazanity/bypierofracasso-woocommerce-emails": "2025-09-17",
-      "tom-doerr/agent": "2025-11-06"
+      "tom-doerr/agent": "2025-11-06",
+      "dasnidm/PSWC": "2025-12-15",
+      "dmytri/public-monster": "2025-12-21"
     }
   },
   "failed_repos": {
@@ -2389,31 +2395,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-24T05:12:51Z",
+      "last_run": "2026-02-24T06:17:30Z",
       "candidate_count": 100,
-      "search_total_count": 11664,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.6
+      "search_total_count": 20672,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 4.0
     },
     "gemini": {
-      "last_run": "2026-02-24T05:12:54Z",
+      "last_run": "2026-02-24T06:18:25Z",
       "candidate_count": 100,
       "search_total_count": 5168,
-      "processed_new": 2,
-      "new_found": 2,
-      "scanned_this_run": 2,
-      "elapsed_sec": 1.7
-    },
-    "agents": {
-      "last_run": "2026-02-24T05:12:57Z",
-      "candidate_count": 100,
-      "search_total_count": 41280,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
+    },
+    "agents": {
+      "last_run": "2026-02-24T06:19:29Z",
+      "candidate_count": 100,
+      "search_total_count": 41280,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.3
     }
   }
 }
