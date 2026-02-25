@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T06:57:25Z",
+  "last_updated": "2026-02-25T08:02:13Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -635,7 +635,7 @@
       "2026-01-09": 1,
       "2026-01-10": 6,
       "2026-01-13": 1,
-      "2026-01-14": 4,
+      "2026-01-14": 5,
       "2026-01-15": 5,
       "2026-01-16": 3,
       "2026-01-17": 5,
@@ -663,7 +663,7 @@
   "totals": {
     "claude": 925,
     "gemini": 449,
-    "agents": 365
+    "agents": 366
   },
   "repo_first_seen": {
     "claude": {
@@ -2409,7 +2409,8 @@
       "internet-development/sh-agent-pull-request-master": "2026-01-16",
       "dioneapp/dioneapp": "2026-01-24",
       "fr3fou/home": "2026-01-28",
-      "Internet-Institute/akostest-open-rmbt-ios": "2025-09-16"
+      "Internet-Institute/akostest-open-rmbt-ios": "2025-09-16",
+      "harrymahardhika/domain-support": "2026-01-14"
     }
   },
   "failed_repos": {
@@ -2421,7 +2422,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-25T06:57:21Z",
+      "last_run": "2026-02-25T08:00:04Z",
       "candidate_count": 0,
       "search_total_count": 0,
       "processed_new": 0,
@@ -2430,22 +2431,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-25T06:57:23Z",
+      "last_run": "2026-02-25T08:00:06Z",
       "candidate_count": 100,
-      "search_total_count": 6016,
+      "search_total_count": 5856,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-25T06:57:25Z",
+      "last_run": "2026-02-25T08:02:13Z",
       "candidate_count": 100,
       "search_total_count": 41920,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.8
     }
   }
 }
