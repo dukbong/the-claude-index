@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T13:20:17Z",
+  "last_updated": "2026-02-25T14:36:45Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -226,7 +226,7 @@
       "2025-12-05": 6,
       "2025-12-06": 4,
       "2025-12-07": 6,
-      "2025-12-08": 4,
+      "2025-12-08": 5,
       "2025-12-09": 6,
       "2025-12-10": 6,
       "2025-12-11": 3,
@@ -315,7 +315,7 @@
       "2025-07-17": 2,
       "2025-07-18": 2,
       "2025-07-19": 2,
-      "2025-07-20": 4,
+      "2025-07-20": 5,
       "2025-07-21": 5,
       "2025-07-22": 3,
       "2025-07-24": 3,
@@ -347,7 +347,7 @@
       "2025-08-25": 2,
       "2025-08-26": 3,
       "2025-08-27": 3,
-      "2025-08-28": 2,
+      "2025-08-28": 3,
       "2025-08-29": 3,
       "2025-08-30": 1,
       "2025-08-31": 2,
@@ -375,6 +375,7 @@
       "2025-09-24": 3,
       "2025-09-25": 1,
       "2025-09-27": 2,
+      "2025-09-28": 1,
       "2025-09-30": 2,
       "2025-10-03": 2,
       "2025-10-04": 2,
@@ -435,7 +436,7 @@
       "2025-12-05": 1,
       "2025-12-06": 3,
       "2025-12-08": 1,
-      "2025-12-10": 2,
+      "2025-12-10": 3,
       "2025-12-11": 1,
       "2025-12-12": 3,
       "2025-12-13": 2,
@@ -470,7 +471,7 @@
       "2026-01-16": 2,
       "2026-01-17": 1,
       "2026-01-19": 3,
-      "2026-01-20": 2,
+      "2026-01-20": 3,
       "2026-01-21": 1,
       "2026-01-22": 2,
       "2026-01-23": 5,
@@ -661,8 +662,8 @@
     }
   },
   "totals": {
-    "claude": 927,
-    "gemini": 449,
+    "claude": 928,
+    "gemini": 454,
     "agents": 366
   },
   "repo_first_seen": {
@@ -1593,7 +1594,8 @@
       "natesmalley/legends_of_lore": "2025-10-11",
       "waylonkenning/pilotpal": "2025-07-01",
       "Redwood-Mobility/rangeway-research": "2026-01-04",
-      "awaaate/am2z": "2025-06-25"
+      "awaaate/am2z": "2025-06-25",
+      "AlchemyCMS/alchemy_cloudinary": "2025-12-08"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2044,7 +2046,12 @@
       "pvtrcorps/DatablockNodes": "2025-10-12",
       "AryanBV/SMART_MED_2.0": "2025-12-29",
       "WillBooster/willbooster-configs": "2025-07-10",
-      "yamayuski/lami": "2025-07-16"
+      "yamayuski/lami": "2025-07-16",
+      "DuoMuskeeters/VizCad": "2025-12-10",
+      "Inkedup1114/POLYMARKET-INKEDUP": "2025-08-28",
+      "alfred1137/SG-Bank-Interest-cal": "2026-01-20",
+      "apmiller108/tmp": "2025-07-20",
+      "luk036/ckpttnpy": "2025-09-28"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2424,25 +2431,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-25T13:20:13Z",
+      "last_run": "2026-02-25T14:34:45Z",
       "candidate_count": 100,
-      "search_total_count": 9640,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 19744,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.7
     },
     "gemini": {
-      "last_run": "2026-02-25T13:20:15Z",
+      "last_run": "2026-02-25T14:35:52Z",
       "candidate_count": 100,
-      "search_total_count": 6016,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 5256,
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 5.2
     },
     "agents": {
-      "last_run": "2026-02-25T13:20:17Z",
+      "last_run": "2026-02-25T14:36:45Z",
       "candidate_count": 100,
       "search_total_count": 41920,
       "processed_new": 0,
