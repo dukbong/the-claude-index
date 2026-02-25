@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T22:49:52Z",
+  "last_updated": "2026-02-25T23:17:18Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -637,7 +637,7 @@
       "2026-01-10": 6,
       "2026-01-13": 1,
       "2026-01-14": 5,
-      "2026-01-15": 5,
+      "2026-01-15": 6,
       "2026-01-16": 3,
       "2026-01-17": 5,
       "2026-01-18": 1,
@@ -664,7 +664,7 @@
   "totals": {
     "claude": 928,
     "gemini": 455,
-    "agents": 366
+    "agents": 367
   },
   "repo_first_seen": {
     "claude": {
@@ -2420,7 +2420,8 @@
       "dioneapp/dioneapp": "2026-01-24",
       "fr3fou/home": "2026-01-28",
       "Internet-Institute/akostest-open-rmbt-ios": "2025-09-16",
-      "harrymahardhika/domain-support": "2026-01-14"
+      "harrymahardhika/domain-support": "2026-01-14",
+      "trapplab/NFC-Radio": "2026-01-15"
     }
   },
   "failed_repos": {
@@ -2432,7 +2433,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-25T22:46:49Z",
+      "last_run": "2026-02-25T23:17:13Z",
       "candidate_count": 100,
       "search_total_count": 18656,
       "processed_new": 0,
@@ -2441,22 +2442,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-25T22:48:51Z",
+      "last_run": "2026-02-25T23:17:15Z",
       "candidate_count": 100,
-      "search_total_count": 6224,
+      "search_total_count": 6208,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-25T22:49:52Z",
+      "last_run": "2026-02-25T23:17:18Z",
       "candidate_count": 100,
-      "search_total_count": 42304,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 42560,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.6
     }
   }
 }
