@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T16:56:48Z",
+  "last_updated": "2026-02-25T17:52:20Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -297,7 +297,7 @@
       "2025-06-26": 9,
       "2025-06-27": 4,
       "2025-06-28": 6,
-      "2025-06-29": 1,
+      "2025-06-29": 2,
       "2025-06-30": 2,
       "2025-07-01": 2,
       "2025-07-02": 1,
@@ -663,7 +663,7 @@
   },
   "totals": {
     "claude": 928,
-    "gemini": 454,
+    "gemini": 455,
     "agents": 366
   },
   "repo_first_seen": {
@@ -2051,7 +2051,8 @@
       "Inkedup1114/POLYMARKET-INKEDUP": "2025-08-28",
       "alfred1137/SG-Bank-Interest-cal": "2026-01-20",
       "apmiller108/tmp": "2025-07-20",
-      "luk036/ckpttnpy": "2025-09-28"
+      "luk036/ckpttnpy": "2025-09-28",
+      "nergal-perm/java-decita": "2025-06-29"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2431,25 +2432,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-25T16:53:41Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-02-25T17:52:16Z",
+      "candidate_count": 100,
+      "search_total_count": 19152,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-25T16:55:45Z",
+      "last_run": "2026-02-25T17:52:18Z",
       "candidate_count": 100,
-      "search_total_count": 6016,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 6224,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     },
     "agents": {
-      "last_run": "2026-02-25T16:56:48Z",
+      "last_run": "2026-02-25T17:52:20Z",
       "candidate_count": 100,
       "search_total_count": 41920,
       "processed_new": 0,
