@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T05:14:30Z",
+  "last_updated": "2026-02-26T06:21:41Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -19,6 +19,7 @@
       "2025-03-22": 1,
       "2025-03-24": 1,
       "2025-03-25": 1,
+      "2025-03-26": 1,
       "2025-03-29": 1,
       "2025-03-31": 1,
       "2025-04-02": 1,
@@ -90,7 +91,7 @@
       "2025-07-17": 5,
       "2025-07-18": 3,
       "2025-07-19": 2,
-      "2025-07-20": 3,
+      "2025-07-20": 4,
       "2025-07-21": 2,
       "2025-07-22": 5,
       "2025-07-23": 2,
@@ -662,7 +663,7 @@
     }
   },
   "totals": {
-    "claude": 929,
+    "claude": 931,
     "gemini": 455,
     "agents": 367
   },
@@ -1596,7 +1597,9 @@
       "Redwood-Mobility/rangeway-research": "2026-01-04",
       "awaaate/am2z": "2025-06-25",
       "AlchemyCMS/alchemy_cloudinary": "2025-12-08",
-      "Apicurio/apicurio-registry-vscode-plugin-poc": "2025-10-31"
+      "Apicurio/apicurio-registry-vscode-plugin-poc": "2025-10-31",
+      "Dennis-J-Carroll/Seeded-Sphere-Search": "2025-03-26",
+      "entaku0818/GoogleAPI": "2025-07-20"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2434,27 +2437,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-26T05:13:29Z",
+      "last_run": "2026-02-26T06:17:40Z",
       "candidate_count": 100,
-      "search_total_count": 11048,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 11608,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.4
     },
     "gemini": {
-      "last_run": "2026-02-26T05:13:31Z",
-      "candidate_count": 100,
-      "search_total_count": 6352,
+      "last_run": "2026-02-26T06:21:40Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-26T05:14:30Z",
+      "last_run": "2026-02-26T06:21:41Z",
       "candidate_count": 100,
-      "search_total_count": 42560,
+      "search_total_count": 42944,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
