@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T18:33:09Z",
+  "last_updated": "2026-02-26T19:30:34Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -407,7 +407,7 @@
       "2025-11-01": 1,
       "2025-11-03": 2,
       "2025-11-04": 4,
-      "2025-11-05": 1,
+      "2025-11-05": 2,
       "2025-11-06": 2,
       "2025-11-07": 1,
       "2025-11-08": 2,
@@ -419,7 +419,7 @@
       "2025-11-14": 2,
       "2025-11-15": 2,
       "2025-11-16": 1,
-      "2025-11-17": 1,
+      "2025-11-17": 2,
       "2025-11-18": 3,
       "2025-11-19": 4,
       "2025-11-20": 3,
@@ -429,7 +429,7 @@
       "2025-11-24": 4,
       "2025-11-25": 5,
       "2025-11-26": 4,
-      "2025-11-27": 1,
+      "2025-11-27": 2,
       "2025-11-28": 1,
       "2025-11-29": 2,
       "2025-11-30": 3,
@@ -451,7 +451,7 @@
       "2025-12-17": 1,
       "2025-12-18": 3,
       "2025-12-19": 4,
-      "2025-12-20": 3,
+      "2025-12-20": 4,
       "2025-12-21": 8,
       "2025-12-22": 3,
       "2025-12-23": 2,
@@ -460,7 +460,7 @@
       "2025-12-27": 6,
       "2025-12-28": 3,
       "2025-12-29": 6,
-      "2025-12-30": 6,
+      "2025-12-30": 7,
       "2025-12-31": 4,
       "2026-01-01": 1,
       "2026-01-02": 3,
@@ -494,7 +494,7 @@
       "2026-02-02": 2,
       "2026-02-04": 4,
       "2026-02-05": 3,
-      "2026-02-06": 1,
+      "2026-02-06": 2,
       "2026-02-07": 1
     },
     "agents": {
@@ -671,7 +671,7 @@
   },
   "totals": {
     "claude": 935,
-    "gemini": 494,
+    "gemini": 500,
     "agents": 369
   },
   "repo_first_seen": {
@@ -2106,7 +2106,13 @@
       "eight42910/hair-salon-wingr": "2025-09-18",
       "sunub/sunub-spaceship": "2026-01-22",
       "CXPhoenix/prompt-engineer": "2025-07-03",
-      "darrylwest/web-app-starter": "2025-06-28"
+      "darrylwest/web-app-starter": "2025-06-28",
+      "Krosebrook/AetherAgentsOS": "2025-12-30",
+      "POWERFULMOVES/PMOVES-BoTZ": "2025-11-17",
+      "gaspanik/astro-tailwind": "2025-11-27",
+      "glbessa/clickup-cli": "2026-02-06",
+      "harryneopotter/home-ai-soa": "2025-12-20",
+      "leminhkhoa117/Cramer": "2025-11-05"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2489,7 +2495,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-26T18:33:02Z",
+      "last_run": "2026-02-26T19:30:26Z",
       "candidate_count": 100,
       "search_total_count": 10392,
       "processed_new": 0,
@@ -2498,16 +2504,16 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-26T18:33:06Z",
+      "last_run": "2026-02-26T19:30:33Z",
       "candidate_count": 100,
       "search_total_count": 5200,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 6,
+      "new_found": 6,
+      "scanned_this_run": 6,
+      "elapsed_sec": 5.4
     },
     "agents": {
-      "last_run": "2026-02-26T18:33:09Z",
+      "last_run": "2026-02-26T19:30:34Z",
       "candidate_count": 100,
       "search_total_count": 44096,
       "processed_new": 0,
