@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T08:28:55Z",
+  "last_updated": "2026-02-26T09:27:22Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -338,7 +338,7 @@
       "2025-08-13": 1,
       "2025-08-14": 2,
       "2025-08-15": 3,
-      "2025-08-16": 1,
+      "2025-08-16": 2,
       "2025-08-17": 2,
       "2025-08-19": 2,
       "2025-08-20": 1,
@@ -362,7 +362,7 @@
       "2025-09-08": 2,
       "2025-09-09": 1,
       "2025-09-10": 1,
-      "2025-09-11": 3,
+      "2025-09-11": 4,
       "2025-09-12": 1,
       "2025-09-13": 3,
       "2025-09-14": 1,
@@ -378,6 +378,7 @@
       "2025-09-25": 2,
       "2025-09-27": 2,
       "2025-09-28": 1,
+      "2025-09-29": 1,
       "2025-09-30": 2,
       "2025-10-03": 3,
       "2025-10-04": 2,
@@ -437,17 +438,18 @@
       "2025-12-04": 1,
       "2025-12-05": 1,
       "2025-12-06": 3,
+      "2025-12-07": 1,
       "2025-12-08": 1,
       "2025-12-10": 3,
-      "2025-12-11": 1,
+      "2025-12-11": 2,
       "2025-12-12": 3,
-      "2025-12-13": 2,
+      "2025-12-13": 3,
       "2025-12-14": 1,
       "2025-12-15": 2,
       "2025-12-16": 1,
       "2025-12-17": 1,
-      "2025-12-18": 2,
-      "2025-12-19": 3,
+      "2025-12-18": 3,
+      "2025-12-19": 4,
       "2025-12-20": 3,
       "2025-12-21": 8,
       "2025-12-22": 3,
@@ -457,10 +459,10 @@
       "2025-12-27": 6,
       "2025-12-28": 3,
       "2025-12-29": 6,
-      "2025-12-30": 5,
+      "2025-12-30": 6,
       "2025-12-31": 4,
       "2026-01-01": 1,
-      "2026-01-02": 2,
+      "2026-01-02": 3,
       "2026-01-03": 3,
       "2026-01-04": 1,
       "2026-01-05": 1,
@@ -481,7 +483,7 @@
       "2026-01-23": 5,
       "2026-01-24": 5,
       "2026-01-25": 9,
-      "2026-01-26": 2,
+      "2026-01-26": 3,
       "2026-01-27": 8,
       "2026-01-28": 1,
       "2026-01-29": 4,
@@ -520,6 +522,7 @@
       "2025-07-23": 2,
       "2025-07-30": 1,
       "2025-08-01": 1,
+      "2025-08-09": 1,
       "2025-08-10": 2,
       "2025-08-12": 1,
       "2025-08-13": 1,
@@ -667,8 +670,8 @@
   },
   "totals": {
     "claude": 931,
-    "gemini": 477,
-    "agents": 367
+    "gemini": 488,
+    "agents": 368
   },
   "repo_first_seen": {
     "claude": {
@@ -2081,7 +2084,18 @@
       "mujuni88/dev-env": "2025-09-11",
       "satu/mcptools": "2025-12-29",
       "skwongman/my-dashboard-frontend": "2025-12-20",
-      "vzwtim/portfolio-site_ver1.0": "2025-08-11"
+      "vzwtim/portfolio-site_ver1.0": "2025-08-11",
+      "ClementMONDARY/App_BDJ": "2025-12-18",
+      "Data-Dunkers/student": "2026-01-26",
+      "DomHenrique/Gridd": "2026-01-02",
+      "HinchK/Calendar-Caddy": "2025-12-07",
+      "MALIEV-Co-Ltd/Maliev.MessagingContracts": "2025-12-13",
+      "Sri-Krishna-V/VivasAI": "2025-12-19",
+      "bybren-llc/seoul-identity": "2025-12-30",
+      "eXemoumen/comercila-app": "2025-08-16",
+      "nukethebees/ue5_sandbox": "2025-09-11",
+      "pukpuklouis/website-blackliving-ecomm": "2025-09-29",
+      "saxenanurag/uh-whenisrecyclepickup": "2025-12-11"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2450,7 +2464,8 @@
       "fr3fou/home": "2026-01-28",
       "Internet-Institute/akostest-open-rmbt-ios": "2025-09-16",
       "harrymahardhika/domain-support": "2026-01-14",
-      "trapplab/NFC-Radio": "2026-01-15"
+      "trapplab/NFC-Radio": "2026-01-15",
+      "nuitsjp/GistGet": "2025-08-09"
     }
   },
   "failed_repos": {
@@ -2462,31 +2477,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-26T08:25:53Z",
+      "last_run": "2026-02-26T09:27:09Z",
       "candidate_count": 100,
-      "search_total_count": 12440,
+      "search_total_count": 12248,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-26T08:27:14Z",
+      "last_run": "2026-02-26T09:27:20Z",
       "candidate_count": 100,
-      "search_total_count": 5088,
-      "processed_new": 22,
-      "new_found": 22,
-      "scanned_this_run": 22,
-      "elapsed_sec": 19.9
+      "search_total_count": 4960,
+      "processed_new": 11,
+      "new_found": 11,
+      "scanned_this_run": 11,
+      "elapsed_sec": 9.3
     },
     "agents": {
-      "last_run": "2026-02-26T08:28:55Z",
+      "last_run": "2026-02-26T09:27:22Z",
       "candidate_count": 100,
       "search_total_count": 42944,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.0
     }
   }
 }
