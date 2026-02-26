@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T15:37:13Z",
+  "last_updated": "2026-02-26T16:40:32Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -238,7 +238,7 @@
       "2025-12-16": 8,
       "2025-12-17": 4,
       "2025-12-18": 1,
-      "2025-12-20": 5,
+      "2025-12-20": 6,
       "2025-12-21": 2,
       "2025-12-22": 3,
       "2025-12-23": 5,
@@ -670,7 +670,7 @@
     }
   },
   "totals": {
-    "claude": 934,
+    "claude": 935,
     "gemini": 494,
     "agents": 369
   },
@@ -1609,7 +1609,8 @@
       "entaku0818/GoogleAPI": "2025-07-20",
       "Parallel-7/FlashForgeEmulator": "2025-11-07",
       "piwi3910/dns-go": "2025-10-11",
-      "zinojeng/pdf2md": "2025-10-15"
+      "zinojeng/pdf2md": "2025-10-15",
+      "it-bens/claude-code-plugins": "2025-12-20"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2488,16 +2489,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-26T15:37:05Z",
+      "last_run": "2026-02-26T16:38:31Z",
       "candidate_count": 100,
-      "search_total_count": 10216,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 10392,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.2
     },
     "gemini": {
-      "last_run": "2026-02-26T15:37:07Z",
+      "last_run": "2026-02-26T16:40:30Z",
       "candidate_count": 100,
       "search_total_count": 4976,
       "processed_new": 0,
@@ -2506,7 +2507,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-26T15:37:13Z",
+      "last_run": "2026-02-26T16:40:32Z",
       "candidate_count": 100,
       "search_total_count": 42688,
       "processed_new": 0,
