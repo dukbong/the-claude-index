@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T09:27:22Z",
+  "last_updated": "2026-02-26T10:26:23Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -171,11 +171,11 @@
       "2025-10-08": 6,
       "2025-10-09": 4,
       "2025-10-10": 5,
-      "2025-10-11": 3,
+      "2025-10-11": 4,
       "2025-10-12": 1,
       "2025-10-13": 3,
       "2025-10-14": 3,
-      "2025-10-15": 1,
+      "2025-10-15": 2,
       "2025-10-16": 1,
       "2025-10-17": 6,
       "2025-10-18": 4,
@@ -197,7 +197,7 @@
       "2025-11-04": 4,
       "2025-11-05": 3,
       "2025-11-06": 2,
-      "2025-11-07": 3,
+      "2025-11-07": 4,
       "2025-11-08": 2,
       "2025-11-09": 1,
       "2025-11-10": 4,
@@ -368,7 +368,7 @@
       "2025-09-14": 1,
       "2025-09-16": 2,
       "2025-09-17": 2,
-      "2025-09-18": 1,
+      "2025-09-18": 2,
       "2025-09-19": 2,
       "2025-09-20": 1,
       "2025-09-21": 1,
@@ -422,7 +422,7 @@
       "2025-11-18": 3,
       "2025-11-19": 4,
       "2025-11-20": 3,
-      "2025-11-21": 1,
+      "2025-11-21": 2,
       "2025-11-22": 3,
       "2025-11-23": 3,
       "2025-11-24": 4,
@@ -444,7 +444,7 @@
       "2025-12-11": 2,
       "2025-12-12": 3,
       "2025-12-13": 3,
-      "2025-12-14": 1,
+      "2025-12-14": 2,
       "2025-12-15": 2,
       "2025-12-16": 1,
       "2025-12-17": 1,
@@ -479,7 +479,7 @@
       "2026-01-19": 3,
       "2026-01-20": 3,
       "2026-01-21": 3,
-      "2026-01-22": 2,
+      "2026-01-22": 3,
       "2026-01-23": 5,
       "2026-01-24": 5,
       "2026-01-25": 9,
@@ -669,8 +669,8 @@
     }
   },
   "totals": {
-    "claude": 931,
-    "gemini": 488,
+    "claude": 934,
+    "gemini": 492,
     "agents": 368
   },
   "repo_first_seen": {
@@ -1605,7 +1605,10 @@
       "AlchemyCMS/alchemy_cloudinary": "2025-12-08",
       "Apicurio/apicurio-registry-vscode-plugin-poc": "2025-10-31",
       "Dennis-J-Carroll/Seeded-Sphere-Search": "2025-03-26",
-      "entaku0818/GoogleAPI": "2025-07-20"
+      "entaku0818/GoogleAPI": "2025-07-20",
+      "Parallel-7/FlashForgeEmulator": "2025-11-07",
+      "piwi3910/dns-go": "2025-10-11",
+      "zinojeng/pdf2md": "2025-10-15"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2095,7 +2098,11 @@
       "eXemoumen/comercila-app": "2025-08-16",
       "nukethebees/ue5_sandbox": "2025-09-11",
       "pukpuklouis/website-blackliving-ecomm": "2025-09-29",
-      "saxenanurag/uh-whenisrecyclepickup": "2025-12-11"
+      "saxenanurag/uh-whenisrecyclepickup": "2025-12-11",
+      "AIluffy/g-motion": "2025-12-14",
+      "HaRu-LLC/ai-pm_system_notebooklmuse": "2025-11-21",
+      "eight42910/hair-salon-wingr": "2025-09-18",
+      "sunub/sunub-spaceship": "2026-01-22"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2477,31 +2484,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-26T09:27:09Z",
+      "last_run": "2026-02-26T10:26:16Z",
       "candidate_count": 100,
-      "search_total_count": 12248,
+      "search_total_count": 10104,
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 2.8
+    },
+    "gemini": {
+      "last_run": "2026-02-26T10:26:21Z",
+      "candidate_count": 100,
+      "search_total_count": 5216,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 3.6
+    },
+    "agents": {
+      "last_run": "2026-02-26T10:26:23Z",
+      "candidate_count": 100,
+      "search_total_count": 42688,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
-    },
-    "gemini": {
-      "last_run": "2026-02-26T09:27:20Z",
-      "candidate_count": 100,
-      "search_total_count": 4960,
-      "processed_new": 11,
-      "new_found": 11,
-      "scanned_this_run": 11,
-      "elapsed_sec": 9.3
-    },
-    "agents": {
-      "last_run": "2026-02-26T09:27:22Z",
-      "candidate_count": 100,
-      "search_total_count": 42944,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 1.0
     }
   }
 }
