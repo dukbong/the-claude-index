@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T23:56:43Z",
+  "last_updated": "2026-02-26T01:01:01Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -189,7 +189,7 @@
       "2025-10-28": 1,
       "2025-10-29": 5,
       "2025-10-30": 4,
-      "2025-10-31": 1,
+      "2025-10-31": 2,
       "2025-11-01": 4,
       "2025-11-02": 2,
       "2025-11-03": 1,
@@ -662,7 +662,7 @@
     }
   },
   "totals": {
-    "claude": 928,
+    "claude": 929,
     "gemini": 455,
     "agents": 367
   },
@@ -1595,7 +1595,8 @@
       "waylonkenning/pilotpal": "2025-07-01",
       "Redwood-Mobility/rangeway-research": "2026-01-04",
       "awaaate/am2z": "2025-06-25",
-      "AlchemyCMS/alchemy_cloudinary": "2025-12-08"
+      "AlchemyCMS/alchemy_cloudinary": "2025-12-08",
+      "Apicurio/apicurio-registry-vscode-plugin-poc": "2025-10-31"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2433,27 +2434,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-25T23:51:40Z",
+      "last_run": "2026-02-26T01:00:59Z",
       "candidate_count": 100,
-      "search_total_count": 18400,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 14168,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     },
     "gemini": {
-      "last_run": "2026-02-25T23:52:41Z",
+      "last_run": "2026-02-26T01:01:00Z",
       "candidate_count": 100,
-      "search_total_count": 6016,
+      "search_total_count": 6224,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-25T23:56:43Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-02-26T01:01:01Z",
+      "candidate_count": 100,
+      "search_total_count": 42560,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
