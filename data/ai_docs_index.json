@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T10:52:42Z",
+  "last_updated": "2026-02-27T11:27:30Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -668,14 +668,14 @@
       "2026-02-02": 3,
       "2026-02-03": 3,
       "2026-02-04": 3,
-      "2026-02-05": 3,
+      "2026-02-05": 4,
       "2026-02-06": 4
     }
   },
   "totals": {
     "claude": 936,
     "gemini": 512,
-    "agents": 370
+    "agents": 371
   },
   "repo_first_seen": {
     "claude": {
@@ -2500,7 +2500,8 @@
       "trapplab/NFC-Radio": "2026-01-15",
       "nuitsjp/GistGet": "2025-08-09",
       "lucasvienna/empire": "2025-06-15",
-      "tbrandenburg/work": "2026-01-20"
+      "tbrandenburg/work": "2026-01-20",
+      "shirayu/geometry-of-ai": "2026-02-05"
     }
   },
   "failed_repos": {
@@ -2512,7 +2513,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-27T10:51:43Z",
+      "last_run": "2026-02-27T11:27:26Z",
       "candidate_count": 100,
       "search_total_count": 11072,
       "processed_new": 0,
@@ -2521,7 +2522,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-02-27T10:52:40Z",
+      "last_run": "2026-02-27T11:27:28Z",
       "candidate_count": 100,
       "search_total_count": 5200,
       "processed_new": 0,
@@ -2530,13 +2531,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-27T10:52:42Z",
+      "last_run": "2026-02-27T11:27:30Z",
       "candidate_count": 100,
       "search_total_count": 44992,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     }
   }
 }
