@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T14:05:05Z",
+  "last_updated": "2026-02-28T14:38:01Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -161,7 +161,7 @@
       "2025-09-26": 2,
       "2025-09-27": 2,
       "2025-09-28": 3,
-      "2025-09-29": 3,
+      "2025-09-29": 4,
       "2025-09-30": 5,
       "2025-10-01": 6,
       "2025-10-02": 7,
@@ -676,7 +676,7 @@
     }
   },
   "totals": {
-    "claude": 938,
+    "claude": 939,
     "gemini": 518,
     "agents": 372
   },
@@ -1619,7 +1619,8 @@
       "it-bens/claude-code-plugins": "2025-12-20",
       "poke-key/vehicle-net": "2025-08-08",
       "GoPlasmatic/MXMessage": "2025-08-04",
-      "Zogrus/ItAcronymService": "2025-10-07"
+      "Zogrus/ItAcronymService": "2025-10-07",
+      "pieberrykinnie/pieberrykinnie.github.io": "2025-09-29"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2525,16 +2526,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-28T14:01:01Z",
+      "last_run": "2026-02-28T14:36:59Z",
       "candidate_count": 100,
-      "search_total_count": 11312,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 11992,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.7
     },
     "gemini": {
-      "last_run": "2026-02-28T14:04:04Z",
+      "last_run": "2026-02-28T14:37:59Z",
       "candidate_count": 100,
       "search_total_count": 6816,
       "processed_new": 0,
@@ -2543,7 +2544,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-28T14:05:05Z",
+      "last_run": "2026-02-28T14:38:01Z",
       "candidate_count": 100,
       "search_total_count": 45760,
       "processed_new": 0,
