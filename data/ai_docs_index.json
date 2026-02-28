@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T16:13:24Z",
+  "last_updated": "2026-02-28T16:48:56Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -92,7 +92,7 @@
       "2025-07-18": 3,
       "2025-07-19": 2,
       "2025-07-20": 4,
-      "2025-07-21": 2,
+      "2025-07-21": 3,
       "2025-07-22": 5,
       "2025-07-23": 2,
       "2025-07-24": 1,
@@ -234,7 +234,7 @@
       "2025-12-11": 3,
       "2025-12-12": 6,
       "2025-12-13": 6,
-      "2025-12-14": 3,
+      "2025-12-14": 4,
       "2025-12-15": 5,
       "2025-12-16": 8,
       "2025-12-17": 4,
@@ -676,7 +676,7 @@
     }
   },
   "totals": {
-    "claude": 939,
+    "claude": 941,
     "gemini": 518,
     "agents": 372
   },
@@ -1620,7 +1620,9 @@
       "poke-key/vehicle-net": "2025-08-08",
       "GoPlasmatic/MXMessage": "2025-08-04",
       "Zogrus/ItAcronymService": "2025-10-07",
-      "pieberrykinnie/pieberrykinnie.github.io": "2025-09-29"
+      "pieberrykinnie/pieberrykinnie.github.io": "2025-09-29",
+      "Citadel-Protocol/contracts": "2025-07-21",
+      "mahmoodhamdi/Localhost-Tunnel": "2025-12-14"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2526,16 +2528,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-02-28T16:13:21Z",
+      "last_run": "2026-02-28T16:47:54Z",
       "candidate_count": 100,
-      "search_total_count": 11992,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 11248,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.7
     },
     "gemini": {
-      "last_run": "2026-02-28T16:13:22Z",
+      "last_run": "2026-02-28T16:48:55Z",
       "candidate_count": 100,
       "search_total_count": 6880,
       "processed_new": 0,
@@ -2544,7 +2546,7 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-02-28T16:13:24Z",
+      "last_run": "2026-02-28T16:48:56Z",
       "candidate_count": 100,
       "search_total_count": 45760,
       "processed_new": 0,
