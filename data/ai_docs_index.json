@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T07:05:38Z",
+  "last_updated": "2026-03-01T07:47:00Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -526,6 +526,7 @@
       "2025-07-09": 1,
       "2025-07-18": 2,
       "2025-07-20": 2,
+      "2025-07-22": 1,
       "2025-07-23": 2,
       "2025-07-30": 1,
       "2025-08-01": 1,
@@ -545,6 +546,7 @@
       "2025-08-26": 1,
       "2025-08-27": 1,
       "2025-08-28": 1,
+      "2025-08-29": 1,
       "2025-08-30": 1,
       "2025-08-31": 1,
       "2025-09-02": 3,
@@ -565,7 +567,7 @@
       "2025-09-24": 1,
       "2025-09-25": 1,
       "2025-09-26": 5,
-      "2025-09-27": 2,
+      "2025-09-27": 3,
       "2025-10-02": 2,
       "2025-10-04": 1,
       "2025-10-06": 2,
@@ -603,9 +605,9 @@
       "2025-11-18": 3,
       "2025-11-19": 5,
       "2025-11-20": 1,
-      "2025-11-21": 4,
+      "2025-11-21": 6,
       "2025-11-22": 1,
-      "2025-11-23": 3,
+      "2025-11-23": 4,
       "2025-11-24": 2,
       "2025-11-25": 1,
       "2025-11-26": 1,
@@ -613,16 +615,16 @@
       "2025-11-28": 1,
       "2025-11-29": 3,
       "2025-11-30": 6,
-      "2025-12-01": 1,
+      "2025-12-01": 2,
       "2025-12-02": 1,
-      "2025-12-05": 1,
+      "2025-12-05": 2,
       "2025-12-06": 4,
       "2025-12-08": 1,
       "2025-12-09": 1,
       "2025-12-10": 3,
       "2025-12-11": 1,
       "2025-12-12": 3,
-      "2025-12-13": 3,
+      "2025-12-13": 4,
       "2025-12-15": 4,
       "2025-12-16": 2,
       "2025-12-17": 1,
@@ -670,15 +672,15 @@
       "2026-02-01": 3,
       "2026-02-02": 3,
       "2026-02-03": 3,
-      "2026-02-04": 3,
-      "2026-02-05": 4,
+      "2026-02-04": 4,
+      "2026-02-05": 5,
       "2026-02-06": 4
     }
   },
   "totals": {
     "claude": 944,
     "gemini": 518,
-    "agents": 373
+    "agents": 384
   },
   "repo_first_seen": {
     "claude": {
@@ -2520,7 +2522,18 @@
       "tbrandenburg/work": "2026-01-20",
       "shirayu/geometry-of-ai": "2026-02-05",
       "yuheiy/yuheiy.com-v6": "2025-11-30",
-      "jeffspahr/meatup-club": "2025-12-30"
+      "jeffspahr/meatup-club": "2025-12-30",
+      "LivioGama/zed-copy": "2025-09-27",
+      "ParasN/ftfmcp": "2025-11-21",
+      "TonisOrmisson/limesurvey-mcp": "2025-12-01",
+      "julwrites/llm-nvim": "2025-11-21",
+      "ryantking/agentctl": "2025-12-05",
+      "silver2127/NucModel": "2025-07-22",
+      "simeross/Beyond-Excel-Biology": "2025-08-29",
+      "therealsamyak/carbon-aware-optimal-policy": "2025-12-13",
+      "ykliugi-beep/accounting-online-backend": "2025-11-23",
+      "zetetos/simtezilo": "2026-02-05",
+      "zhinjs/ai-skills": "2026-02-04"
     }
   },
   "failed_repos": {
@@ -2532,16 +2545,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T07:03:35Z",
+      "last_run": "2026-03-01T07:45:46Z",
       "candidate_count": 100,
       "search_total_count": 12296,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.5
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-01T07:04:36Z",
+      "last_run": "2026-03-01T07:45:47Z",
       "candidate_count": 100,
       "search_total_count": 6720,
       "processed_new": 0,
@@ -2550,13 +2563,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-01T07:05:38Z",
+      "last_run": "2026-03-01T07:47:00Z",
       "candidate_count": 100,
       "search_total_count": 44800,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 11,
+      "new_found": 11,
+      "scanned_this_run": 11,
+      "elapsed_sec": 12.7
     }
   }
 }
