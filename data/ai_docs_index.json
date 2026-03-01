@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T21:35:34Z",
+  "last_updated": "2026-03-01T21:55:01Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -418,7 +418,7 @@
       "2025-11-08": 2,
       "2025-11-09": 1,
       "2025-11-10": 2,
-      "2025-11-11": 1,
+      "2025-11-11": 2,
       "2025-11-12": 2,
       "2025-11-13": 1,
       "2025-11-14": 2,
@@ -468,7 +468,7 @@
       "2025-12-29": 6,
       "2025-12-30": 7,
       "2025-12-31": 4,
-      "2026-01-01": 1,
+      "2026-01-01": 2,
       "2026-01-02": 4,
       "2026-01-03": 3,
       "2026-01-04": 1,
@@ -476,6 +476,7 @@
       "2026-01-06": 2,
       "2026-01-07": 1,
       "2026-01-08": 8,
+      "2026-01-09": 1,
       "2026-01-10": 1,
       "2026-01-11": 3,
       "2026-01-12": 2,
@@ -574,6 +575,7 @@
       "2025-10-04": 1,
       "2025-10-06": 2,
       "2025-10-07": 5,
+      "2025-10-08": 1,
       "2025-10-09": 2,
       "2025-10-10": 3,
       "2025-10-11": 3,
@@ -647,7 +649,7 @@
       "2026-01-02": 3,
       "2026-01-03": 1,
       "2026-01-04": 4,
-      "2026-01-05": 2,
+      "2026-01-05": 3,
       "2026-01-06": 2,
       "2026-01-07": 3,
       "2026-01-08": 5,
@@ -665,6 +667,7 @@
       "2026-01-22": 5,
       "2026-01-23": 1,
       "2026-01-24": 4,
+      "2026-01-25": 1,
       "2026-01-26": 5,
       "2026-01-27": 2,
       "2026-01-28": 4,
@@ -681,8 +684,8 @@
   },
   "totals": {
     "claude": 955,
-    "gemini": 520,
-    "agents": 400
+    "gemini": 523,
+    "agents": 403
   },
   "repo_first_seen": {
     "claude": {
@@ -2162,7 +2165,10 @@
       "ulala-x/playhouse-net": "2026-01-06",
       "scahp/jEngine": "2025-07-06",
       "lassebenni/lassebenni.github.io": "2026-02-05",
-      "rogasp/evlink-backend": "2025-07-12"
+      "rogasp/evlink-backend": "2025-07-12",
+      "AhamSammich/auto-code": "2026-01-01",
+      "JustSteveKing/nixos-config": "2026-01-09",
+      "albertomercurio/GenericSparseArrays.jl": "2025-11-11"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2564,7 +2570,10 @@
       "sakuro/rack-icu4x-locale": "2026-01-10",
       "tfpickard/theirspace": "2026-02-06",
       "kernelplex/evercore": "2025-06-24",
-      "sakumoto-shota/prisma-relation-helper-generator": "2025-05-19"
+      "sakumoto-shota/prisma-relation-helper-generator": "2025-05-19",
+      "Corgea/fastsecrets": "2026-01-05",
+      "Robert-Cunningham/nozzle": "2026-01-25",
+      "renl/ncl": "2025-10-08"
     }
   },
   "failed_repos": {
@@ -2576,7 +2585,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T21:31:28Z",
+      "last_run": "2026-03-01T21:52:54Z",
       "candidate_count": 100,
       "search_total_count": 14168,
       "processed_new": 0,
@@ -2585,22 +2594,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-01T21:34:32Z",
+      "last_run": "2026-03-01T21:54:00Z",
       "candidate_count": 100,
-      "search_total_count": 7040,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 7472,
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 3.4
     },
     "agents": {
-      "last_run": "2026-03-01T21:35:34Z",
+      "last_run": "2026-03-01T21:55:01Z",
       "candidate_count": 100,
       "search_total_count": 46848,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 3.3
     }
   }
 }
