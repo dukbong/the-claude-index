@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T06:11:34Z",
+  "last_updated": "2026-03-01T07:05:38Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -80,7 +80,7 @@
       "2025-07-06": 3,
       "2025-07-07": 6,
       "2025-07-08": 4,
-      "2025-07-09": 5,
+      "2025-07-09": 6,
       "2025-07-10": 2,
       "2025-07-11": 5,
       "2025-07-12": 1,
@@ -676,7 +676,7 @@
     }
   },
   "totals": {
-    "claude": 943,
+    "claude": 944,
     "gemini": 518,
     "agents": 373
   },
@@ -1624,7 +1624,8 @@
       "Citadel-Protocol/contracts": "2025-07-21",
       "mahmoodhamdi/Localhost-Tunnel": "2025-12-14",
       "DragonnZhang/savings-simulator": "2026-01-04",
-      "inference-gateway/adl-cli": "2025-07-23"
+      "inference-gateway/adl-cli": "2025-07-23",
+      "fxcircus/twilio-dialbot": "2025-07-09"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2531,16 +2532,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T06:06:31Z",
+      "last_run": "2026-03-01T07:03:35Z",
       "candidate_count": 100,
       "search_total_count": 12296,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.5
     },
     "gemini": {
-      "last_run": "2026-03-01T06:07:31Z",
+      "last_run": "2026-03-01T07:04:36Z",
       "candidate_count": 100,
       "search_total_count": 6720,
       "processed_new": 0,
@@ -2549,9 +2550,9 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-01T06:11:34Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-03-01T07:05:38Z",
+      "candidate_count": 100,
+      "search_total_count": 44800,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
