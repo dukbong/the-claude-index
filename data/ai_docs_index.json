@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T17:59:23Z",
+  "last_updated": "2026-03-01T18:43:13Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -51,7 +51,7 @@
       "2025-06-06": 5,
       "2025-06-07": 3,
       "2025-06-08": 6,
-      "2025-06-10": 2,
+      "2025-06-10": 3,
       "2025-06-11": 4,
       "2025-06-12": 4,
       "2025-06-13": 2,
@@ -146,7 +146,7 @@
       "2025-09-11": 3,
       "2025-09-12": 3,
       "2025-09-13": 3,
-      "2025-09-14": 1,
+      "2025-09-14": 2,
       "2025-09-15": 1,
       "2025-09-16": 2,
       "2025-09-17": 1,
@@ -196,7 +196,7 @@
       "2025-11-02": 2,
       "2025-11-03": 1,
       "2025-11-04": 4,
-      "2025-11-05": 3,
+      "2025-11-05": 4,
       "2025-11-06": 2,
       "2025-11-07": 4,
       "2025-11-08": 2,
@@ -268,7 +268,7 @@
       "2026-01-15": 6,
       "2026-01-16": 3,
       "2026-01-17": 3,
-      "2026-01-18": 9,
+      "2026-01-18": 10,
       "2026-01-19": 7,
       "2026-01-20": 4,
       "2026-01-21": 8,
@@ -679,7 +679,7 @@
     }
   },
   "totals": {
-    "claude": 946,
+    "claude": 950,
     "gemini": 520,
     "agents": 393
   },
@@ -1630,7 +1630,11 @@
       "inference-gateway/adl-cli": "2025-07-23",
       "fxcircus/twilio-dialbot": "2025-07-09",
       "BuckyMcYolo/agent-cal": "2025-07-16",
-      "wroscoe/kidsbookmaker": "2026-01-29"
+      "wroscoe/kidsbookmaker": "2026-01-29",
+      "DustyPolk/tmux": "2025-06-10",
+      "bash0C7/picotorokko": "2025-11-05",
+      "franzenzenhofer/fast-ferocious-fandango-foolish-fugitives": "2026-01-18",
+      "mattjoyce/mcp-construe": "2025-09-14"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2559,27 +2563,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T17:55:18Z",
+      "last_run": "2026-03-01T18:42:13Z",
       "candidate_count": 100,
-      "search_total_count": 18600,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 12504,
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 3.9
     },
     "gemini": {
-      "last_run": "2026-03-01T17:59:22Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-03-01T18:43:12Z",
+      "candidate_count": 100,
+      "search_total_count": 7040,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-01T17:59:23Z",
+      "last_run": "2026-03-01T18:43:13Z",
       "candidate_count": 100,
-      "search_total_count": 46720,
+      "search_total_count": 46848,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
