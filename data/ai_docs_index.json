@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T14:12:35Z",
+  "last_updated": "2026-03-01T14:49:04Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -530,6 +530,7 @@
       "2025-07-23": 2,
       "2025-07-30": 1,
       "2025-08-01": 1,
+      "2025-08-08": 1,
       "2025-08-09": 1,
       "2025-08-10": 2,
       "2025-08-12": 1,
@@ -539,7 +540,7 @@
       "2025-08-19": 1,
       "2025-08-20": 1,
       "2025-08-21": 2,
-      "2025-08-22": 1,
+      "2025-08-22": 2,
       "2025-08-23": 1,
       "2025-08-24": 1,
       "2025-08-25": 1,
@@ -572,7 +573,7 @@
       "2025-10-04": 1,
       "2025-10-06": 2,
       "2025-10-07": 5,
-      "2025-10-09": 1,
+      "2025-10-09": 2,
       "2025-10-10": 3,
       "2025-10-11": 2,
       "2025-10-12": 1,
@@ -635,7 +636,7 @@
       "2025-12-23": 3,
       "2025-12-24": 2,
       "2025-12-25": 3,
-      "2025-12-26": 3,
+      "2025-12-26": 4,
       "2025-12-27": 4,
       "2025-12-28": 4,
       "2025-12-29": 5,
@@ -665,7 +666,7 @@
       "2026-01-24": 4,
       "2026-01-26": 5,
       "2026-01-27": 2,
-      "2026-01-28": 3,
+      "2026-01-28": 4,
       "2026-01-29": 2,
       "2026-01-30": 4,
       "2026-01-31": 3,
@@ -680,7 +681,7 @@
   "totals": {
     "claude": 946,
     "gemini": 520,
-    "agents": 384
+    "agents": 389
   },
   "repo_first_seen": {
     "claude": {
@@ -2537,7 +2538,12 @@
       "therealsamyak/carbon-aware-optimal-policy": "2025-12-13",
       "ykliugi-beep/accounting-online-backend": "2025-11-23",
       "zetetos/simtezilo": "2026-02-05",
-      "zhinjs/ai-skills": "2026-02-04"
+      "zhinjs/ai-skills": "2026-02-04",
+      "LukaStrbad/refnotes": "2025-10-09",
+      "MurtechEngineering/chatbot": "2025-08-22",
+      "pilotsnpaws/maps-api-worker": "2026-01-28",
+      "r-darwish/nvim": "2025-12-26",
+      "susumutomita/Hackathon-AI": "2025-08-08"
     }
   },
   "failed_repos": {
@@ -2549,16 +2555,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T14:12:32Z",
+      "last_run": "2026-03-01T14:44:55Z",
       "candidate_count": 100,
       "search_total_count": 27856,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.6
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-01T14:12:33Z",
+      "last_run": "2026-03-01T14:46:58Z",
       "candidate_count": 100,
       "search_total_count": 7472,
       "processed_new": 0,
@@ -2567,13 +2573,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-01T14:12:35Z",
+      "last_run": "2026-03-01T14:49:04Z",
       "candidate_count": 100,
       "search_total_count": 46720,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 4.8
     }
   }
 }
