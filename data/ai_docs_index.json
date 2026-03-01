@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T14:49:04Z",
+  "last_updated": "2026-03-01T15:01:20Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -562,7 +562,7 @@
       "2025-09-16": 5,
       "2025-09-17": 3,
       "2025-09-19": 3,
-      "2025-09-20": 2,
+      "2025-09-20": 3,
       "2025-09-22": 1,
       "2025-09-23": 4,
       "2025-09-24": 1,
@@ -581,7 +581,7 @@
       "2025-10-15": 3,
       "2025-10-16": 2,
       "2025-10-17": 3,
-      "2025-10-18": 3,
+      "2025-10-18": 4,
       "2025-10-19": 1,
       "2025-10-20": 1,
       "2025-10-22": 2,
@@ -645,11 +645,11 @@
       "2026-01-01": 1,
       "2026-01-02": 3,
       "2026-01-03": 1,
-      "2026-01-04": 3,
+      "2026-01-04": 4,
       "2026-01-05": 2,
       "2026-01-06": 2,
       "2026-01-07": 3,
-      "2026-01-08": 3,
+      "2026-01-08": 4,
       "2026-01-09": 1,
       "2026-01-10": 6,
       "2026-01-13": 1,
@@ -681,7 +681,7 @@
   "totals": {
     "claude": 946,
     "gemini": 520,
-    "agents": 389
+    "agents": 393
   },
   "repo_first_seen": {
     "claude": {
@@ -2543,7 +2543,11 @@
       "MurtechEngineering/chatbot": "2025-08-22",
       "pilotsnpaws/maps-api-worker": "2026-01-28",
       "r-darwish/nvim": "2025-12-26",
-      "susumutomita/Hackathon-AI": "2025-08-08"
+      "susumutomita/Hackathon-AI": "2025-08-08",
+      "damonc0313/CODEX-VAULT": "2025-10-18",
+      "exposir/ai-talk": "2026-01-04",
+      "faciam-dev/gcfm": "2025-09-20",
+      "glueckkanja/terraform-azurerm-gkvm-res-role-management-policy": "2026-01-08"
     }
   },
   "failed_repos": {
@@ -2555,7 +2559,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T14:44:55Z",
+      "last_run": "2026-03-01T15:00:16Z",
       "candidate_count": 100,
       "search_total_count": 27856,
       "processed_new": 0,
@@ -2564,7 +2568,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-01T14:46:58Z",
+      "last_run": "2026-03-01T15:00:17Z",
       "candidate_count": 100,
       "search_total_count": 7472,
       "processed_new": 0,
@@ -2573,13 +2577,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-01T14:49:04Z",
+      "last_run": "2026-03-01T15:01:20Z",
       "candidate_count": 100,
       "search_total_count": 46720,
-      "processed_new": 5,
-      "new_found": 5,
-      "scanned_this_run": 5,
-      "elapsed_sec": 4.8
+      "processed_new": 4,
+      "new_found": 4,
+      "scanned_this_run": 4,
+      "elapsed_sec": 2.9
     }
   }
 }
