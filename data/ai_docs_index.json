@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T18:43:13Z",
+  "last_updated": "2026-03-01T19:11:36Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -61,7 +61,7 @@
       "2025-06-17": 5,
       "2025-06-18": 4,
       "2025-06-19": 6,
-      "2025-06-20": 2,
+      "2025-06-20": 3,
       "2025-06-21": 3,
       "2025-06-22": 3,
       "2025-06-23": 3,
@@ -132,7 +132,7 @@
       "2025-08-27": 6,
       "2025-08-28": 4,
       "2025-08-29": 4,
-      "2025-08-30": 2,
+      "2025-08-30": 3,
       "2025-08-31": 4,
       "2025-09-01": 5,
       "2025-09-02": 3,
@@ -173,9 +173,9 @@
       "2025-10-09": 4,
       "2025-10-10": 5,
       "2025-10-11": 4,
-      "2025-10-12": 1,
+      "2025-10-12": 2,
       "2025-10-13": 3,
-      "2025-10-14": 3,
+      "2025-10-14": 4,
       "2025-10-15": 2,
       "2025-10-16": 1,
       "2025-10-17": 6,
@@ -184,6 +184,7 @@
       "2025-10-20": 4,
       "2025-10-21": 1,
       "2025-10-22": 6,
+      "2025-10-23": 1,
       "2025-10-24": 2,
       "2025-10-25": 2,
       "2025-10-26": 2,
@@ -575,7 +576,7 @@
       "2025-10-07": 5,
       "2025-10-09": 2,
       "2025-10-10": 3,
-      "2025-10-11": 2,
+      "2025-10-11": 3,
       "2025-10-12": 1,
       "2025-10-13": 2,
       "2025-10-15": 3,
@@ -649,12 +650,12 @@
       "2026-01-05": 2,
       "2026-01-06": 2,
       "2026-01-07": 3,
-      "2026-01-08": 4,
+      "2026-01-08": 5,
       "2026-01-09": 1,
-      "2026-01-10": 6,
+      "2026-01-10": 7,
       "2026-01-13": 1,
       "2026-01-14": 5,
-      "2026-01-15": 6,
+      "2026-01-15": 7,
       "2026-01-16": 3,
       "2026-01-17": 5,
       "2026-01-18": 1,
@@ -675,13 +676,13 @@
       "2026-02-03": 3,
       "2026-02-04": 4,
       "2026-02-05": 5,
-      "2026-02-06": 4
+      "2026-02-06": 5
     }
   },
   "totals": {
-    "claude": 950,
+    "claude": 955,
     "gemini": 520,
-    "agents": 393
+    "agents": 398
   },
   "repo_first_seen": {
     "claude": {
@@ -1634,7 +1635,12 @@
       "DustyPolk/tmux": "2025-06-10",
       "bash0C7/picotorokko": "2025-11-05",
       "franzenzenhofer/fast-ferocious-fandango-foolish-fugitives": "2026-01-18",
-      "mattjoyce/mcp-construe": "2025-09-14"
+      "mattjoyce/mcp-construe": "2025-09-14",
+      "TanisJam/bruno-bot": "2025-10-12",
+      "dventimisupabase/convex": "2025-08-30",
+      "kazfuku/prize-dictionary": "2025-10-23",
+      "tomoyanakano/obsidian-timing-plugin": "2025-06-20",
+      "williamcottrell72/eterniscollab": "2025-10-14"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2551,7 +2557,12 @@
       "damonc0313/CODEX-VAULT": "2025-10-18",
       "exposir/ai-talk": "2026-01-04",
       "faciam-dev/gcfm": "2025-09-20",
-      "glueckkanja/terraform-azurerm-gkvm-res-role-management-policy": "2026-01-08"
+      "glueckkanja/terraform-azurerm-gkvm-res-role-management-policy": "2026-01-08",
+      "BorisVSchmid/blog-stan_with_splines": "2025-10-11",
+      "magzim21/ims-lp": "2026-01-08",
+      "rinfz/garza": "2026-01-15",
+      "sakuro/rack-icu4x-locale": "2026-01-10",
+      "tfpickard/theirspace": "2026-02-06"
     }
   },
   "failed_repos": {
@@ -2563,16 +2574,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-01T18:42:13Z",
+      "last_run": "2026-03-01T19:11:29Z",
       "candidate_count": 100,
-      "search_total_count": 12504,
-      "processed_new": 4,
-      "new_found": 4,
-      "scanned_this_run": 4,
-      "elapsed_sec": 3.9
+      "search_total_count": 14168,
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 4.3
     },
     "gemini": {
-      "last_run": "2026-03-01T18:43:12Z",
+      "last_run": "2026-03-01T19:11:31Z",
       "candidate_count": 100,
       "search_total_count": 7040,
       "processed_new": 0,
@@ -2581,13 +2592,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-01T18:43:13Z",
+      "last_run": "2026-03-01T19:11:36Z",
       "candidate_count": 100,
       "search_total_count": 46848,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 3.2
     }
   }
 }
