@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T16:05:50Z",
+  "last_updated": "2026-03-02T17:08:53Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -600,7 +600,7 @@
       "2025-11-07": 4,
       "2025-11-08": 1,
       "2025-11-09": 2,
-      "2025-11-10": 2,
+      "2025-11-10": 3,
       "2025-11-11": 3,
       "2025-11-12": 3,
       "2025-11-13": 3,
@@ -687,7 +687,7 @@
   "totals": {
     "claude": 958,
     "gemini": 524,
-    "agents": 411
+    "agents": 412
   },
   "repo_first_seen": {
     "claude": {
@@ -2587,7 +2587,8 @@
       "LuisHBarros/orchestra-planner": "2026-02-05",
       "erezak/Draglass": "2026-01-14",
       "ohnotnow/ticky": "2025-11-29",
-      "stsysd/sougen": "2025-12-07"
+      "stsysd/sougen": "2025-12-07",
+      "GwIhViEte/-": "2025-11-10"
     }
   },
   "failed_repos": {
@@ -2599,7 +2600,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-02T16:03:47Z",
+      "last_run": "2026-03-02T17:07:50Z",
       "candidate_count": 100,
       "search_total_count": 24240,
       "processed_new": 0,
@@ -2608,7 +2609,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-02T16:04:49Z",
+      "last_run": "2026-03-02T17:08:51Z",
       "candidate_count": 100,
       "search_total_count": 6672,
       "processed_new": 0,
@@ -2617,13 +2618,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-02T16:05:50Z",
+      "last_run": "2026-03-02T17:08:53Z",
       "candidate_count": 100,
-      "search_total_count": 47616,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 45504,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.7
     }
   }
 }
