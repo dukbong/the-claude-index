@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T19:54:21Z",
+  "last_updated": "2026-03-02T20:24:29Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -573,6 +573,7 @@
       "2025-09-26": 5,
       "2025-09-27": 3,
       "2025-10-02": 2,
+      "2025-10-03": 1,
       "2025-10-04": 1,
       "2025-10-06": 2,
       "2025-10-07": 5,
@@ -607,7 +608,7 @@
       "2025-11-14": 1,
       "2025-11-15": 1,
       "2025-11-16": 2,
-      "2025-11-18": 3,
+      "2025-11-18": 4,
       "2025-11-19": 5,
       "2025-11-20": 1,
       "2025-11-21": 6,
@@ -681,13 +682,14 @@
       "2026-02-03": 3,
       "2026-02-04": 4,
       "2026-02-05": 6,
-      "2026-02-06": 5
+      "2026-02-06": 5,
+      "2026-02-07": 1
     }
   },
   "totals": {
     "claude": 958,
     "gemini": 524,
-    "agents": 413
+    "agents": 416
   },
   "repo_first_seen": {
     "claude": {
@@ -2589,7 +2591,10 @@
       "ohnotnow/ticky": "2025-11-29",
       "stsysd/sougen": "2025-12-07",
       "GwIhViEte/-": "2025-11-10",
-      "haru52/base_template_ja": "2025-10-18"
+      "haru52/base_template_ja": "2025-10-18",
+      "Armaghan-Bashir-ch/dotfiles-new": "2025-10-03",
+      "Napolitain/baremetal-win11": "2025-11-18",
+      "Rojan248/nepse-stock-website": "2026-02-07"
     }
   },
   "failed_repos": {
@@ -2601,16 +2606,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-02T19:50:16Z",
+      "last_run": "2026-03-02T20:24:23Z",
       "candidate_count": 100,
-      "search_total_count": 27440,
+      "search_total_count": 22432,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-02T19:51:17Z",
+      "last_run": "2026-03-02T20:24:25Z",
       "candidate_count": 100,
       "search_total_count": 6672,
       "processed_new": 0,
@@ -2619,13 +2624,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-02T19:54:21Z",
+      "last_run": "2026-03-02T20:24:29Z",
       "candidate_count": 100,
-      "search_total_count": 43968,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.6
+      "search_total_count": 45504,
+      "processed_new": 3,
+      "new_found": 3,
+      "scanned_this_run": 3,
+      "elapsed_sec": 2.7
     }
   }
 }
