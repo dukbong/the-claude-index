@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T12:25:57Z",
+  "last_updated": "2026-03-02T13:41:33Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -351,7 +351,7 @@
       "2025-08-23": 1,
       "2025-08-24": 1,
       "2025-08-25": 2,
-      "2025-08-26": 3,
+      "2025-08-26": 4,
       "2025-08-27": 3,
       "2025-08-28": 3,
       "2025-08-29": 3,
@@ -618,12 +618,13 @@
       "2025-11-26": 1,
       "2025-11-27": 1,
       "2025-11-28": 1,
-      "2025-11-29": 3,
+      "2025-11-29": 4,
       "2025-11-30": 6,
       "2025-12-01": 2,
       "2025-12-02": 1,
       "2025-12-05": 2,
       "2025-12-06": 4,
+      "2025-12-07": 1,
       "2025-12-08": 1,
       "2025-12-09": 1,
       "2025-12-10": 3,
@@ -657,8 +658,8 @@
       "2026-01-09": 1,
       "2026-01-10": 7,
       "2026-01-13": 1,
-      "2026-01-14": 5,
-      "2026-01-15": 7,
+      "2026-01-14": 6,
+      "2026-01-15": 8,
       "2026-01-16": 3,
       "2026-01-17": 5,
       "2026-01-18": 1,
@@ -679,14 +680,14 @@
       "2026-02-02": 3,
       "2026-02-03": 3,
       "2026-02-04": 4,
-      "2026-02-05": 5,
+      "2026-02-05": 6,
       "2026-02-06": 5
     }
   },
   "totals": {
     "claude": 958,
-    "gemini": 523,
-    "agents": 406
+    "gemini": 524,
+    "agents": 411
   },
   "repo_first_seen": {
     "claude": {
@@ -2172,7 +2173,8 @@
       "rogasp/evlink-backend": "2025-07-12",
       "AhamSammich/auto-code": "2026-01-01",
       "JustSteveKing/nixos-config": "2026-01-09",
-      "albertomercurio/GenericSparseArrays.jl": "2025-11-11"
+      "albertomercurio/GenericSparseArrays.jl": "2025-11-11",
+      "ravacholin/conju": "2025-08-26"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2580,7 +2582,12 @@
       "renl/ncl": "2025-10-08",
       "IAFahim/AV.Eases": "2026-01-22",
       "capability/plenipotentiary-sandbox": "2025-09-12",
-      "nikb-de/LLMAgentsDE": "2025-09-14"
+      "nikb-de/LLMAgentsDE": "2025-09-14",
+      "Drew-Daniels/pathpal-old": "2026-01-15",
+      "LuisHBarros/orchestra-planner": "2026-02-05",
+      "erezak/Draglass": "2026-01-14",
+      "ohnotnow/ticky": "2025-11-29",
+      "stsysd/sougen": "2025-12-07"
     }
   },
   "failed_repos": {
@@ -2592,7 +2599,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-02T12:25:53Z",
+      "last_run": "2026-03-02T13:41:24Z",
       "candidate_count": 100,
       "search_total_count": 23472,
       "processed_new": 0,
@@ -2601,22 +2608,22 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-02T12:25:55Z",
+      "last_run": "2026-03-02T13:41:27Z",
       "candidate_count": 100,
-      "search_total_count": 7472,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 6672,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 0.7
     },
     "agents": {
-      "last_run": "2026-03-02T12:25:57Z",
+      "last_run": "2026-03-02T13:41:33Z",
       "candidate_count": 100,
-      "search_total_count": 46784,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 49152,
+      "processed_new": 5,
+      "new_found": 5,
+      "scanned_this_run": 5,
+      "elapsed_sec": 5.0
     }
   }
 }
