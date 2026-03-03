@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T22:14:04Z",
+  "last_updated": "2026-03-03T22:51:34Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -679,7 +679,7 @@
       "2026-01-28": 4,
       "2026-01-29": 2,
       "2026-01-30": 4,
-      "2026-01-31": 3,
+      "2026-01-31": 4,
       "2026-02-01": 4,
       "2026-02-02": 3,
       "2026-02-03": 3,
@@ -692,7 +692,7 @@
   "totals": {
     "claude": 961,
     "gemini": 526,
-    "agents": 422
+    "agents": 423
   },
   "repo_first_seen": {
     "claude": {
@@ -2608,7 +2608,8 @@
       "F43M/DevAI-R1": "2025-06-13",
       "anderson-souza/react-native-vision-camera-extensions": "2026-02-01",
       "jamestomasino/screenshot-helper": "2025-12-09",
-      "CoReason-AI/coreason_adlc_api": "2025-12-24"
+      "CoReason-AI/coreason_adlc_api": "2025-12-24",
+      "tfatykhov/membrain": "2026-01-31"
     }
   },
   "failed_repos": {
@@ -2620,7 +2621,7 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-03T22:14:01Z",
+      "last_run": "2026-03-03T22:49:29Z",
       "candidate_count": 100,
       "search_total_count": 21664,
       "processed_new": 0,
@@ -2629,7 +2630,7 @@
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-03T22:14:02Z",
+      "last_run": "2026-03-03T22:51:32Z",
       "candidate_count": 100,
       "search_total_count": 7344,
       "processed_new": 0,
@@ -2638,13 +2639,13 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-03T22:14:04Z",
+      "last_run": "2026-03-03T22:51:34Z",
       "candidate_count": 100,
-      "search_total_count": 51328,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 43744,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.1
     }
   }
 }
