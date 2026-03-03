@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T19:54:57Z",
+  "last_updated": "2026-03-03T20:23:43Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -171,7 +171,7 @@
       "2025-10-07": 1,
       "2025-10-08": 6,
       "2025-10-09": 4,
-      "2025-10-10": 5,
+      "2025-10-10": 6,
       "2025-10-11": 4,
       "2025-10-12": 2,
       "2025-10-13": 3,
@@ -267,7 +267,7 @@
       "2026-01-13": 12,
       "2026-01-14": 3,
       "2026-01-15": 6,
-      "2026-01-16": 3,
+      "2026-01-16": 4,
       "2026-01-17": 4,
       "2026-01-18": 10,
       "2026-01-19": 7,
@@ -391,7 +391,7 @@
       "2025-10-07": 2,
       "2025-10-08": 1,
       "2025-10-09": 1,
-      "2025-10-10": 5,
+      "2025-10-10": 6,
       "2025-10-11": 2,
       "2025-10-12": 1,
       "2025-10-14": 2,
@@ -503,7 +503,8 @@
       "2026-02-04": 4,
       "2026-02-05": 4,
       "2026-02-06": 2,
-      "2026-02-07": 1
+      "2026-02-07": 1,
+      "2026-03-01": 1
     },
     "agents": {
       "2024-07-17": 1,
@@ -642,7 +643,7 @@
       "2025-12-21": 3,
       "2025-12-22": 1,
       "2025-12-23": 3,
-      "2025-12-24": 2,
+      "2025-12-24": 3,
       "2025-12-25": 3,
       "2025-12-26": 4,
       "2025-12-27": 4,
@@ -689,9 +690,9 @@
     }
   },
   "totals": {
-    "claude": 959,
-    "gemini": 524,
-    "agents": 421
+    "claude": 961,
+    "gemini": 526,
+    "agents": 422
   },
   "repo_first_seen": {
     "claude": {
@@ -1653,7 +1654,9 @@
       "Possomato/dentalize": "2026-01-17",
       "jiroshimaya/arpakana": "2025-11-03",
       "waseembalouch/ecommerce-task": "2025-11-14",
-      "hmoriya/consultingTool": "2025-09-16"
+      "hmoriya/consultingTool": "2025-09-16",
+      "dtinth/morse-rhythm": "2025-10-10",
+      "vtbassmatt/MenuClock": "2026-01-16"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2179,7 +2182,9 @@
       "AhamSammich/auto-code": "2026-01-01",
       "JustSteveKing/nixos-config": "2026-01-09",
       "albertomercurio/GenericSparseArrays.jl": "2025-11-11",
-      "ravacholin/conju": "2025-08-26"
+      "ravacholin/conju": "2025-08-26",
+      "bhi5hmaraj/ai-risk-ttx": "2025-10-10",
+      "uraniumdawn/cinnamon": "2026-03-01"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2602,7 +2607,8 @@
       "CodeWithBehnam/awesome_things": "2025-10-24",
       "F43M/DevAI-R1": "2025-06-13",
       "anderson-souza/react-native-vision-camera-extensions": "2026-02-01",
-      "jamestomasino/screenshot-helper": "2025-12-09"
+      "jamestomasino/screenshot-helper": "2025-12-09",
+      "CoReason-AI/coreason_adlc_api": "2025-12-24"
     }
   },
   "failed_repos": {
@@ -2614,31 +2620,31 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-03T19:50:55Z",
+      "last_run": "2026-03-03T20:23:38Z",
       "candidate_count": 100,
-      "search_total_count": 22240,
+      "search_total_count": 21664,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.7
+    },
+    "gemini": {
+      "last_run": "2026-03-03T20:23:41Z",
+      "candidate_count": 100,
+      "search_total_count": 7344,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.7
+    },
+    "agents": {
+      "last_run": "2026-03-03T20:23:43Z",
+      "candidate_count": 100,
+      "search_total_count": 48256,
       "processed_new": 1,
       "new_found": 1,
       "scanned_this_run": 1,
-      "elapsed_sec": 1.4
-    },
-    "gemini": {
-      "last_run": "2026-03-03T19:54:56Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
-    },
-    "agents": {
-      "last_run": "2026-03-03T19:54:57Z",
-      "candidate_count": 100,
-      "search_total_count": 49408,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "elapsed_sec": 1.1
     }
   }
 }
