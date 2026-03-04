@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T22:59:40Z",
+  "last_updated": "2026-03-04T23:37:32Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -2634,16 +2634,16 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-04T22:53:36Z",
+      "last_run": "2026-03-04T23:36:32Z",
       "candidate_count": 100,
       "search_total_count": 13960,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.6
+      "processed_new": 0,
+      "new_found": 0,
+      "scanned_this_run": 0,
+      "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-04T22:55:37Z",
+      "last_run": "2026-03-04T23:36:33Z",
       "candidate_count": 100,
       "search_total_count": 6752,
       "processed_new": 0,
@@ -2652,9 +2652,9 @@
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-04T22:59:40Z",
-      "candidate_count": 0,
-      "search_total_count": 0,
+      "last_run": "2026-03-04T23:37:32Z",
+      "candidate_count": 100,
+      "search_total_count": 47168,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
