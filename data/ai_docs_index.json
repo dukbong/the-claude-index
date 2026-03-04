@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T02:49:33Z",
+  "last_updated": "2026-03-04T04:27:32Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -334,6 +334,7 @@
       "2025-08-03": 1,
       "2025-08-04": 2,
       "2025-08-06": 2,
+      "2025-08-07": 1,
       "2025-08-08": 4,
       "2025-08-09": 3,
       "2025-08-10": 2,
@@ -427,7 +428,7 @@
       "2025-11-17": 2,
       "2025-11-18": 3,
       "2025-11-19": 4,
-      "2025-11-20": 3,
+      "2025-11-20": 4,
       "2025-11-21": 2,
       "2025-11-22": 3,
       "2025-11-23": 3,
@@ -691,7 +692,7 @@
   },
   "totals": {
     "claude": 962,
-    "gemini": 526,
+    "gemini": 528,
     "agents": 423
   },
   "repo_first_seen": {
@@ -2185,7 +2186,9 @@
       "albertomercurio/GenericSparseArrays.jl": "2025-11-11",
       "ravacholin/conju": "2025-08-26",
       "bhi5hmaraj/ai-risk-ttx": "2025-10-10",
-      "uraniumdawn/cinnamon": "2026-03-01"
+      "uraniumdawn/cinnamon": "2026-03-01",
+      "jahsef/YOLO-Target-Assistant": "2025-08-07",
+      "jonasyr/gitray": "2025-11-20"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2622,27 +2625,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-04T02:49:27Z",
+      "last_run": "2026-03-04T04:25:31Z",
       "candidate_count": 100,
-      "search_total_count": 12128,
-      "processed_new": 1,
-      "new_found": 1,
-      "scanned_this_run": 1,
-      "elapsed_sec": 0.6
-    },
-    "gemini": {
-      "last_run": "2026-03-04T02:49:29Z",
-      "candidate_count": 100,
-      "search_total_count": 6944,
+      "search_total_count": 12160,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
-    "agents": {
-      "last_run": "2026-03-04T02:49:33Z",
+    "gemini": {
+      "last_run": "2026-03-04T04:26:33Z",
       "candidate_count": 100,
-      "search_total_count": 43744,
+      "search_total_count": 6464,
+      "processed_new": 2,
+      "new_found": 2,
+      "scanned_this_run": 2,
+      "elapsed_sec": 1.9
+    },
+    "agents": {
+      "last_run": "2026-03-04T04:27:32Z",
+      "candidate_count": 100,
+      "search_total_count": 43232,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
