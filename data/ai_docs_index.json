@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T13:41:57Z",
+  "last_updated": "2026-03-04T14:33:40Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -325,7 +325,7 @@
       "2025-07-24": 3,
       "2025-07-25": 3,
       "2025-07-26": 2,
-      "2025-07-27": 1,
+      "2025-07-27": 2,
       "2025-07-28": 1,
       "2025-07-29": 3,
       "2025-07-30": 2,
@@ -692,7 +692,7 @@
   },
   "totals": {
     "claude": 963,
-    "gemini": 528,
+    "gemini": 529,
     "agents": 425
   },
   "repo_first_seen": {
@@ -2189,7 +2189,8 @@
       "bhi5hmaraj/ai-risk-ttx": "2025-10-10",
       "uraniumdawn/cinnamon": "2026-03-01",
       "jahsef/YOLO-Target-Assistant": "2025-08-07",
-      "jonasyr/gitray": "2025-11-20"
+      "jonasyr/gitray": "2025-11-20",
+      "swopsyapp/sniperok": "2025-07-27"
     },
     "agents": {
       "BlitzBane/Virtual-Cockpit": "2026-01-20",
@@ -2628,25 +2629,25 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-04T13:41:53Z",
+      "last_run": "2026-03-04T14:30:39Z",
       "candidate_count": 100,
-      "search_total_count": 15432,
+      "search_total_count": 15384,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "gemini": {
-      "last_run": "2026-03-04T13:41:55Z",
+      "last_run": "2026-03-04T14:32:41Z",
       "candidate_count": 100,
-      "search_total_count": 6464,
-      "processed_new": 0,
-      "new_found": 0,
-      "scanned_this_run": 0,
-      "elapsed_sec": 0.0
+      "search_total_count": 7376,
+      "processed_new": 1,
+      "new_found": 1,
+      "scanned_this_run": 1,
+      "elapsed_sec": 1.5
     },
     "agents": {
-      "last_run": "2026-03-04T13:41:57Z",
+      "last_run": "2026-03-04T14:33:40Z",
       "candidate_count": 100,
       "search_total_count": 48192,
       "processed_new": 0,
