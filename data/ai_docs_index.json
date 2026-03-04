@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T22:16:35Z",
+  "last_updated": "2026-03-04T22:59:40Z",
   "metadata": {
     "data_version": 1,
     "method": "code_search(path)+commit_path_first_seen",
@@ -248,7 +248,7 @@
       "2025-12-25": 6,
       "2025-12-26": 3,
       "2025-12-27": 2,
-      "2025-12-28": 2,
+      "2025-12-28": 3,
       "2025-12-29": 2,
       "2025-12-30": 4,
       "2025-12-31": 2,
@@ -691,7 +691,7 @@
     }
   },
   "totals": {
-    "claude": 964,
+    "claude": 965,
     "gemini": 531,
     "agents": 426
   },
@@ -1660,7 +1660,8 @@
       "vtbassmatt/MenuClock": "2026-01-16",
       "seekayel/ralph": "2026-01-29",
       "c0ze/arda.tr": "2026-01-26",
-      "kunaldawn/goandroid": "2025-08-01"
+      "kunaldawn/goandroid": "2025-08-01",
+      "Doratmon/cc-integrate-github": "2025-12-28"
     },
     "gemini": {
       "0xgeorgemathew/splithub": "2025-12-12",
@@ -2633,27 +2634,27 @@
   },
   "progress": {
     "claude": {
-      "last_run": "2026-03-04T22:16:32Z",
+      "last_run": "2026-03-04T22:53:36Z",
       "candidate_count": 100,
-      "search_total_count": 15400,
+      "search_total_count": 13960,
       "processed_new": 1,
       "new_found": 1,
       "scanned_this_run": 1,
       "elapsed_sec": 0.6
     },
     "gemini": {
-      "last_run": "2026-03-04T22:16:34Z",
+      "last_run": "2026-03-04T22:55:37Z",
       "candidate_count": 100,
-      "search_total_count": 8256,
+      "search_total_count": 6752,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
       "elapsed_sec": 0.0
     },
     "agents": {
-      "last_run": "2026-03-04T22:16:35Z",
-      "candidate_count": 100,
-      "search_total_count": 53120,
+      "last_run": "2026-03-04T22:59:40Z",
+      "candidate_count": 0,
+      "search_total_count": 0,
       "processed_new": 0,
       "new_found": 0,
       "scanned_this_run": 0,
