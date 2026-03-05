@@ -30,6 +30,19 @@ async function main() {
   }
 
   const values = dates.map(d => daily[d]);
+
+  function movingAverage(data, window) {
+    return data.map((_, i) => {
+      if (i < window - 1) return null;
+      let sum = 0;
+      for (let j = i - window + 1; j <= i; j++) sum += data[j];
+      return sum / window;
+    });
+  }
+
+  const ma20 = movingAverage(values, 20);
+  const ma60 = movingAverage(values, 60);
+  const ma200 = movingAverage(values, 200);
   const today = dates[dates.length - 1];
   const yesterday = dates.length >= 2 ? dates[dates.length - 2] : today;
   const todayCount = daily[today] ?? 0;
@@ -55,6 +68,9 @@ async function main() {
     <div class="chart-container">
       <div class="legend">
         <div class="legend-item"><div class="legend-color" style="background: #E87B5A; height: 3px;"></div>Daily Claude Commits</div>
+        <div class="legend-item"><div class="legend-color" style="background: #FBBF24; height: 2px;"></div>MA 20</div>
+        <div class="legend-item"><div class="legend-color" style="background: #34D399; height: 2px;"></div>MA 60</div>
+        <div class="legend-item"><div class="legend-color" style="background: #818CF8; height: 2px;"></div>MA 200</div>
         <button id="resetZoom">Reset Zoom</button>
       </div>
       <div class="chart-wrapper">
@@ -85,6 +101,39 @@ async function main() {
           pointHitRadius: 6,
           tension: 0,
           fill: true,
+        },
+        {
+          label: 'MA 20',
+          data: ma20,
+          borderColor: '#FBBF24',
+          borderWidth: 1.5,
+          pointRadius: 0,
+          pointHitRadius: 6,
+          tension: 0.3,
+          fill: false,
+          spanGaps: true,
+        },
+        {
+          label: 'MA 60',
+          data: ma60,
+          borderColor: '#34D399',
+          borderWidth: 1.5,
+          pointRadius: 0,
+          pointHitRadius: 6,
+          tension: 0.3,
+          fill: false,
+          spanGaps: true,
+        },
+        {
+          label: 'MA 200',
+          data: ma200,
+          borderColor: '#818CF8',
+          borderWidth: 1.5,
+          pointRadius: 0,
+          pointHitRadius: 6,
+          tension: 0.3,
+          fill: false,
+          spanGaps: true,
         },
       ],
     },
