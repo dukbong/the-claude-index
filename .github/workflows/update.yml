@@ -2,7 +2,7 @@ name: Update Claude Index
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # Every 2 hours
+    - cron: "*/10 * * * *"  # Every 10 minutes
   workflow_dispatch:
 
 permissions:

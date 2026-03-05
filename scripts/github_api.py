@@ -20,7 +20,7 @@ DATA_DIR = SCRIPT_DIR.parent / "data"
 COMMITS_DATA_FILE = DATA_DIR / "claude_commits.json"
 
 SEARCH_QUERY = '"noreply@anthropic.com"'
-START_DATE = "2024-06-01"
+START_DATE = "2025-01-01"
 MAX_RETRIES = 3
 
 

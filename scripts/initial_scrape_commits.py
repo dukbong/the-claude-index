@@ -25,9 +25,8 @@ def main():
     token = get_token()
     data = load_commits_data()
 
-    start = datetime.strptime(START_DATE, "%Y-%m-%d")
-    yesterday = datetime.now(timezone.utc) - timedelta(days=1)
-    yesterday = yesterday.replace(hour=0, minute=0, second=0, microsecond=0)
+    start = datetime.strptime(START_DATE, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    yesterday = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) - timedelta(days=1)
 
     # Build list of dates to fetch
     dates_to_fetch = []
