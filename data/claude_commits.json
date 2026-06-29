@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-29T22:18:31Z",
+  "last_updated": "2026-06-29T23:28:52Z",
   "metadata": {
     "data_version": 1,
     "description": "Daily Claude-authored commit counts on GitHub",
     "query": "noreply@anthropic.com",
-    "total_commits": 64868328
+    "total_commits": 65653875
   },
   "daily": {
     "2026-03-05": 236547,
@@ -550,8 +550,8 @@
     "2026-06-25": 557015,
     "2026-06-26": 524741,
     "2026-06-27": 609585,
-    "2026-06-28": 1008655,
-    "2026-06-29": 802766
+    "2026-06-28": 1009302,
+    "2026-06-29": 1587666
   },
   "failed_dates": []
 }
